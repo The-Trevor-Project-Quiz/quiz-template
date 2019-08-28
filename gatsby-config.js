@@ -8,13 +8,13 @@ module.exports = {
   /* Your site config here */
   plugins: [
     `gatsby-plugin-netlify-cms`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `quiz`,
-        path: `${__dirname}/src/pages/quiz`,
-      },
-    },
-    `gatsby-transformer-remark`,
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `quiz`,
+    //     path: `${__dirname}/src/pages/quiz`,
+    //   },
+    // },
+    // `gatsby-transformer-remark`,
   ],
 }
