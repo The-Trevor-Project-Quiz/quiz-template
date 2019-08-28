@@ -1,0 +1,27 @@
+backend:
+  name: test-repo
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: 'quiz'
+    label: 'Quizzes'
+    label_singular: 'Quiz'
+    description: >
+      The description is a great place for tone setting, high level information, and editing
+      guidelines that are specific to a collection.
+    folder: "src/pages/quiz"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - label: 'Splash'
+        name: 'splash'
+        widget: 'object'
+        fields:
+          - { label: Header, name: header, widget: string }
+          - { label: Intro, name: intro, widget: markdown }
+          - { label: EmailRequired, name: emailRequired, widget: boolean, default: true, hint: Deafault is True }
+          - { label: BackgroundImage, name: backgroundImage, widget: image }
+          - { label: ButtonText, name: buttonText, widget: string }
