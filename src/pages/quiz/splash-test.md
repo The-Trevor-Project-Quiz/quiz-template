@@ -1,4 +1,5 @@
 ---
+templateKey: QuizController
 title: Splash Test
 splash:
   backgroundImage: /img/cool_img.jpg

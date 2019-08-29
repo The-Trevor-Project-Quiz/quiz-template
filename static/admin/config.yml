@@ -16,6 +16,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - { label: Template Key, name: templateKey, widget: hidden, default: QuizController }
       - { label: Title, name: title, widget: string }
       - label: 'Splash'
         name: 'splash'

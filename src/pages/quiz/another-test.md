@@ -1,4 +1,5 @@
 ---
+templateKey: QuizController
 title: Another-Test
 splash:
   backgroundImage: /img/stacey-background.jpg
