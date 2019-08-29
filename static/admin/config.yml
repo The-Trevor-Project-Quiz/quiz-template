@@ -33,3 +33,28 @@ collections:
           - { label: EmailRequired, name: emailRequired, widget: boolean, default: true, hint: Deafault is True }
           - { label: BackgroundImage, name: backgroundImage, widget: image }
           - { label: ButtonText, name: buttonText, widget: string }
+      - label: 'Questions'
+        name: 'questions'
+        widget: 'object'
+        fields: 
+          - label: 'Question'
+            name: 'question'
+            widget: 'list'
+            fields:
+              - { label: QuiestionText, name: questiontext, widget: text }
+              - { label: QuestionImage, name: questionimage, widget: image, required: false }
+              - { label: QuestionValue, name: questionvalue, widget: number, valueType: float, default: 0.01, min: 0.01, max: 10.00, hint: Enter Value with decimal format. from 0.01 to 10.00 }
+              - label: 'Options'
+                name: 'options'
+                widget: 'list'
+                hint: 'Minimun required 2 options and a Maximun of 4 options'
+                fields:
+                  - { label: OptionText, name: optiontext, widget: string }
+                  - { label: IsCorrect, name: iscorrect, widget: boolean }
+              - label: 'Answers'
+                name: 'answers'
+                widget: 'object'
+                fields:
+                  - { label: CorrectAnswer, name: correctanser, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
+                  - { label: IncorrectAnswer, name: incorrectanser, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
+                  - { label: AnswerImage, name: answerimage, widget: image, required: false }
