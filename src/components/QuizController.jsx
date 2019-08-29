@@ -1,6 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
 
+import Image from './Images';
+
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
@@ -10,7 +12,7 @@ export default function Template({
     <div className="blog-post-container">
       <div className="blog-post">
         <h1>{frontmatter.title}</h1>
-        <img src= { frontmatter.splash.backgroundImage} />
+        <Image data={ frontmatter.splash.backgroundImage } />
       </div>
     </div>
   )
@@ -22,7 +24,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         splash {
-          backgroundImage
+          backgroundImage {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           buttonText
           emailRequired
           header
