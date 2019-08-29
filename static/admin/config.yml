@@ -43,18 +43,18 @@ collections:
             fields:
               - { label: QuiestionText, name: questiontext, widget: text }
               - { label: QuestionImage, name: questionimage, widget: image, required: false }
-              - { label: QuestionValue, name: questionvalue, widget: number, valueType: float, default: 0.01, min: 0.01, max: 10.00, hint: Enter Value with decimal format. from 0.01 to 10.00 }
+              - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, default: 1, min: 1, max: 100, hint: Enter Value from 1 to 100. Format Is on cents. }
               - label: 'Options'
                 name: 'options'
                 widget: 'list'
                 hint: 'Minimun required 2 options and a Maximun of 4 options'
                 fields:
                   - { label: OptionText, name: optiontext, widget: string }
-                  - { label: IsCorrect, name: iscorrect, widget: boolean }
+                  - { label: IsCorrect, name: iscorrect, widget: boolean, default: false }
               - label: 'Answers'
                 name: 'answers'
                 widget: 'object'
                 fields:
-                  - { label: CorrectAnswer, name: correctanser, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
-                  - { label: IncorrectAnswer, name: incorrectanser, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
+                  - { label: CorrectAnswer, name: correctanswer, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
+                  - { label: IncorrectAnswer, name: incorrectanswer, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
                   - { label: AnswerImage, name: answerimage, widget: image, required: false }
