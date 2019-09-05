@@ -1,8 +1,8 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Image from './Images';
 import Header from './Header';
+import Splash from './Splash';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -12,9 +12,8 @@ export default function Template({
   return (
     <div className="blog-post-container">
       <div className="blog-post">
-        <Header data={frontmatter.splash.cta}></Header>
-        <h1>{frontmatter.title}</h1>
-        <Image data={ frontmatter.splash.backgroundImage } />
+        <Header data={frontmatter.splash.cta} />
+        <Splash splash={ frontmatter.splash } />
       </div>
     </div>
   )
