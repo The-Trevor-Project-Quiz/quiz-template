@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import BgImage from './BgImage';
+import Form from './Form';
 
 class Splash extends Component {
 
@@ -12,6 +13,7 @@ class Splash extends Component {
                 <h1>{header}</h1>
                 <p>{intro}</p>
                 <button>{buttonText}</button>
+                <Form email={ emailRequired } name={ this.props.title }/>
             </BgImage>
         </>
     );

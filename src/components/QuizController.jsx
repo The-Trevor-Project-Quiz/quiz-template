@@ -11,11 +11,12 @@ export default function Template({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter } = markdownRemark
+  const quizName = frontmatter.title.replace(/\s+/g, '-').toLowerCase();
   return (
-    <div className="blog-post-container">
+    <div className={`${quizName}`}>
       <div className="blog-post">
         <Header data={frontmatter.splash.cta} />
-        <Splash splash={ frontmatter.splash } />
+        <Splash splash={ frontmatter.splash } title={ frontmatter.title }/>
       </div>
     </div>
   )
