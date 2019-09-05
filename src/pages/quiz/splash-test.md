@@ -2,7 +2,7 @@
 templateKey: QuizController
 title: Without Image
 splash:
-  backgroundImage: /img/cool_img.jpg
+  backgroundImage: /img/trevor.jpeg
   buttonText: Get Started
   cta:
     text: Donate
