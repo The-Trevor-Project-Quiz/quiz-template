@@ -43,7 +43,7 @@ collections:
             fields:
               - { label: QuiestionText, name: questiontext, widget: text }
               - { label: QuestionImage, name: questionimage, widget: image, required: false }
-              - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, default: 1, min: 1, max: 100, hint: Enter Value from 1 to 100. Format Is on cents. }
+              - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, default: 1, min: 1, max: 1000, hint: Enter Value from 1 to 1000. Format Is on cents ( 1 = 0.01 1000 = 10 )., required: false }
               - label: 'Options'
                 name: 'options'
                 widget: 'list'
@@ -58,3 +58,15 @@ collections:
                   - { label: CorrectAnswer, name: correctanswer, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
                   - { label: IncorrectAnswer, name: incorrectanswer, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
                   - { label: AnswerImage, name: answerimage, widget: image, required: false }
+      - label: 'FinalPage'
+        name: 'finalpage'
+        widget: 'object'
+        fields: 
+          - { label: Outro, name: outro, widget: markdown }
+          - { label: BackgroundImage, name: backgroundImage, widget: image }
+          - label: 'CTA'
+            name: 'cta'
+            widget: 'object'
+            fields:
+              - { label: Text, name: text, widget: string}
+              - { label: URL, name: url, widget: string }
