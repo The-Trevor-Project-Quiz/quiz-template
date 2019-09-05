@@ -13,22 +13,22 @@ splash:
 questions:
   question:
     - answers:
-        correctanser:
+        correctanswer:
           description: >-
-            Laverne Cox said that! Cox is an American actress and LGTBQ+
+            Laverne Cox said that! Cox is an American actress and LGBTQ+
             advocate. She rose to prominence with her role as Sophia Burset on
             the Netflix series Orange Is the New Black, becoming the first
             openly transgender person to be nominated for a Primetime Emmy Award
             in any acting category.
-          heading: Great Job!
-        incorrectanser:
+          heading: Great job!
+        incorrectanswer:
           description: >-
-            Laverne Cox said that! Cox is an American actress and LGTBQ+
+            Laverne Cox said that! Cox is an American actress and LGBTQ+
             advocate. She rose to prominence with her role as Sophia Burset on
             the Netflix series Orange Is the New Black, becoming the first
             openly transgender person to be nominated for a Primetime Emmy Award
             in any acting category.
-          heading: Too Bad!
+          heading: Too Bad!!
       options:
         - iscorrect: false
           optiontext: Elliot Fletcher
@@ -41,6 +41,19 @@ questions:
       questiontext: >-
         Who said "It is revolutionary for any trans person to choose to be seen
         and visible in a world that tells us we should not exist."?
-      questionvalue: 0.01
+      questionvalue: 20
+finalpage:
+  backgroundImage: /img/trevor.jpeg
+  cta:
+    text: Donate Now
+    url: 'https://www.thetrevorproject.org/'
+  outro: >-
+    Thank you for taking this quiz to celebrate LGBTQ History Month with us. We
+    hope you were able to learn a thing or two (or show off your knowledge)! 
+
+
+    To understand our history is to prepare for our future. If you would like to
+    be a part of making the future brighter for LGBTQ youth, please consider
+    making a gift to The Trevor Project in honor of LGBTQ History Month today.
 ---
 
