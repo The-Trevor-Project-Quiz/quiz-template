@@ -1,6 +1,6 @@
 ---
 templateKey: QuizController
-title: Splash Test
+title: Without Image
 splash:
   backgroundImage: /img/cool_img.jpg
   buttonText: Get Started
@@ -8,8 +8,15 @@ splash:
     text: Donate
     url: 'https://www.thetrevorproject.org/'
   emailRequired: true
-  header: This Is a Test Header
-  intro: This is a Test for the intro
+  header: LGBTQ History Month Quiz
+  intro: >-
+    An important part of looking towards the future of the LGBTQ community is
+    recognizing and educating ourselves about our past. This LGBTQ History
+    Month, The Trevor Project wants to test your knowledge of some of the most
+    famous — past and present — icons in the LGBTQ community. 
+
+
+    Take our LGBTQ History Month quiz now!
 questions:
   question:
     - answers:
