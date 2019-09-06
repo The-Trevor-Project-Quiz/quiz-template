@@ -49,6 +49,36 @@ questions:
         Who said "It is revolutionary for any trans person to choose to be seen
         and visible in a world that tells us we should not exist."?
       questionvalue: 20
+    - answers:
+        correctanswer:
+          description: >-
+            Harvey Milk was the first openly gay elected official in the history
+            of California and was elected to the San Francisco Board of
+            Supervisors. One of his most famous quotes is from his campaign
+            trail, “I’m Harvey Milk and I want to recruit you,'' was his opening
+            line while speaking throughout San Francisco. 
+          heading: Great job!
+        incorrectanswer:
+          description: >-
+            Harvey Milk was the first openly gay elected official in the history
+            of California and was elected to the San Francisco Board of
+            Supervisors. One of his most famous quotes is from his campaign
+            trail, “I’m Harvey Milk and I want to recruit you,'' was his opening
+            line while speaking throughout San Francisco.
+          heading: That was a tough one!
+      options:
+        - iscorrect: false
+          optiontext: Mayor of San Francisco
+        - iscorrect: false
+          optiontext: Los Angeles Board of Supervisors
+        - iscorrect: false
+          optiontext: California State Senate
+        - iscorrect: true
+          optiontext: San Francisco Board of Supervisors
+      questiontext: >-
+        Harvey Milk was famously the first openly gay elected official in the
+        history of California. What office was he elected to?
+      questionvalue: 20
 finalpage:
   backgroundImage: /img/trevor.jpeg
   cta:
