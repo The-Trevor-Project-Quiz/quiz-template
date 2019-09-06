@@ -16,7 +16,6 @@ class Form extends Component {
                     : null 
                     }
                 </fieldset>
-                <button type="submit">Send</button>
             </form>
         </>
     );

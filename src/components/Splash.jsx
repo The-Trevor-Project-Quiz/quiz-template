@@ -12,8 +12,8 @@ class Splash extends Component {
             <BgImage fluid={ backgroundImage } overlayColor="#04040454">
                 <h1>{header}</h1>
                 <p>{intro}</p>
-                <button>{buttonText}</button>
                 <Form email={ emailRequired } name={ this.props.title }/>
+                <button onClick={() => this.props.start[1](this.props.start[0] + 1)}>{buttonText}</button>
             </BgImage>
         </>
     );

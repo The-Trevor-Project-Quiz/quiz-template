@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Header from './Header';
-import Splash from './Splash';
+import Layout from "./Layout";
 
 import("../scss/style.scss")
 
@@ -12,11 +12,14 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter } = markdownRemark
   const quizName = frontmatter.title.replace(/\s+/g, '-').toLowerCase();
+  console.log(data)
   return (
     <div className={`${quizName}`}>
       <div className="blog-post">
         <Header data={frontmatter.splash.cta} />
-        <Splash splash={ frontmatter.splash } title={ frontmatter.title }/>
+        <Layout splash={ frontmatter.splash }
+                title={ frontmatter.title }
+                question={ frontmatter.questions } />
       </div>
     </div>
   )
@@ -42,6 +45,26 @@ export const pageQuery = graphql`
           cta {
             text
             url
+          }
+        }
+        questions {
+          question {
+            questiontext
+            questionvalue
+            options {
+              optiontext
+              iscorrect
+            }
+            answers {
+              correctanswer {
+                heading
+                description
+              }
+              incorrectanswer {
+                heading
+                description
+              }
+            }
           }
         }
       }

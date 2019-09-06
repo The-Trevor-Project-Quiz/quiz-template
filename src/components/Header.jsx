@@ -8,7 +8,7 @@ class Header extends Component {
         <header>
             <div>LOGO</div>
             <div>
-                <a href={ url } target='_blank'>{ text }</a>
+                <a href={ url } target='_blank' rel="noopener noreferrer">{ text }</a>
             </div>
         </header>
       );
