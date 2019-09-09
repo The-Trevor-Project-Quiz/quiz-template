@@ -24,6 +24,7 @@ questions:
       options:
         - iscorrect: false
           optiontext: Check it!
+      questionimage: /img/cool_img.jpg
       questiontext: How much?
       questionvalue: 1
 finalpage:
