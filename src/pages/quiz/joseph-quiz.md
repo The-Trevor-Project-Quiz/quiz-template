@@ -7,7 +7,7 @@ splash:
   cta:
     text: Amazon
     url: 'https://www.amazon.com'
-  emailRequired: false
+  emailRequired: true
   header: Header 1
   intro: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet
