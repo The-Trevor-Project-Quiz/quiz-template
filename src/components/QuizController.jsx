@@ -19,7 +19,8 @@ export default function Template({
         <Header data={frontmatter.splash.cta} />
         <Layout splash={ frontmatter.splash }
                 title={ frontmatter.title }
-                question={ frontmatter.questions } />
+                question={ frontmatter.questions }
+                final={ frontmatter.finalpage} />
       </div>
     </div>
   )
@@ -65,6 +66,20 @@ export const pageQuery = graphql`
                 description
               }
             }
+          }
+        }
+        finalpage {
+          outro
+          backgroundImage {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          cta {
+            text
+            url
           }
         }
       }

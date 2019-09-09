@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import Splash from './Splash';
 import Questions from './Questions';
+import FianlPage from './FinalPage';
 
 function Layout(props) {
     const [start, setStart] = useState(-1);
@@ -13,7 +14,7 @@ function Layout(props) {
 
             : (start >= props.question.question.length) ?
 
-                <h2>The End!!!</h2>
+                <FianlPage data={ props.final } />
             :
                 <Questions data={ props.question.question[start] } start={ [start, setStart] }/>
             }
