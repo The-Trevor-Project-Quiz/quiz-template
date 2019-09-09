@@ -15,6 +15,7 @@ collections:
     folder: "src/pages/quiz"
     create: true
     slug: "{{slug}}"
+    preview_path: quiz/{{slug}}
     fields:
       - { label: Template Key, name: templateKey, widget: hidden, default: QuizController }
       - { label: Title, name: title, widget: string }
@@ -41,7 +42,7 @@ collections:
             name: 'question'
             widget: 'list'
             fields:
-              - { label: QuiestionText, name: questiontext, widget: text }
+              - { label: QuestionText, name: questiontext, widget: text }
               - { label: QuestionImage, name: questionimage, widget: image, required: false }
               - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, default: 1, min: 1, max: 1000, hint: Enter Value from 1 to 1000. Format Is on cents ( 1 = 0.01 1000 = 10 )., required: false }
               - label: 'Options'
