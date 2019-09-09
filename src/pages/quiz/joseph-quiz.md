@@ -28,7 +28,7 @@ questions:
       questiontext: How much?
       questionvalue: 1
 finalpage:
-  backgroundImage: /img/stacey-background.jpg
+  backgroundImage: /img/trevor.jpeg
   cta:
     text: Google
     url: 'https://www.google.com'
