@@ -1,24 +1,13 @@
 import React, { useState } from 'react'
-import axios from 'axios';
 
 import Splash from './Splash';
 import Questions from './Questions';
 import FianlPage from './FinalPage';
 
-import { serialize } from './utility';
 
 function Layout(props) {
     const [start, setStart] = useState(-1);
     const [formData, setFormData] = useState({});
-    const questionLength = props.question.question.length;
-
-    if(start >= questionLength) {
-        axios.post('/', serialize(formData),
-              {headers: {
-                  'Content-type': 'application/x-www-form-urlencoded',
-                  },
-              }).then(console.log('Success'));
-    }
 
     return (
         <section>
@@ -30,9 +19,10 @@ function Layout(props) {
                         formData={formData}
                         setFormData={setFormData} />
 
-            : (start >= questionLength) ?
+            : (start >= props.question.question.length) ?
 
-                <FianlPage data={ props.final } />
+                <FianlPage data={ props.final }
+                           formData={formData} />
             :
                 <Questions data={ props.question.question[start] }
                            start={ [start, setStart] }
