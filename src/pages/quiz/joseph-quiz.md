@@ -15,15 +15,18 @@ splash:
 questions:
   question:
     - answers:
+        answerimage: /img/pexels-photo-1227520.jpeg
         correctanswer:
-          description: '2'
-          heading: '2'
+          description: Good call!
+          heading: Right Answer
         incorrectanswer:
-          description: '3'
-          heading: '3'
+          description: Bad Call!
+          heading: Wrong Answer!
       options:
         - iscorrect: false
           optiontext: Check it!
+        - iscorrect: true
+          optiontext: Click it!
       questionimage: /img/cool_img.jpg
       questiontext: How much?
       questionvalue: 1
