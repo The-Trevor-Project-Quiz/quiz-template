@@ -10,8 +10,9 @@ import { serialize } from './utility';
 function Layout(props) {
     const [start, setStart] = useState(-1);
     const [formData, setFormData] = useState({});
+    const questionLength = props.question.question.length;
 
-    if(start >= props.question.question.length) {
+    if(start >= questionLength) {
         axios.post('/', serialize(formData),
               {headers: {
                   'Content-type': 'application/x-www-form-urlencoded',
@@ -29,7 +30,7 @@ function Layout(props) {
                         formData={formData}
                         setFormData={setFormData} />
 
-            : (start >= props.question.question.length) ?
+            : (start >= questionLength) ?
 
                 <FianlPage data={ props.final } />
             :

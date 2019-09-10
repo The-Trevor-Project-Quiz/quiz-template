@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { serialize } from './utility';
 
 function Questions(props){
 
