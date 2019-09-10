@@ -30,6 +30,22 @@ questions:
       questionimage: /img/cool_img.jpg
       questiontext: How much?
       questionvalue: 1
+    - answers:
+        answerimage: /img/cool_img.jpg
+        correctanswer:
+          description: Yay!
+          heading: You are right!
+        incorrectanswer:
+          description: Boo!
+          heading: You are wrong!
+      options:
+        - iscorrect: true
+          optiontext: Today
+        - iscorrect: false
+          optiontext: Tomorrow
+      questionimage: /img/pexels-photo-255379.jpeg
+      questiontext: When?
+      questionvalue: 1
 finalpage:
   backgroundImage: /img/trevor.jpeg
   cta:
