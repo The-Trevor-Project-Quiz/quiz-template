@@ -11,7 +11,7 @@ splash:
   header: Header 1
   intro: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet
-    mollis nunc sit amet pretium.
+    mollis nunc sit amet pretium. INTRO
 questions:
   question:
     - answers:
