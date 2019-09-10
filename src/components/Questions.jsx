@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { serialize } from './utility';
 
 function Questions(props){
 
@@ -6,8 +7,8 @@ function Questions(props){
     const [showAnswer, setShowAnswer] = useState();
     const [totalDonated, setTotalDonated] = useState(0);
     const { answers, options, questiontext, questionvalue } = props.data;
-    
-    const selectOption = (answer) => {
+
+    const selectOption = (answer, q, a) => {
         if(answer) {
             setStatus('answer');
             setShowAnswer(answers.correctanswer)
@@ -17,6 +18,8 @@ function Questions(props){
             setStatus('answer');
             setShowAnswer(answers.incorrectanswer)
         }
+
+        props.setFormData({ ...props.formData, [q]: a });
     }
 
     const changeQuestion = () => {
@@ -31,7 +34,7 @@ function Questions(props){
             <h2>{ questiontext }</h2>
             {options.map(option => {
                 return (
-                    <button onClick={() => selectOption(option.iscorrect)}>{ option.optiontext }</button>
+                    <button onClick={() => selectOption(option.iscorrect, questiontext, option.optiontext)}>{ option.optiontext }</button>
                 )
             })}
             <h3>Total Donated: { totalDonated }</h3>
