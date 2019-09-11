@@ -7,7 +7,7 @@ splash:
   cta:
     text: Go to our website
     url: www.website.com
-  emailRequired: true
+  emailRequired: false
   header: Welcome to our Quiz!
   intro: This is an online quiz with questions and answers and photos and money
 questions:
