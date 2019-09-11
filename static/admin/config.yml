@@ -42,12 +42,13 @@ collections:
         name: 'questions'
         widget: 'object'
         fields: 
+          - { label: BackgroundImage, name: backgroundImage, widget: hidden, default: /img/backgroundStar.png }
           - label: 'Question'
             name: 'question'
             widget: 'list'
             fields:
               - { label: QuestionText, name: questiontext, widget: text }
-              - { label: QuestionImage, name: questionimage, widget: image, required: false, default: /img/backgroundStar.png }
+              - { label: QuestionImage, name: questionimage, widget: image, required: false }
               - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, default: 1, min: 1, max: 1000, hint: Enter Value from 1 to 1000. Format Is on cents ( 1 = 0.01 1000 = 10 )., required: false }
               - label: 'Options'
                 name: 'options'
