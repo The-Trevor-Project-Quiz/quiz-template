@@ -5,10 +5,11 @@
 }
 
 .inputs {
-    margin: 0 auto 15px;
+    margin-bottom: 15px;
 
     @media screen and (min-width: 1024px) {
         max-width: 500px;
+        margin: 0 auto 15px;
     }
 
     &__field {
@@ -26,6 +27,11 @@
 
         &.email {
             margin-right: 10px;
+
+            &.invalid-email {
+                background-color: $color-pink;
+                border: 3px solid $color-red;
+            }
         }
 
         &.zip {
@@ -36,5 +42,17 @@
         @media screen and (min-width: 1024px) {
             max-width: 333px;
         }
+    }
+
+    .invalid {
+        color: $color-white;
+        font-size: 13px;
+        line-height: 1.15;
+        letter-spacing: 0.13px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 135px;
     }
 }
