@@ -36,7 +36,9 @@ function Form(props) {
                     })}
                 </fieldset>
             </form>
-            <button className='splash-screen__btn' onClick={() => validateFields()}>{props.buttonText}</button>
+            {props.email ?
+                <button className='splash-screen__btn' onClick={() => validateFields()}>{props.buttonText}</button>
+            : null }
         </>
     );
     }

@@ -1,3 +1,3 @@
-import React from "react"
+import("../scss/style.scss")
 
-export default () => <div>Hello world!</div>
+export default () => window.location.href = 'https://www.thetrevorproject.org/';
