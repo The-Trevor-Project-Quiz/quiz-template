@@ -11,6 +11,7 @@ splash:
   header: Welcome to our Quiz!
   intro: This is an online quiz with questions and answers and photos and money
 questions:
+  backgroundImage: /img/backgroundStar.png
   question:
     - answers:
         answerimage: /img/pexels-photo-259915.jpeg

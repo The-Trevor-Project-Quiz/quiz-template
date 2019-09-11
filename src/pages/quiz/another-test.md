@@ -18,6 +18,7 @@ splash:
 
     Take our LGBTQ History Month quiz now!
 questions:
+  backgroundImage: /img/backgroundStar.png
   question:
     - answers:
         correctanswer:

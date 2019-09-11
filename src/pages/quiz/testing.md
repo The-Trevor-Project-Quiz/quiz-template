@@ -11,6 +11,7 @@ splash:
   header: Welcome
   intro: Intro to Quiz
 questions:
+  backgroundImage: /img/backgroundStar.png
   question:
     - answers:
         correctanswer:
