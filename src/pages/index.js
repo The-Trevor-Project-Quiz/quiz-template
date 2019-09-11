@@ -1,3 +1,19 @@
+import React from "react"
+
 import("../scss/style.scss")
 
-export default () => window.location.href = 'https://www.thetrevorproject.org/';
+
+class Index extends React.Component {
+    componentDidMount() {
+        window.location.href = 'https://www.thetrevorproject.org/';
+
+    }
+
+    render() {
+        return (
+            null
+        )
+    }
+}
+
+export default Index
