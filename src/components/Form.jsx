@@ -21,10 +21,10 @@ class Form extends Component {
                 <input type="hidden" name="form-name" value={this.props.name} />
                 <fieldset>
                     {this.props.email ?
-                        <>
-                            <input type="email" name="email" onChange={(e) => this.props.setFormData({ ...this.props.formData, [e.target.name]: e.target.value })} value={this.props.formData.email} />
-                            <input type="text" name="zipcode" onChange={(e) => this.props.setFormData({ ...this.props.formData, [e.target.name]: e.target.value })} value={this.props.formData.zipcode} />
-                        </>
+                        <div className='inputs'>
+                            <input className='inputs__field email' type="email" name="email" placeholder='Email' onChange={(e) => this.props.setFormData({ ...this.props.formData, [e.target.name]: e.target.value })} value={this.props.formData.email} />
+                            <input className='inputs__field zip' type="text" name="zipcode" placeholder='Zip' onChange={(e) => this.props.setFormData({ ...this.props.formData, [e.target.name]: e.target.value })} value={this.props.formData.zipcode} />
+                        </div>
                     : null 
                     }
                     {this.props.questionList.map((list) => {
@@ -34,7 +34,7 @@ class Form extends Component {
                     })}
                 </fieldset>
             </form>
-            <button onClick={() => this.validateFields()}>{this.props.buttonText}</button>
+            <button className='splash-screen__btn' onClick={() => this.validateFields()}>{this.props.buttonText}</button>
         </>
     );
     }

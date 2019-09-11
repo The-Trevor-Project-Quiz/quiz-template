@@ -1,3 +1,15 @@
 // BASE
 // =====================
-    @import "base/reset";
+@import "base/reset";
+
+// General Settings
+// =====================
+@import "constants/colors";
+@import "constants/breakpoints";
+
+// Components
+// =====================
+@import "components/quizController";
+@import "components/header";
+@import "components/splash";
+@import "components/form";

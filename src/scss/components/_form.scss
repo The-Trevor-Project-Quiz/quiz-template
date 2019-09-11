@@ -1,0 +1,23 @@
+.inputs {
+    margin-bottom: 15px;
+
+    &__field {
+        background-color: $color-white;
+        max-width: 185px;
+        font-size: 17px;
+        font-weight: 500;
+        color: $color-space-grey;
+        opacity: 0.75;
+        border-radius: 8px;
+        padding: 6px 0 6px 10px;
+        border: 0;
+
+        &.email {
+            margin-right: 10px;
+        }
+
+        &.zip {
+            max-width: 105px;
+        }
+    }
+}
