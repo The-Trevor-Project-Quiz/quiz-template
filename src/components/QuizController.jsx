@@ -15,7 +15,7 @@ export default function Template({
   console.log(data)
   return (
     <div className={`${quizName}`}>
-      <div className="blog-post">
+      <div className='quiz-template'>
         <Header data={frontmatter.splash.cta} />
         <Layout splash={ frontmatter.splash }
                 title={ frontmatter.title }
@@ -49,6 +49,13 @@ export const pageQuery = graphql`
           }
         }
         questions {
+          backgroundImage {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           question {
             questiontext
             questionvalue

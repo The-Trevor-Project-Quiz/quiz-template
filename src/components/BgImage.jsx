@@ -5,6 +5,7 @@ import styled from "styled-components";
 const Parent = styled.div`
   position: relative;
   background-color: ${({ bc }) => bc};
+  height: 100vh;
 `;
 
 const FakeBgImage = styled(Img)`
@@ -12,7 +13,7 @@ const FakeBgImage = styled(Img)`
   top: 0;
   left: 0;
   width: 100%;
-  height: ${({ height }) => height};
+  height: 100vh;
   z-index: -1;
 
   & > img {

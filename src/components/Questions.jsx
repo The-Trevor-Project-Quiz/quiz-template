@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import BgImage from './BgImage';
+
 function Questions(props){
 
     const [status, setStatus] = useState('question');
@@ -27,25 +29,27 @@ function Questions(props){
     }
 
     return (
-    <div>
-        {status === 'question' ?
-        <div>
-            <h2>{ questiontext }</h2>
-            {options.map(option => {
-                return (
-                    <button onClick={() => selectOption(option.iscorrect, questiontext, option.optiontext)}>{ option.optiontext }</button>
-                )
-            })}
-            <h3>Total Donated: { totalDonated }</h3>
-        </div>
-        :
+        <BgImage fluid={ props.bimage }>
             <div>
-                <h2>{ showAnswer.heading }</h2>
-                <p> { showAnswer.description }</p>
-                <button onClick={() => changeQuestion()}>Next</button>
+                {status === 'question' ?
+                <div>
+                    <h2>{ questiontext }</h2>
+                    {options.map(option => {
+                        return (
+                            <button onClick={() => selectOption(option.iscorrect, questiontext, option.optiontext)}>{ option.optiontext }</button>
+                        )
+                    })}
+                    <h3>Total Donated: { totalDonated }</h3>
+                </div>
+                :
+                    <div>
+                        <h2>{ showAnswer.heading }</h2>
+                        <p> { showAnswer.description }</p>
+                        <button onClick={() => changeQuestion()}>Next</button>
+                    </div>
+                }
             </div>
-        }
-    </div>
+        </BgImage>
     );
   }
   export default Questions;

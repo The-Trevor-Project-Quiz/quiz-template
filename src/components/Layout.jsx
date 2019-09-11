@@ -25,6 +25,7 @@ function Layout(props) {
                            formData={formData} />
             :
                 <Questions data={ props.question.question[start] }
+                           bimage={ props.question.backgroundImage }
                            start={ [start, setStart] }
                            formData={formData}
                            setFormData={setFormData} />
