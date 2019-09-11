@@ -6,9 +6,9 @@
     justify-content: space-between;
     align-items: center;
     
-    // @include breakpoint(large) {
-    //     padding: 16px 65px;
-    // }
+    @media screen and (min-width: 1024px) {
+        padding: 16px 65px;
+    }
 
     &__link {
         background-color: $color-orange;

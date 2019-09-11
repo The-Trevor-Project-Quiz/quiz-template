@@ -17,7 +17,7 @@ class Form extends Component {
     render() {
     return (
         <>
-            <form name={this.props.name} method="POST" data-netlify="true">
+            <form className='form' name={this.props.name} method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value={this.props.name} />
                 <fieldset>
                     {this.props.email ?
