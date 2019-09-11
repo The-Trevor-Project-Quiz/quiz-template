@@ -21,4 +21,13 @@
         text-transform: uppercase;
         text-decoration: none;
     }
+
+    &.quiz-started {
+        background-color: $color-orange;
+
+        .main-header__link {
+            background-color: $color-white;
+            color: $color-space-grey;
+        }
+    }
 }

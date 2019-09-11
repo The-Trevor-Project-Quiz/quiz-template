@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
 import logo from '../img/logo.svg';
+import logoW from '../img/logo-white.svg';
 
 class Header extends Component {
 
     render() {
         const { text, url } = this.props.data;
       return (
-        <header className='main-header'>
+        <header className={'main-header ' + (this.props.started ? 'quiz-started': '')}>
             <div className='main-header__logo'>
               <a href=''>
-                <img src={ logo} />
+                <img src={( this.props.started ? logoW : logo)} />
               </a>
             </div>
             <div className='main-header__cta'>

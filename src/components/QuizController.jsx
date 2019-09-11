@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState }from "react"
 import { graphql } from "gatsby"
 
 import Header from './Header';
@@ -12,15 +12,17 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter } = markdownRemark
   const quizName = frontmatter.title.replace(/\s+/g, '-').toLowerCase();
+  const [status, setStatus] = useState(true);
   console.log(data)
   return (
     <div className={`${quizName}`}>
       <div className='quiz-template'>
-        <Header data={frontmatter.splash.cta} />
+        <Header data={frontmatter.splash.cta} started={status}/>
         <Layout splash={ frontmatter.splash }
                 title={ frontmatter.title }
                 question={ frontmatter.questions }
-                final={ frontmatter.finalpage} />
+                final={ frontmatter.finalpage}
+                setStatus={setStatus} />
       </div>
     </div>
   )
