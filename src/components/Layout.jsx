@@ -30,7 +30,8 @@ function Layout(props) {
             : (start >= props.question.question.length) ?
 
                 <FianlPage data={ props.final }
-                           formData={formData} />
+                           formData={formData}
+                           title={ props.title } />
             :
                 <Questions data={ props.question.question[start] }
                            bimage={ props.question.backgroundImage }
