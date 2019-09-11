@@ -1,7 +1,5 @@
 import React from "react"
 
-import("../scss/style.scss")
-
 
 class Index extends React.Component {
     componentDidMount() {
