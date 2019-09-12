@@ -80,6 +80,34 @@ questions:
         Harvey Milk was famously the first openly gay elected official in the
         history of California. What office was he elected to?
       questionvalue: 20
+    - answers:
+        correctanswer:
+          description: >-
+            Marsha P. Johnson was an American gay liberation activist. Known as
+            an outspoken advocate for gay and transgender rights, Johnson was
+            one of the prominent figures in the Stonewall uprising of 1969 —
+            even being said to be the person who began the movement with a brick
+            thrown through the window of the Stonewall Inn.
+          heading: That's right!
+        incorrectanswer:
+          description: >-
+            Marsha P. Johnson was an American gay liberation activist. Known as
+            an outspoken advocate for gay and transgender rights, Johnson was
+            one of the prominent figures in the Stonewall uprising of 1969 —
+            even being said to be the person who began the movement with a brick
+            thrown through the window of the Stonewall Inn.
+          heading: Opps!!
+      options:
+        - iscorrect: true
+          optiontext: Marsha P. Johnson
+        - iscorrect: false
+          optiontext: Sylvia Rivera
+        - iscorrect: false
+          optiontext: EDITH WINDSOR
+      questiontext: >-
+        As lore tells it, this woman threw the brick that launched the LGBTQ
+        rights movement at the  Stonewall Inn in NYC. Who is she?
+      questionvalue: 20
 finalpage:
   backgroundImage: /img/trevor.jpeg
   cta:
