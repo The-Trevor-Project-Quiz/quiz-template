@@ -33,17 +33,19 @@ function Questions(props){
             <div className='questions-container'>
                 {status === 'question' ?
                 <div className='question'>
-                    <p className='question__progress'>Question { props.start[0] + 1 } of { props.questionNum }</p>
-                    <h2 className='question__txt'>{ questiontext }</h2>
-                    <ul className='question__options'>
-                    {options.map(option => {
-                        return (
-                            <li className='option-item'>
-                                <button className='option-btn' onClick={() => selectOption(option.iscorrect, questiontext, option.optiontext)}>{ option.optiontext }</button>
-                            </li>
-                        )
-                    })}
-                    </ul>
+                    <div>
+                        <p className='question__progress'>Question { props.start[0] + 1 } of { props.questionNum }</p>
+                        <h2 className='question__txt'>{ questiontext }</h2>
+                        <ul className='question__options'>
+                        {options.map(option => {
+                            return (
+                                <li className='option-item'>
+                                    <button className='option-btn' onClick={() => selectOption(option.iscorrect, questiontext, option.optiontext)}>{ option.optiontext }</button>
+                                </li>
+                            )
+                        })}
+                        </ul>
+                    </div>
                     <div className='question__donation'>
                         <p>Total Donated: <span className='total'>{ totalDonated }</span></p>
                     </div>
