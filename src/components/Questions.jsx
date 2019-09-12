@@ -40,7 +40,7 @@ function Questions(props){
                         {options.map(option => {
                             return (
                                 <li className='option-item'>
-                                    <button className='option-btn' onClick={() => selectOption(option.iscorrect, questiontext, option.optiontext)}>{ option.optiontext }</button>
+                                    <button className='quiz-btn' onClick={() => selectOption(option.iscorrect, questiontext, option.optiontext)}>{ option.optiontext }</button>
                                 </li>
                             )
                         })}
@@ -51,10 +51,11 @@ function Questions(props){
                     </div>
                 </div>
                 :
-                    <div>
-                        <h2>{ showAnswer.heading }</h2>
-                        <p> { showAnswer.description }</p>
-                        <button onClick={() => changeQuestion()}>Next</button>
+                    <div className='answer'>
+                        <p className='question__progress'>Question { props.start[0] + 1 } of { props.questionNum }</p>
+                        <h2 className='answer__heading'>{ showAnswer.heading }</h2>
+                        <p className='answer__description'> { showAnswer.description }</p>
+                        <button className='quiz-btn' onClick={() => changeQuestion()}>Next</button>
                     </div>
                 }
             </div>
