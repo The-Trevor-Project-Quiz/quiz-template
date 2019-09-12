@@ -17,8 +17,6 @@ function Layout(props) {
 
     return (
         <section>
-            <form className='form' name={props.title} method="POST" data-netlify="true" onSubmit={handleSubmit}>
-                <input type="hidden" name="form-name" value={props.title} />
             { start < 0 ?
                 <Splash splash={ props.splash }
                         title={ props.title }
@@ -39,7 +37,6 @@ function Layout(props) {
                            formData={formData}
                            setFormData={setFormData} />
             }
-            </form>
         </section>
     );
 }
