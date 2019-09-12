@@ -13,7 +13,8 @@ function Questions(props){
         if(answer) {
             setStatus('answer');
             setShowAnswer(answers.correctanswer)
-            setTotalDonated((totalDonated + questionvalue / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) );
+            setTotalDonated(prev => prev  + questionvalue);
+            console.log(totalDonated);
             props.setCorrect(prev => prev + 1);
         }
         else {
@@ -48,7 +49,7 @@ function Questions(props){
                         </ul>
                     </div>
                     <div className='question__donation'>
-                        <p>Total Donated: <span className='total'>{ totalDonated }</span></p>
+                        <p>Total Donated: <span className='total'>{ (totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
                     </div>
                 </div>
                 :
