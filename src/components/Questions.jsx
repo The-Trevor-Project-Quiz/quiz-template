@@ -14,6 +14,7 @@ function Questions(props){
             setStatus('answer');
             setShowAnswer(answers.correctanswer)
             setTotalDonated((totalDonated + questionvalue / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) );
+            props.setCorrect(prev => prev + 1);
         }
         else {
             setStatus('answer');
@@ -24,7 +25,7 @@ function Questions(props){
     }
 
     const changeQuestion = () => {
-        props.start[1](props.start[0] + 1);
+        props.start[1](prev => prev + 1);
         setStatus('question');
     }
 

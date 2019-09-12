@@ -42,7 +42,7 @@ collections:
         name: 'questions'
         widget: 'object'
         fields: 
-          - { label: BackgroundImage, name: backgroundImage, widget: hidden, default: /img/backgroundStar.png }
+          - { label: BackgroundImage, name: backgroundImage, widget: image, default: /img/backgroundStar.png }
           - label: 'Question'
             name: 'question'
             widget: 'list'

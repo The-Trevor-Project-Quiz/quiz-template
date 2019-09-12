@@ -21,6 +21,7 @@ class FinalPage extends Component {
     return (
         <>
             <BgImage fluid={ backgroundImage } overlayColor="#04040454">
+                <h2>You got {this.props.correct}/{this.props.questionNum}!</h2>
                 <p>{outro}</p>
                 <a href={cta.url} target='_blank' rel="noopener noreferrer">{cta.text}</a>
             </BgImage>
