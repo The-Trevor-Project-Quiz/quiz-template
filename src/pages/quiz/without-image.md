@@ -108,6 +108,32 @@ questions:
         As lore tells it, this woman threw the brick that launched the LGBTQ
         rights movement at the  Stonewall Inn in NYC. Who is she?
       questionvalue: 20
+    - answers:
+        correctanswer:
+          description: >-
+            Most know him as Mr. Sulu from Star Trek, but he also regularly
+            speaks out on LGBTQ equality issues. Our favorite Star Trek officer
+            spoke these iconic words — George Takei!
+          heading: Affirmative!
+        incorrectanswer:
+          description: >-
+            Most know him as Mr. Sulu from Star Trek, but he also regularly
+            speaks out on LGBTQ equality issues. Our favorite Star Trek officer
+            spoke these iconic words — George Takei!
+          heading: That was a tough one!
+      options:
+        - iscorrect: true
+          optiontext: George Takei
+        - iscorrect: false
+          optiontext: Neil Patrick Harris
+        - iscorrect: false
+          optiontext: Zachary Quinto
+        - iscorrect: false
+          optiontext: Maulik Pancholy
+      questiontext: >-
+        Which famous LGBTQ actor said, "Being gay is a natural part of who I
+        am"?
+      questionvalue: 20
 finalpage:
   backgroundImage: /img/trevor.jpeg
   cta:
