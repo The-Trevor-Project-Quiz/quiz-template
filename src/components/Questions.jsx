@@ -30,16 +30,23 @@ function Questions(props){
 
     return (
         <BgImage fluid={ props.bimage }>
-            <div>
+            <div className='questions-container'>
                 {status === 'question' ?
-                <div>
-                    <h2>{ questiontext }</h2>
+                <div className='question'>
+                    <p className='question__progress'>Question { props.start[0] + 1 } of { props.questionNum }</p>
+                    <h2 className='question__txt'>{ questiontext }</h2>
+                    <ul className='question__options'>
                     {options.map(option => {
                         return (
-                            <button onClick={() => selectOption(option.iscorrect, questiontext, option.optiontext)}>{ option.optiontext }</button>
+                            <li className='option-item'>
+                                <button className='option-btn' onClick={() => selectOption(option.iscorrect, questiontext, option.optiontext)}>{ option.optiontext }</button>
+                            </li>
                         )
                     })}
-                    <h3>Total Donated: { totalDonated }</h3>
+                    </ul>
+                    <div className='question__donation'>
+                        <p>Total Donated: <span className='total'>{ totalDonated }</span></p>
+                    </div>
                 </div>
                 :
                     <div>

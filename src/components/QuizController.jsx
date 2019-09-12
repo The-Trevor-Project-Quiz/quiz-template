@@ -6,7 +6,7 @@ import Layout from "./Layout";
 
 import("../scss/style.scss")
 
-export default function Template({
+export default function QuizController({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data // data.markdownRemark holds our post data

@@ -35,7 +35,8 @@ function Layout(props) {
                            bimage={ props.question.backgroundImage }
                            start={ [start, setStart] }
                            formData={formData}
-                           setFormData={setFormData} />
+                           setFormData={setFormData}
+                           questionNum={ props.question.question.length } />
             }
         </section>
     );

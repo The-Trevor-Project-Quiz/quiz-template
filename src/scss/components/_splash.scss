@@ -1,11 +1,9 @@
 .splash-screen {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    margin: auto;
     padding: 0 25px;
 
     &__heading {
