@@ -50,6 +50,7 @@ collections:
             fields:
               - { label: QuestionText, name: questiontext, widget: text }
               - { label: QuestionImage, name: questionimage, widget: image, required: false }
+              - { label: QuestionImageMobile, name: questionimagemobile, widget: image, required: false }
               - label: 'Options'
                 name: 'options'
                 widget: 'list'
@@ -64,6 +65,7 @@ collections:
                   - { label: CorrectAnswer, name: correctanswer, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
                   - { label: IncorrectAnswer, name: incorrectanswer, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
                   - { label: AnswerImage, name: answerimage, widget: image, required: false }
+                  - { label: AnswerImageMobile, name: answerimagemobile, widget: image, required: false }
       - label: 'FinalPage'
         name: 'finalpage'
         widget: 'object'
