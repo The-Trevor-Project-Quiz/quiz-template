@@ -46,8 +46,6 @@ questions:
           optiontext: Laverne Cox
         - iscorrect: false
           optiontext: Indya Moore
-      questionImage: /img/harvey-milk.jpg
-      questionImageMobile: /img/harvey-milk-mobile.jpg
       questiontext: >-
         Who said "It is revolutionary for any trans person to choose to be seen
         and visible in a world that tells us we should not exist."?
