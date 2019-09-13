@@ -58,9 +58,9 @@ export const pageQuery = graphql`
               }
             }
           }
+          questionvalue
           question {
             questiontext
-            questionvalue
             options {
               optiontext
               iscorrect

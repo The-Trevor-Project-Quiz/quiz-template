@@ -43,13 +43,13 @@ collections:
         widget: 'object'
         fields: 
           - { label: BackgroundImage, name: backgroundImage, widget: image, default: /img/backgroundStar.png }
+          - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, min: 1, max: 1000, hint: Enter Value from 1 to 1000. Format Is on cents ( 1 = 0.01 1000 = 10 )., required: false }
           - label: 'Question'
             name: 'question'
             widget: 'list'
             fields:
               - { label: QuestionText, name: questiontext, widget: text }
               - { label: QuestionImage, name: questionimage, widget: image, required: false }
-              - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, default: 1, min: 1, max: 1000, hint: Enter Value from 1 to 1000. Format Is on cents ( 1 = 0.01 1000 = 10 )., required: false }
               - label: 'Options'
                 name: 'options'
                 widget: 'list'

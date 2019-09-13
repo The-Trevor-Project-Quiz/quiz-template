@@ -19,6 +19,7 @@ splash:
     Take our LGBTQ History Month quiz now!
 questions:
   backgroundImage: /img/backgroundStar.png
+  questionvalue: 20
   question:
     - answers:
         correctanswer:
@@ -49,7 +50,6 @@ questions:
       questiontext: >-
         Who said "It is revolutionary for any trans person to choose to be seen
         and visible in a world that tells us we should not exist."?
-      questionvalue: 20
     - answers:
         correctanswer:
           description: >-
@@ -79,7 +79,6 @@ questions:
       questiontext: >-
         Harvey Milk was famously the first openly gay elected official in the
         history of California. What office was he elected to?
-      questionvalue: 20
     - answers:
         correctanswer:
           description: >-
@@ -107,7 +106,6 @@ questions:
       questiontext: >-
         As lore tells it, this woman threw the brick that launched the LGBTQ
         rights movement at the  Stonewall Inn in NYC. Who is she?
-      questionvalue: 20
     - answers:
         correctanswer:
           description: >-
@@ -133,7 +131,6 @@ questions:
       questiontext: >-
         Which famous LGBTQ actor said, "Being gay is a natural part of who I
         am"?
-      questionvalue: 20
 finalpage:
   backgroundImage: /img/trevor.jpeg
   cta:
