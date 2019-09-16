@@ -75,6 +75,8 @@ questions:
           optiontext: California State Senate
         - iscorrect: true
           optiontext: San Francisco Board of Supervisors
+      questionImage: /img/harvey-milk.jpg
+      questionImageMobile: /img/harvey-milk-mobile.jpg
       questiontext: >-
         Harvey Milk was famously the first openly gay elected official in the
         history of California. What office was he elected to?
