@@ -1,6 +1,9 @@
 ---
 templateKey: QuizController
 title: Without Image
+siteMetadta:
+  description: This is a quiz to test no images per questions.
+  shareImage: /img/trevor.jpeg
 splash:
   backgroundImage: /img/trevor.jpeg
   buttonText: Get Started

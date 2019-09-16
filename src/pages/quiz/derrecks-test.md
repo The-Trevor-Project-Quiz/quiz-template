@@ -1,6 +1,9 @@
 ---
 templateKey: QuizController
 title: Derreck's Test
+siteMetadta:
+  description: This is a quiz to test.
+  shareImage: /img/trevor.jpeg
 splash:
   backgroundImage: /img/trevor.jpeg
   buttonText: this is the button test

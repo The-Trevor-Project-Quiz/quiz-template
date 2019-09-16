@@ -39,11 +39,7 @@ export const pageQuery = graphql`
         siteMetadta {
           description
           shareImage {
-            childImageSharp {
-              fixed {
-                src
-              }
-            }
+            absolutePath
           }
         }
         splash {
