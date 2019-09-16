@@ -9,7 +9,7 @@ const Parent = styled.div`
 `;
 
 const FakeBgImage = styled(Img)`
-  position: absolute;
+  position: fixed !important;
   top: 0;
   left: 0;
   width: 100%;
@@ -28,7 +28,7 @@ const FakeBgImage = styled(Img)`
 `;
 
 const Content = styled.div`
-  position: absolute;
+  position: relative;
   top: 0;
   height: 100%;
   width: 100%;

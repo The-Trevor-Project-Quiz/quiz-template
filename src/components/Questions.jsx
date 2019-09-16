@@ -48,7 +48,7 @@ function Questions(props){
     return (
         <BgImage fluid={ props.bimage.childImageSharp.fluid }
                  height='100%'
-                 mobileHeight='100vh'>
+                 mobileHeight='100%'>
             <div className={ questionimage && imageUrl === 'desktopImage' ? 'questions-container--image' : questionimagemobile && imageUrl === 'mobileImage' ? 'questions-container--image__mobile' : 'questions-container' }>
                 {status === 'question' ?
                 <div className={ questionimage && imageUrl === 'desktopImage' ? 'question--image' : questionimagemobile && imageUrl === 'mobileImage' ? 'question--image__mobile' : 'question' }>
@@ -89,11 +89,25 @@ function Questions(props){
                     : null }
                 </div>
                 :
-                    <div className='answer'>
+                <div className={ (answers.answerimage && imageUrl === 'desktopImage' ? 'question--image' : answers.answerimagemobile && imageUrl === 'mobileImage' ? 'question--image__mobile' : 'question') + ' answer' }>
+                    <div className='q-text'>
                         <p className='question__progress'>Question { props.start[0] + 1 } of { props.questionNum }</p>
                         <h2 className='answer__heading'>{ showAnswer.heading }</h2>
+                        { answers.answerimagemobile && imageUrl === 'mobileImage' ?
+                            <div className='q-image__mobile'>
+                                <Images data={ answers.answerimagemobile } />
+                            </div>
+                            : null
+                        }
                         <p className='answer__description'> { showAnswer.description }</p>
                         <button className='quiz-btn' onClick={() => changeQuestion()}>Next</button>
+                        </div>
+                        { answers.answerimage && imageUrl === 'desktopImage' ?
+                            <div className='q-image'>
+                                <Images data={ answers.answerimage } />
+                            </div>
+                            : null
+                        }
                     </div>
                 }
             </div>

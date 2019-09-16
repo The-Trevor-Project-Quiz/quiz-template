@@ -84,6 +84,20 @@ export const pageQuery = graphql`
                 heading
                 description
               }
+              answerimage {
+                childImageSharp {
+                  fluid(maxWidth: 2048, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+              answerimagemobile {
+                childImageSharp {
+                  fluid(maxWidth: 2048, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
             questionimage {
               childImageSharp {
