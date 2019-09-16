@@ -10,7 +10,7 @@ function Questions(props){
     const [totalDonated, setTotalDonated] = useState(0);
     const [windowWidth, setWindowWidth ] = useState(window.innerWidth);
     const { answers, options, questionimage, questionimagemobile, questiontext } = props.data;
-    const imageUrl = windowWidth >= 650 ? 'desktopImage' : 'mobileImage';
+    const imageUrl = windowWidth >= 768 ? 'desktopImage' : 'mobileImage';
 
     const handleWindowResize = () => {
         setWindowWidth(window.innerWidth);
@@ -47,16 +47,16 @@ function Questions(props){
 
     return (
         <BgImage fluid={ props.bimage.childImageSharp.fluid }
-                 height='100vh'
-                 mobileHeight='800px'>
-            <div className='questions-container'>
+                 height='100%'
+                 mobileHeight='100vh'>
+            <div className={ questionimage && imageUrl === 'desktopImage' ? 'questions-container--image' : questionimagemobile && imageUrl === 'mobileImage' ? 'questions-container--image__mobile' : 'questions-container' }>
                 {status === 'question' ?
-                <div className='question'>
-                    <div>
+                <div className={ questionimage && imageUrl === 'desktopImage' ? 'question--image' : questionimagemobile && imageUrl === 'mobileImage' ? 'question--image__mobile' : 'question' }>
+                    <div className='q-text'>
                         <p className='question__progress'>Question { props.start[0] + 1 } of { props.questionNum }</p>
                         <h2 className='question__txt'>{ questiontext }</h2>
                         { questionimagemobile && imageUrl === 'mobileImage' ?
-                    <div>
+                    <div className='q-image__mobile'>
                         <Images data={ questionimagemobile } />
                     </div>
                     : null
@@ -70,9 +70,14 @@ function Questions(props){
                             )
                         })}
                         </ul>
+                        { props.value && questionimage && props.value && imageUrl === 'desktopImage' ? 
+                    <div className='question__donation'>
+                        <p>Total Donated: <span className='total'>{ (totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
+                    </div>
+                    : null }
                     </div>
                     { questionimage && imageUrl === 'desktopImage' ?
-                    <div>
+                    <div className='q-image'>
                         <Images data={ questionimage } />
                     </div>
                     : null
