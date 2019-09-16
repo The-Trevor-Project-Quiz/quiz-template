@@ -23,6 +23,12 @@ collections:
     fields:
       - { label: Template Key, name: templateKey, widget: hidden, default: QuizController }
       - { label: Title, name: title, widget: string }
+      - label: 'SiteMetadata'
+        name: 'siteMetadta'
+        widget: 'object'
+        fields: 
+          - { label: Description, name: description, widget: text }
+          - { label: ShareImage, name: shareImage, widget: image }
       - label: 'Splash'
         name: 'splash'
         widget: 'object'
