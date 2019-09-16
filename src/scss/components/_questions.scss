@@ -139,11 +139,14 @@
 }
 
 .answer {
+
+    .q-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 600px;
+    }
 
     &__heading {
         color: $color-space-grey;
