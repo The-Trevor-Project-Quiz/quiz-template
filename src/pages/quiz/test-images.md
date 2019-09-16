@@ -51,6 +51,8 @@ questions:
           optiontext: Laverne Cox
         - iscorrect: false
           optiontext: Indya Moore
+      questionimage: /img/group-1.jpg
+      questionimagemobile: /img/harvey-milk-mobile.jpg
       questiontext: >-
         Who said, "It is revolutionary for any trans person to choose to be seen
         and visible in a world that tells us we should not exist."?
@@ -86,6 +88,8 @@ questions:
         Harvey Milk was famously the first openly gay elected official in the
         history of California. What office was he elected to?
     - answers:
+        answerimage: /img/marsha-answer.jpg
+        answerimagemobile: /img/harvey-milk-mobile.jpg
         correctanswer:
           description: >-
             Marsha P. Johnson was an American gay liberation activist. Known as
@@ -110,9 +114,35 @@ questions:
         - iscorrect: false
           optiontext: Edith Windsor
       questionimage: /img/marsha-p.jpg
+      questionimagemobile: /img/harvey-milk-mobile.jpg
       questiontext: >-
         As lore tells it, this woman threw the brick that launched the LGBTQ
         rights movement at the  Stonewall Inn in NYC. Who is she?
+    - answers:
+        answerimage: /img/takei.jpg
+        answerimagemobile: /img/harvey-milk-mobile.jpg
+        correctanswer:
+          description: >-
+            Most know him as Mr. Sulu from Star Trek, but he also regularly
+            speaks out on LGBTQ equality issues. Our favorite Star Trek officer
+            spoke these iconic words — George Takei!
+          heading: Affirmative!
+        incorrectanswer:
+          description: >-
+            Most know him as Mr. Sulu from Star Trek, but he also regularly
+            speaks out on LGBTQ equality issues. Our favorite Star Trek officer
+            spoke these iconic words — George Takei!
+          heading: Sorry!!
+      options:
+        - iscorrect: true
+          optiontext: George Takei
+        - iscorrect: false
+          optiontext: Neil Patrick Harris
+        - iscorrect: false
+          optiontext: Zachary Quinto
+        - iscorrect: false
+          optiontext: Maulik Pancholy
+      questiontext: "Which famous LGBTQ actor said, “Being gay is a natural part of who \LI am”?"
   questionvalue: 50
 finalpage:
   backgroundImage: /img/trevor.jpeg
