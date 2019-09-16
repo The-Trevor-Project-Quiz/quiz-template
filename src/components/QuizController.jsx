@@ -1,13 +1,12 @@
 import React, { useState }from "react"
 import { graphql } from "gatsby"
 
+import Head from './Head';
 import Header from './Header';
 import Layout from "./Layout";
 
-import("../scss/style.scss")
-
 export default function QuizController({
-  data, // this prop will be injected by the GraphQL query below.
+  data, path// this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter } = markdownRemark
@@ -15,16 +14,20 @@ export default function QuizController({
   const [status, setStatus] = useState(true);
   console.log(data)
   return (
-    <div className={`${quizName}`}>
-      <div className='quiz-template'>
-        <Header data={frontmatter.splash.cta} started={status}/>
-        <Layout splash={ frontmatter.splash }
-                title={ frontmatter.title }
-                question={ frontmatter.questions }
-                final={ frontmatter.finalpage}
-                setStatus={setStatus} />
+    <Head metadata={ frontmatter.siteMetadta }
+          title={ frontmatter.title }
+          path={ path } >
+      <div className={`${quizName}`}>
+        <div className='quiz-template'>
+          <Header data={frontmatter.splash.cta} started={status}/>
+          <Layout splash={ frontmatter.splash }
+                  title={ frontmatter.title }
+                  question={ frontmatter.questions }
+                  final={ frontmatter.finalpage}
+                  setStatus={setStatus} />
+        </div>
       </div>
-    </div>
+    </Head>
   )
 }
 
@@ -33,6 +36,16 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        siteMetadta {
+          description
+          shareImage {
+            childImageSharp {
+              fixed {
+                src
+              }
+            }
+          }
+        }
         splash {
           backgroundImage {
             childImageSharp {
@@ -73,6 +86,20 @@ export const pageQuery = graphql`
               incorrectanswer {
                 heading
                 description
+              }
+            }
+            questionimage {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            questionimagemobile {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
               }
             }
           }

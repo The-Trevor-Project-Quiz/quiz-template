@@ -8,7 +8,10 @@ function Splash(props) {
     const { backgroundImage, buttonText, emailRequired, header, intro } = props.splash;
     return (
         <>
-            <BgImage fluid={ backgroundImage } overlayColor="#04040454">
+            <BgImage fluid={ backgroundImage.childImageSharp.fluid }
+                    overlayColor="#04040454"
+                    height='100vh'
+                    mobileHeight='100vh'>
                 <div className='splash-screen'>
                     <h1 className='splash-screen__heading'>{header}</h1>
                     <p className='splash-screen__intro'>{intro}</p>

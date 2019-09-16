@@ -1,13 +1,28 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import BgImage from './BgImage';
+import Images from './Images';
 
 function Questions(props){
 
     const [status, setStatus] = useState('question');
     const [showAnswer, setShowAnswer] = useState();
     const [totalDonated, setTotalDonated] = useState(0);
-    const { answers, options, questiontext } = props.data;
+    const [windowWidth, setWindowWidth ] = useState(window.innerWidth);
+    const { answers, options, questionimage, questionimagemobile, questiontext } = props.data;
+    const imageUrl = windowWidth >= 650 ? 'desktopImage' : 'mobileImage';
+
+    const handleWindowResize = () => {
+        setWindowWidth(window.innerWidth);
+    };
+
+    useEffect(() => {
+        window.addEventListener('resize', handleWindowResize);
+
+        return () => {
+            window.removeEventListener('resize', handleWindowResize);
+        }
+    });
 
     const selectOption = (answer, q, a) => {
         if(answer) {
@@ -31,13 +46,21 @@ function Questions(props){
     }
 
     return (
-        <BgImage fluid={ props.bimage }>
+        <BgImage fluid={ props.bimage.childImageSharp.fluid }
+                 height='100vh'
+                 mobileHeight='800px'>
             <div className='questions-container'>
                 {status === 'question' ?
                 <div className='question'>
                     <div>
                         <p className='question__progress'>Question { props.start[0] + 1 } of { props.questionNum }</p>
                         <h2 className='question__txt'>{ questiontext }</h2>
+                        { questionimagemobile && imageUrl === 'mobileImage' ?
+                    <div>
+                        <Images data={ questionimagemobile } />
+                    </div>
+                    : null
+                    }
                         <ul className='question__options'>
                         {options.slice(0, 4).map(option => {
                             return (
@@ -48,7 +71,13 @@ function Questions(props){
                         })}
                         </ul>
                     </div>
-                    { props.value ? 
+                    { questionimage && imageUrl === 'desktopImage' ?
+                    <div>
+                        <Images data={ questionimage } />
+                    </div>
+                    : null
+                    }
+                    { props.value && !questionimage || props.value && imageUrl === 'mobileImage' ? 
                     <div className='question__donation'>
                         <p>Total Donated: <span className='total'>{ (totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
                     </div>
