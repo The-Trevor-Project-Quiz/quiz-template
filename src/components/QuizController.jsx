@@ -24,7 +24,8 @@ export default function QuizController({
                   title={ frontmatter.title }
                   question={ frontmatter.questions }
                   final={ frontmatter.finalpage}
-                  setStatus={setStatus} />
+                  setStatus={setStatus}
+                  path={ path } />
         </div>
       </div>
     </Head>

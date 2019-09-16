@@ -28,7 +28,8 @@ function Layout(props) {
                            formData={formData}
                            title={ props.title }
                            correct={ correct }
-                           questionNum={ props.question.question.length } />
+                           questionNum={ props.question.question.length }
+                           path={ props.path } />
             :
                 <Questions data={ props.question.question[start] }
                            bimage={ props.question.backgroundImage }
