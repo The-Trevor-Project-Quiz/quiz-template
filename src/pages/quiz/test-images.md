@@ -24,6 +24,8 @@ questions:
   backgroundImage: /img/backgroundStar.png
   question:
     - answers:
+        answerimage: /img/laverne.jpg
+        answerimagemobile: /img/harvey-milk-mobile.jpg
         correctanswer:
           description: >-
             Laverne Cox said that! Cox is an American actress and LGBTQ+
