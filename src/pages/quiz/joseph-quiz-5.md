@@ -20,6 +20,8 @@ splash:
 
     * Point 3
     * Point 4
+
+    ![Typewriter](/img/cool_img.jpg "Typewriter")
 questions:
   backgroundImage: /img/backgroundStar.png
   question:
