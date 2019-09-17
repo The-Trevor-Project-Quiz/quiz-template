@@ -26,6 +26,14 @@ questions:
       options:
         - iscorrect: false
           optiontext: 'Yes'
+        - iscorrect: true
+          optiontext: 'No'
+        - iscorrect: false
+          optiontext: Maybe
+        - iscorrect: false
+          optiontext: Probably
+        - iscorrect: false
+          optiontext: Possibly
       questiontext: This is the first question. Please answer it
   questionvalue: 10
 finalpage:
