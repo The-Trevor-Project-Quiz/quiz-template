@@ -32,6 +32,27 @@ questions:
           optiontext: Wrong
       questionimage: /img/harvey-milk.jpg
       questiontext: This is the first question. Make a selection
+    - answers:
+        answerimage: /img/laverne.jpg
+        correctanswer:
+          description: You got it right!
+          heading: This is the correct answer. Congratulations!
+        incorrectanswer:
+          description: You got it wrong!
+          heading: This is the wrong answer. Sorry!
+      options:
+        - iscorrect: true
+          optiontext: This is wrong!
+        - iscorrect: false
+          optiontext: This is also wrong!
+        - iscorrect: true
+          optiontext: This is correct!
+        - iscorrect: false
+          optiontext: This is very wrong!
+        - iscorrect: false
+          optiontext: Choose something else
+      questionimage: /img/group-1.jpg
+      questiontext: This is the second question. Please make a selection
   questionvalue: 1
 finalpage:
   backgroundImage: /img/trevor.jpeg
