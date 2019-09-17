@@ -21,7 +21,8 @@ function Splash(props) {
                         buttonText={buttonText}
                         setFormData={props.setFormData}
                         formData={props.formData}
-                        questionList={props.questions} />
+                        questionList={props.questions}
+                        questionValue={ props.questionValue }/>
                     { !emailRequired ? 
                         <button className='splash-screen__btn' onClick={() => props.start[1](props.start[0] + 1)}>{buttonText}</button>
                     : 

@@ -20,6 +20,16 @@
         }
     }
 
+    &__donated {
+        font-size: 25px;
+        color: $color-white;
+        margin-bottom: 10px;
+
+        @media screen and (min-width: 1024px) {
+            font-size: 30px;
+        }
+    }
+
     &__outro {
         color: $color-white;
         font-size: 15px;

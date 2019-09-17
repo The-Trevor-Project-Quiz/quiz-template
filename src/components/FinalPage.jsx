@@ -14,10 +14,13 @@ class FinalPage extends Component {
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: serialize({ "form-name": this.props.title, ...this.props.formData })
+            body: serialize({
+                "form-name": this.props.title,
+                "Total Donated": (this.props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}),
+                ...this.props.formData
             })
-            .then(() => console.log("Success!"))
-            .catch(error => console.log(error));
+        }).then(() => console.log("Success!"))
+          .catch(error => console.log(error));
     }
 
     render() {
@@ -30,6 +33,7 @@ class FinalPage extends Component {
                     mobileHeight='100vh'>
                 <div className='final-page'>
                     <h2 className='final-page__heading'>You got {this.props.correct}/{this.props.questionNum}!</h2>
+                    <h3 className='final-page__donated'>You've unlocked { (this.props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</h3>
                     <p className='final-page__outro'>{outro}</p>
                     <a className='final-page__btn' href={cta.url} target='_blank' rel="noopener noreferrer">{cta.text}</a>
                     <div className='final-page__socials'>

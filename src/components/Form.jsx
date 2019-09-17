@@ -9,7 +9,7 @@ function Form(props) {
 
     const validateFields = () => {
         if(validEmailRegex.test(props.formData.email)) {
-            props.start[1](props.start[0] + 1);
+            props.start[1](prev => prev + 1);
         }
         else {
             setInvalidEmail(true);
@@ -33,6 +33,9 @@ function Form(props) {
                             <input name={list.questiontext} type='hidden' />
                         )
                     })}
+                    { props.questionValue ?
+                        <input name='Total Donated' type='hidden' /> 
+                    : null }
                 </fieldset>
             </form>
             {props.email ?

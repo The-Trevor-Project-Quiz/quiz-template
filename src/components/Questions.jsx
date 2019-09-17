@@ -7,7 +7,6 @@ function Questions(props){
 
     const [status, setStatus] = useState('question');
     const [showAnswer, setShowAnswer] = useState();
-    const [totalDonated, setTotalDonated] = useState(0);
     const [windowWidth, setWindowWidth ] = useState(window.innerWidth);
     const { answers, options, questionimage, questionimagemobile, questiontext } = props.data;
     const imageWidth = windowWidth >= 768 ? 'desktopImage' : 'mobileImage';
@@ -28,7 +27,7 @@ function Questions(props){
         if(answer) {
             setStatus('answer');
             setShowAnswer(answers.correctanswer)
-            setTotalDonated(prev => prev  + props.value);
+            props.setTotalDonated(prev => prev  + props.value);
             props.setCorrect(prev => prev + 1);
         }
         else {
@@ -71,7 +70,7 @@ function Questions(props){
                         </ul>
                         { props.value && questionimage && props.value && imageWidth === 'desktopImage' ? 
                     <div className='question__donation'>
-                        <p>Total Donated: <span className='total'>{ (totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
+                        <p>Total Donated: <span className='total'>{ (props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
                     </div>
                     : null }
                     </div>
@@ -83,7 +82,7 @@ function Questions(props){
                     }
                     { props.value && !questionimage || props.value && imageWidth === 'mobileImage' ? 
                     <div className='question__donation'>
-                        <p>Total Donated: <span className='total'>{ (totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
+                        <p>Total Donated: <span className='total'>{ (props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
                     </div>
                     : null }
                 </div>
