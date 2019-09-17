@@ -57,6 +57,8 @@ questions:
         Who said, "It is revolutionary for any trans person to choose to be seen
         and visible in a world that tells us we should not exist."?
     - answers:
+        answerimage: /img/harvey-milk.jpg
+        answerimagemobile: /img/harvey-milk-mobile.jpg
         correctanswer:
           description: >-
             Harvey Milk was the first openly gay elected official in the history
@@ -142,6 +144,8 @@ questions:
           optiontext: Zachary Quinto
         - iscorrect: false
           optiontext: Maulik Pancholy
+      questionimage: /img/group-1.jpg
+      questionimagemobile: /img/harvey-milk-mobile.jpg
       questiontext: "Which famous LGBTQ actor said, “Being gay is a natural part of who \LI am”?"
   questionvalue: 50
 finalpage:
