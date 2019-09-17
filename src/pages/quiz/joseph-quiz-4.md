@@ -2,7 +2,7 @@
 templateKey: QuizController
 title: Joseph Quiz 4
 siteMetadta:
-  description: This is third sample quiz from Joseph Caintic
+  description: This is fourth sample quiz from Joseph Caintic
   shareImage: /img/group-1.jpg
 splash:
   backgroundImage: /img/pexels-photo-255379.jpeg
