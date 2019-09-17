@@ -134,7 +134,19 @@
                 max-width: 350px;
                 margin: 25px auto 25px;
             }
+
+            .q-image__mobile {
+                width: 100%;
+                margin-bottom: 27px;
+            }
         }
+
+        .answer {
+            &__description {
+                padding: 0 20px;
+            }
+        }
+
     }
 }
 

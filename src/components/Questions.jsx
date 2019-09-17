@@ -10,7 +10,7 @@ function Questions(props){
     const [totalDonated, setTotalDonated] = useState(0);
     const [windowWidth, setWindowWidth ] = useState(window.innerWidth);
     const { answers, options, questionimage, questionimagemobile, questiontext } = props.data;
-    const imageUrl = windowWidth >= 768 ? 'desktopImage' : 'mobileImage';
+    const imageWidth = windowWidth >= 768 ? 'desktopImage' : 'mobileImage';
 
     const handleWindowResize = () => {
         setWindowWidth(window.innerWidth);
@@ -29,7 +29,6 @@ function Questions(props){
             setStatus('answer');
             setShowAnswer(answers.correctanswer)
             setTotalDonated(prev => prev  + props.value);
-            console.log(totalDonated);
             props.setCorrect(prev => prev + 1);
         }
         else {
@@ -49,13 +48,13 @@ function Questions(props){
         <BgImage fluid={ props.bimage.childImageSharp.fluid }
                  height='100%'
                  mobileHeight='100%'>
-            <div className={ questionimage && imageUrl === 'desktopImage' ? 'questions-container--image' : questionimagemobile && imageUrl === 'mobileImage' ? 'questions-container--image__mobile' : 'questions-container' }>
+            <div className={ 'questions-container' + (questionimage && answers.answerimage? '--image' : questionimage && !answers.answerimage  && status === 'question' ? '--image' :  !questionimage && answers.answerimage  && status === 'answer' ? '--image' : '' )}>
                 {status === 'question' ?
-                <div className={ questionimage && imageUrl === 'desktopImage' ? 'question--image' : questionimagemobile && imageUrl === 'mobileImage' ? 'question--image__mobile' : 'question' }>
+                <div className={ questionimage && imageWidth === 'desktopImage' ? 'question--image' : questionimagemobile && imageWidth === 'mobileImage' ? 'question--image__mobile' : 'question' }>
                     <div className='q-text'>
                         <p className='question__progress'>Question { props.start[0] + 1 } of { props.questionNum }</p>
                         <h2 className='question__txt'>{ questiontext }</h2>
-                        { questionimagemobile && imageUrl === 'mobileImage' ?
+                        { questionimagemobile && imageWidth === 'mobileImage' ?
                     <div className='q-image__mobile'>
                         <Images data={ questionimagemobile } />
                     </div>
@@ -70,39 +69,39 @@ function Questions(props){
                             )
                         })}
                         </ul>
-                        { props.value && questionimage && props.value && imageUrl === 'desktopImage' ? 
+                        { props.value && questionimage && props.value && imageWidth === 'desktopImage' ? 
                     <div className='question__donation'>
                         <p>Total Donated: <span className='total'>{ (totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
                     </div>
                     : null }
                     </div>
-                    { questionimage && imageUrl === 'desktopImage' ?
+                    { questionimage && imageWidth === 'desktopImage' ?
                     <div className='q-image'>
                         <Images data={ questionimage } />
                     </div>
                     : null
                     }
-                    { props.value && !questionimage || props.value && imageUrl === 'mobileImage' ? 
+                    { props.value && !questionimage || props.value && imageWidth === 'mobileImage' ? 
                     <div className='question__donation'>
                         <p>Total Donated: <span className='total'>{ (totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
                     </div>
                     : null }
                 </div>
                 :
-                <div className={ (answers.answerimage && imageUrl === 'desktopImage' ? 'question--image' : answers.answerimagemobile && imageUrl === 'mobileImage' ? 'question--image__mobile' : 'question') + ' answer' }>
+                <div className={ (answers.answerimage && imageWidth === 'desktopImage' ? 'question--image' : answers.answerimagemobile && imageWidth === 'mobileImage' ? 'question--image__mobile' : 'question') + ' answer' }>
                     <div className='q-text'>
                         <p className='question__progress'>Question { props.start[0] + 1 } of { props.questionNum }</p>
                         <h2 className='answer__heading'>{ showAnswer.heading }</h2>
-                        { answers.answerimagemobile && imageUrl === 'mobileImage' ?
+                        { answers.answerimagemobile && imageWidth === 'mobileImage' ?
                             <div className='q-image__mobile'>
                                 <Images data={ answers.answerimagemobile } />
                             </div>
                             : null
                         }
                         <p className='answer__description'> { showAnswer.description }</p>
-                        <button className='quiz-btn' onClick={() => changeQuestion()}>Next</button>
+                        <button className='quiz-btn' onClick={() => changeQuestion()}>{ props.start[0] + 1 === props.questionNum ? 'Find Out Your Score' : 'Next' }</button>
                         </div>
-                        { answers.answerimage && imageUrl === 'desktopImage' ?
+                        { answers.answerimage && imageWidth === 'desktopImage' ?
                             <div className='q-image'>
                                 <Images data={ answers.answerimage } />
                             </div>
