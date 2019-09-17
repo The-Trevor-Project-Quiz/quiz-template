@@ -11,7 +11,7 @@ splash:
     text: CTA1
     url: 'https://www.google.com'
   emailRequired: false
-  header: This is the header for Joseph Quiz 3
+  header: This is the header for Joseph Quiz 4
   intro: Welcome to my quiz! Good luck!
 questions:
   backgroundImage: /img/backgroundStar.png
