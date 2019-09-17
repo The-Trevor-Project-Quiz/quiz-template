@@ -39,6 +39,7 @@ questions:
           optiontext: 'Yes'
         - iscorrect: true
           optiontext: 'No'
+      questionimage: /img/harvey-milk.jpg
       questiontext: Two choices
     - answers:
         correctanswer:
