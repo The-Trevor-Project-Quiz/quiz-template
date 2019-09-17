@@ -12,7 +12,7 @@ splash:
     url: 'https://www.google.com'
   emailRequired: false
   header: This is the header for Joseph Quiz 5
-  intro: '**Welcome to my quiz!** Good luck!'
+  intro: _Welcome to my quiz!_ Good luck!
 questions:
   backgroundImage: /img/backgroundStar.png
   question:
