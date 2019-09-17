@@ -48,8 +48,6 @@ questions:
         - iscorrect: true
           optiontext: This is correct!
         - iscorrect: false
-          optiontext: This is very wrong!
-        - iscorrect: false
           optiontext: Choose something else
       questionimage: /img/group-1.jpg
       questiontext: This is the second question. Please make a selection
