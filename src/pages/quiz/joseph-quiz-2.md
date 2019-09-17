@@ -24,7 +24,7 @@ questions:
           description: Maybe next time!
           heading: You are wrong!
       options:
-        - iscorrect: true
+        - iscorrect: false
           optiontext: 'Yes'
       questiontext: This is the first question. Please answer it
   questionvalue: 10
