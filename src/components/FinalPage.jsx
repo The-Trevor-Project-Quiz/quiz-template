@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import axios from 'axios'
 
 import BgImage from './BgImage';
 import { serialize } from './utility';
@@ -11,16 +12,15 @@ class FinalPage extends Component {
 
 
     componentDidMount() {
-        fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: serialize({
-                "form-name": this.props.title,
-                "Total Donated": (this.props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}),
-                ...this.props.formData
-            })
-        }).then(() => console.log("Success!"))
-          .catch(error => console.log(error));
+        axios.post('/', serialize({
+            "form-name": this.props.title,
+            "Total Donated": (this.props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}),
+            ...this.props.formData }),
+            { headers: {
+                'Content-type': 'application/x-www-form-urlencoded',
+                },
+            }).then(() => console.log("Success!"))
+            .catch(error => console.log(error));
     }
 
     render() {
