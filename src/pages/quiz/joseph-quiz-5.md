@@ -35,6 +35,8 @@ questions:
       options:
         - iscorrect: true
           optiontext: 'Yes'
+      questionimage: /img/group-1.jpg
+      questionimagemobile: /img/cool_img.jpg
       questiontext: Only 1 answer choice
     - answers:
         correctanswer:
