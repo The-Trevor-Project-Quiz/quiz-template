@@ -5,7 +5,7 @@ siteMetadta:
   description: This is a quiz to test images per questions.
   shareImage: /img/trevor.jpeg
 splash:
-  backgroundImage: /img/trevor.jpeg
+  backgroundImage: /img/trevor-overlay.jpg
   buttonText: Start Quiz
   cta:
     text: First CTA
@@ -149,7 +149,7 @@ questions:
       questiontext: "Which famous LGBTQ actor said, “Being gay is a natural part of who \LI am”?"
   questionvalue: 50
 finalpage:
-  backgroundImage: /img/trevor.jpeg
+  backgroundImage: /img/trevor-overlay.jpg
   cta:
     text: Second CTA
     url: 'https://www.thetrevorproject.org/'
