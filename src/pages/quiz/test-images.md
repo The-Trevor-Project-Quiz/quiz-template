@@ -57,7 +57,7 @@ questions:
         Who said, "It is revolutionary for any trans person to choose to be seen
         and visible in a world that tells us we should not exist."?
     - answers:
-        answerimage: /img/harvey-milk.jpg
+        answerimage: /img/2b-answer-harvey_milk.jpg
         answerimagemobile: /img/harvey-milk-mobile.jpg
         correctanswer:
           description: >-
@@ -144,7 +144,7 @@ questions:
           optiontext: Zachary Quinto
         - iscorrect: false
           optiontext: Maulik Pancholy
-      questionimage: /img/group-1.jpg
+      questionimage: /img/4a-four_people.jpg
       questionimagemobile: /img/harvey-milk-mobile.jpg
       questiontext: "Which famous LGBTQ actor said, “Being gay is a natural part of who \LI am”?"
   questionvalue: 50
