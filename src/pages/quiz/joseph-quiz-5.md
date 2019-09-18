@@ -6,22 +6,15 @@ siteMetadta:
   shareImage: /img/group-1.jpg
 splash:
   backgroundImage: /img/pexels-photo-1227520.jpeg
+  body: >-
+    Welcome to my quiz! 1. Point 1 2. Point 2 * Point 3 * Point 4
+    ![Typewriter](/img/cool_img.jpg "Typewriter")
   buttonText: Click Here to Start the Quiz And Make a Difference!
-  cta:
-    text: Click Here To Go To Google
-    url: 'https://www.google.com'
   emailRequired: false
   header: This is the header for Joseph Quiz 5
-  intro: |-
-    Welcome to my quiz!
-
-    1. Point 1
-    2. Point 2
-
-    * Point 3
-    * Point 4
-
-    ![Typewriter](/img/cool_img.jpg "Typewriter")
+  headercta:
+    text: This is the header for Joseph Quiz 5
+    url: 'https://www.google.com'
 questions:
   backgroundImage: /img/backgroundStar.png
   question:
@@ -67,11 +60,11 @@ questions:
           optiontext: Maybe
       questiontext: Three choice question!
   questionvalue: 50
-finalpage:
+resultspage:
   backgroundImage: /img/stacey-background.jpg
+  body: Thank you for taking the quiz!
   cta:
     text: DONATE TO HELP A GREAT CAUSE THAT HELPS LGBTQ+ YOUTH
     url: 'https://www.amazon.com'
-  outro: Thank you for taking the quiz!
 ---
 
