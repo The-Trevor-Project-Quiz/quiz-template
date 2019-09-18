@@ -8,7 +8,7 @@ splash:
   backgroundImage: /img/pexels-photo-1227520.jpeg
   buttonText: Start!
   cta:
-    text: CTA1
+    text: Click Here To Go To Google
     url: 'https://www.google.com'
   emailRequired: false
   header: This is the header for Joseph Quiz 5
