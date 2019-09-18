@@ -11,24 +11,23 @@ import facebook from '../img/facebook.svg'
 class FinalPage extends Component {
 
 
-    componentDidMount() {
-        axios.post('/', serialize({
-            "form-name": this.props.title,
-            "Total Donated": (this.props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}),
-            ...this.props.formData }),
-            { headers: {
-                'Content-type': 'application/x-www-form-urlencoded',
-                },
-            }).then(() => console.log("Success!"))
-            .catch(error => console.log(error));
-    }
+    // componentDidMount() {
+    //     axios.post('/', serialize({
+    //         "form-name": this.props.title,
+    //         "Total Donated": (this.props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}),
+    //         ...this.props.formData }),
+    //         { headers: {
+    //             'Content-type': 'application/x-www-form-urlencoded',
+    //             },
+    //         }).then(() => console.log("Success!"))
+    //         .catch(error => console.log(error));
+    // }
 
     render() {
         const { backgroundImage, cta, outro } = this.props.data;
     return (
         <>
             <BgImage fluid={ backgroundImage.childImageSharp.fluid }
-                    overlayColor="#04040454"
                     height='100vh'
                     mobileHeight='100vh'>
                 <div className='final-page'>

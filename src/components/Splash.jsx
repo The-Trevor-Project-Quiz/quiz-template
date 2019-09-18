@@ -9,7 +9,6 @@ function Splash(props) {
     return (
         <>
             <BgImage fluid={ backgroundImage.childImageSharp.fluid }
-                    overlayColor="#04040454"
                     height='100vh'
                     mobileHeight='100vh'>
                 <div className='splash-screen'>
