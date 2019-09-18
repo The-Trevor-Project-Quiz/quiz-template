@@ -41,7 +41,7 @@ questions:
           optiontext: 'Yes'
         - iscorrect: true
           optiontext: 'No'
-      questiontext: Two choices
+      questiontext: Two choices on this one
     - answers:
         correctanswer:
           description: Great job!
