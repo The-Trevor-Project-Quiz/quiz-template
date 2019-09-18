@@ -40,7 +40,7 @@ questions:
         - iscorrect: false
           optiontext: 'Yes'
         - iscorrect: true
-          optiontext: 'No'
+          optiontext: No!
       questiontext: Two choices on this one
     - answers:
         correctanswer:
