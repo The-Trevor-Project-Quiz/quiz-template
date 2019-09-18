@@ -5,7 +5,7 @@ siteMetadta:
   description: This is the fifth sample quiz from Joseph Caintic
   shareImage: /img/group-1.jpg
 splash:
-  backgroundImage: /img/pexels-photo-255379.jpeg
+  backgroundImage: /img/cool_img.jpg
   buttonText: Start!
   cta:
     text: CTA1
