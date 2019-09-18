@@ -70,7 +70,7 @@ questions:
 finalpage:
   backgroundImage: /img/stacey-background.jpg
   cta:
-    text: DONATE
+    text: DONATE TO HELP A GREAT CAUSE THAT HELPS LGBTQ+ YOUTH
     url: 'https://www.amazon.com'
   outro: Thank you for taking the quiz!
 ---
