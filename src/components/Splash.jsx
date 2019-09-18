@@ -13,7 +13,7 @@ function Splash(props) {
                     mobileHeight='100vh'>
                 <div className='splash-screen'>
                     <h1 className='splash-screen__heading'>{header}</h1>
-                    <p className='splash-screen__intro'>{intro}</p>
+                    {/* <p className='splash-screen__intro'>{intro}</p> */}
                     <Form email={ emailRequired }
                         name={ props.title }
                         start={props.start}

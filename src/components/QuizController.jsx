@@ -19,11 +19,11 @@ export default function QuizController({
           path={ path } >
       <div className={`${quizName}`}>
         <div className='quiz-template'>
-          <Header data={frontmatter.splash.cta} started={status}/>
+          <Header data={frontmatter.splash.headercta} started={status}/>
           <Layout splash={ frontmatter.splash }
                   title={ frontmatter.title }
                   question={ frontmatter.questions }
-                  final={ frontmatter.finalpage}
+                  final={ frontmatter.resultspage}
                   setStatus={setStatus}
                   path={ path } />
         </div>
@@ -54,8 +54,7 @@ export const pageQuery = graphql`
           buttonText
           emailRequired
           header
-          intro
-          cta {
+          headercta {
             text
             url
           }
@@ -115,8 +114,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        finalpage {
-          outro
+        resultspage {
           backgroundImage {
             childImageSharp {
               fluid(maxWidth: 2048, quality: 100) {

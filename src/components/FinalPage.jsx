@@ -33,7 +33,7 @@ class FinalPage extends Component {
                 <div className='final-page'>
                     <h2 className='final-page__heading'>You got {this.props.correct}/{this.props.questionNum}!</h2>
                     <h3 className='final-page__donated'>You've unlocked { (this.props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</h3>
-                    <p className='final-page__outro'>{outro}</p>
+                    {/* <p className='final-page__outro'>{outro}</p> */}
                     <a className='final-page__btn' href={cta.url} target='_blank' rel="noopener noreferrer">{cta.text}</a>
                     <div className='final-page__socials'>
                         <p>Share</p>

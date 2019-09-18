@@ -7,7 +7,7 @@ siteMetadta:
 splash:
   backgroundImage: /img/trevor.jpeg
   buttonText: this is the button test
-  cta:
+  headercta:
     text: Go to our website
     url: www.website.com
   emailRequired: false
@@ -38,7 +38,7 @@ questions:
       questionimage: /img/pexels-photo-255379.jpeg
       questiontext: What is the capitol of Minnesota?
       questionvalue: 10
-finalpage:
+resultspage:
   backgroundImage: /img/pexels-photo-1227520.jpeg
   cta:
     text: this is the final CTA

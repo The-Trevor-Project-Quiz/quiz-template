@@ -7,7 +7,7 @@ siteMetadta:
 splash:
   backgroundImage: /img/trevor.jpeg
   buttonText: Get Started
-  cta:
+  headercta:
     text: Donate
     url: 'https://www.thetrevorproject.org/'
   emailRequired: true
@@ -134,7 +134,7 @@ questions:
       questiontext: >-
         Which famous LGBTQ actor said, "Being gay is a natural part of who I
         am"?
-finalpage:
+resultspage:
   backgroundImage: /img/trevor.jpeg
   cta:
     text: Donate Now

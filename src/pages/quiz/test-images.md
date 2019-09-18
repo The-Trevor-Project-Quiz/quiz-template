@@ -7,7 +7,7 @@ siteMetadta:
 splash:
   backgroundImage: /img/trevor-overlay.jpg
   buttonText: Start Quiz
-  cta:
+  headercta:
     text: First CTA
     url: 'https://www.thetrevorproject.org/'
   emailRequired: true
@@ -148,7 +148,7 @@ questions:
       questionimagemobile: /img/harvey-milk-mobile.jpg
       questiontext: "Which famous LGBTQ actor said, “Being gay is a natural part of who \LI am”?"
   questionvalue: 50
-finalpage:
+resultspage:
   backgroundImage: /img/trevor-overlay.jpg
   cta:
     text: Second CTA

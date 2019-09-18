@@ -7,7 +7,7 @@ siteMetadta:
 splash:
   backgroundImage: /img/harvey-milk-mobile.jpg
   buttonText: Let's go!
-  cta:
+  headercta:
     text: CTA1
     url: 'https://news.google.com'
   emailRequired: false
@@ -36,7 +36,7 @@ questions:
           optiontext: Possibly
       questiontext: This is the first question. Please answer it
   questionvalue: 10
-finalpage:
+resultspage:
   backgroundImage: /img/pexels-photo-255379.jpeg
   cta:
     text: DONATE!

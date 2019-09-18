@@ -7,7 +7,7 @@ siteMetadta:
 splash:
   backgroundImage: /img/pexels-photo-259915.jpeg
   buttonText: Enter
-  cta:
+  headercta:
     text: Click
     url: 'https://www.amazon.com'
   emailRequired: true
@@ -52,7 +52,7 @@ questions:
       questionimage: /img/group-1.jpg
       questiontext: This is the second question. Please make a selection
   questionvalue: 1
-finalpage:
+resultspage:
   backgroundImage: /img/trevor.jpeg
   cta:
     text: CTA 2

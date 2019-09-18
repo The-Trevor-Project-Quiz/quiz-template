@@ -7,7 +7,7 @@ siteMetadta:
 splash:
   backgroundImage: /img/pexels-photo-255379.jpeg
   buttonText: Start!
-  cta:
+  headercta:
     text: CTA1
     url: 'https://www.google.com'
   emailRequired: false
@@ -57,7 +57,7 @@ questions:
           optiontext: Maybe
       questiontext: Three choice question!
   questionvalue: 50
-finalpage:
+resultspage:
   backgroundImage: /img/stacey-background.jpg
   cta:
     text: DONATE
