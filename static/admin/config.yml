@@ -34,14 +34,14 @@ collections:
         widget: 'object'
         fields:
           - { label: Header, name: header, widget: string }
-          - { label: Intro, name: intro, widget: markdown }
-          - label: 'CTA'
-            name: 'cta'
+          - { label: Intro, name: body, widget: markdown }
+          - label: 'HeaderCTA'
+            name: 'headercta'
             widget: 'object'
             fields:
-              - { label: Text, name: text, widget: string}
-              - { label: URL, name: url, widget: string }
-          - { label: EmailRequired, name: emailRequired, widget: boolean, default: true, hint: Deafault is True }
+              - { label: Text, name: text, widget: string, default: Donate }
+              - { label: URL, name: url, widget: string, default: https://give.thetrevorproject.org/give/63307/#!/donation/checkout }
+          - { label: EmailRequired, name: emailRequired, widget: boolean, default: true, hint: Default is True }
           - { label: BackgroundImage, name: backgroundImage, widget: image }
           - { label: ButtonText, name: buttonText, widget: string }
       - label: 'Questions'
@@ -49,14 +49,14 @@ collections:
         widget: 'object'
         fields: 
           - { label: BackgroundImage, name: backgroundImage, widget: image, default: /img/backgroundStar.png }
-          - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, min: 1, max: 1000, hint: Enter Value from 1 to 1000. Format Is on cents ( 1 = 0.01 1000 = 10 )., required: false }
+          - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, min: 1, max: 1000, hint: Value is set in cents. For example, 100 will result in $1.00 per question., required: false }
           - label: 'Question'
             name: 'question'
             widget: 'list'
             fields:
               - { label: QuestionText, name: questiontext, widget: text }
-              - { label: QuestionImage, name: questionimage, widget: image, required: false }
-              - { label: QuestionImageMobile, name: questionimagemobile, widget: image, required: false }
+              - { label: QuestionImage, name: questionimage, widget: image, hint: Used when viewport is 768px wide or greater., required: false }
+              - { label: QuestionImageMobile, name: questionimagemobile, widget: image, hint: Used when viewport is smaller than 768px wide., required: false }
               - label: 'Options'
                 name: 'options'
                 widget: 'list'
@@ -70,17 +70,17 @@ collections:
                 fields:
                   - { label: CorrectAnswer, name: correctanswer, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
                   - { label: IncorrectAnswer, name: incorrectanswer, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}]}
-                  - { label: AnswerImage, name: answerimage, widget: image, required: false }
-                  - { label: AnswerImageMobile, name: answerimagemobile, widget: image, required: false }
-      - label: 'FinalPage'
-        name: 'finalpage'
+                  - { label: AnswerImage, name: answerimage, widget: image, hint: Used when viewport is 768px wide or greater., required: false }
+                  - { label: AnswerImageMobile, name: answerimagemobile, widget: image, hint: Used when viewport is smaller than 768px wide., required: false }
+      - label: 'ResultsPage'
+        name: 'resultspage'
         widget: 'object'
         fields: 
-          - { label: Outro, name: outro, widget: markdown }
+          - { label: Outro, name: body, widget: markdown }
           - { label: BackgroundImage, name: backgroundImage, widget: image }
           - label: 'CTA'
             name: 'cta'
             widget: 'object'
             fields:
-              - { label: Text, name: text, widget: string}
-              - { label: URL, name: url, widget: string }
+              - { label: Text, name: text, widget: string, default: Donate }
+              - { label: URL, name: url, widget: string, default: https://give.thetrevorproject.org/give/63307/#!/donation/checkout }
