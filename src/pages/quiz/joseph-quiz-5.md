@@ -6,7 +6,7 @@ siteMetadta:
   shareImage: /img/group-1.jpg
 splash:
   backgroundImage: /img/pexels-photo-1227520.jpeg
-  buttonText: Start!
+  buttonText: Click Here to Start the Quiz And Make a Difference!
   cta:
     text: Click Here To Go To Google
     url: 'https://www.google.com'
