@@ -57,6 +57,23 @@ questions:
         - iscorrect: true
           optiontext: Maybe
       questiontext: Three choice question!
+    - answers:
+        correctanswer:
+          description: Good job
+          heading: Right
+        incorrectanswer:
+          description: Bad job
+          heading: Wrong
+      options:
+        - iscorrect: false
+          optiontext: '1'
+        - iscorrect: true
+          optiontext: '2'
+        - iscorrect: false
+          optiontext: '3'
+        - iscorrect: false
+          optiontext: '4'
+      questiontext: Four choice question!
   questionvalue: 2
 resultspage:
   backgroundImage: /img/stock-photo-123068181.jpg
