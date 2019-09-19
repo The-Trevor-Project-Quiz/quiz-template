@@ -9,7 +9,7 @@ class Header extends Component {
       return (
         <header className={'main-header ' + (this.props.started ? 'quiz-started': '')}>
             <div className='main-header__logo'>
-              <a href=''>
+              <a href='https://www.thetrevorproject.org/' target='_blank' rel="noopener noreferrer">
                 <img src={( this.props.started ? logoW : logo)} />
               </a>
             </div>

@@ -48,6 +48,12 @@
         padding: 15px 90px;
         text-transform: uppercase;
         margin-bottom: 92px;
+
+        &:hover {
+            color: $color-space-grey;
+            border-color: $color-white;
+            background-color: $color-white;
+        }
     }
 
     &__pass {

@@ -8,11 +8,15 @@ function Questions(props){
     const [status, setStatus] = useState('question');
     const [showAnswer, setShowAnswer] = useState();
     const [windowWidth, setWindowWidth ] = useState(window.innerWidth);
+    const [windowHeight, setWindowHeight ] = useState(window.innerHeight);
     const { answers, options, questionimage, questionimagemobile, questiontext } = props.data;
-    const imageWidth = windowWidth >= 768 ? 'desktopImage' : 'mobileImage';
+    const resizeWidth = windowWidth >= 768 ? 'desktopImage' : 'mobileImage';
+    const resizeHeight = windowHeight > windowWidth && windowWidth >= 768;
+    console.log(resizeHeight);
 
     const handleWindowResize = () => {
         setWindowWidth(window.innerWidth);
+        setWindowHeight(window.innerHeight);
     };
 
     useEffect(() => {
@@ -49,11 +53,11 @@ function Questions(props){
                  mobileHeight='100%'>
             <div className={ 'questions-container' + (questionimage && answers.answerimage? '--image' : questionimage && !answers.answerimage  && status === 'question' ? '--image' :  !questionimage && answers.answerimage  && status === 'answer' ? '--image' : '' )}>
                 {status === 'question' ?
-                <div className={ questionimage && imageWidth === 'desktopImage' ? 'question--image' : questionimagemobile && imageWidth === 'mobileImage' ? 'question--image__mobile' : 'question' }>
+                <div className={ questionimage && resizeWidth === 'desktopImage' ? 'question--image' : questionimagemobile && resizeWidth === 'mobileImage' ? 'question--image__mobile' : 'question' }>
                     <div className='q-text'>
                         <p className='question__progress'>Question { props.start[0] + 1 } of { props.questionNum }</p>
                         <h2 className='question__txt'>{ questiontext }</h2>
-                        { questionimagemobile && imageWidth === 'mobileImage' ?
+                        { questionimagemobile && resizeWidth === 'mobileImage' ?
                     <div className='q-image__mobile'>
                         <Images data={ questionimagemobile } />
                     </div>
@@ -68,30 +72,30 @@ function Questions(props){
                             )
                         })}
                         </ul>
-                        { props.value && questionimage && props.value && imageWidth === 'desktopImage' ? 
+                        { props.value && questionimage && props.value && resizeWidth === 'desktopImage' ? 
                     <div className='question__donation'>
                         <p>Total Donated: <span className='total'>{ (props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
                     </div>
                     : null }
                     </div>
-                    { questionimage && imageWidth === 'desktopImage' ?
-                    <div className='q-image'>
+                    { questionimage && resizeWidth === 'desktopImage' ?
+                     <div className={'q-image ' + ( resizeHeight ? 'portrait' : '' ) }>
                         <Images data={ questionimage } />
                     </div>
                     : null
                     }
-                    { props.value && !questionimage || props.value && imageWidth === 'mobileImage' ? 
+                    { props.value && !questionimage || props.value && resizeWidth === 'mobileImage' ? 
                     <div className='question__donation'>
                         <p>Total Donated: <span className='total'>{ (props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
                     </div>
                     : null }
                 </div>
                 :
-                <div className={ (answers.answerimage && imageWidth === 'desktopImage' ? 'question--image' : answers.answerimagemobile && imageWidth === 'mobileImage' ? 'question--image__mobile' : 'question') + ' answer' }>
+                <div className={ (answers.answerimage && resizeWidth === 'desktopImage' ? 'question--image' : answers.answerimagemobile && resizeWidth === 'mobileImage' ? 'question--image__mobile' : 'question') + ' answer' }>
                     <div className='q-text'>
                         <p className='question__progress'>Question { props.start[0] + 1 } of { props.questionNum }</p>
                         <h2 className='answer__heading'>{ showAnswer.heading }</h2>
-                        { answers.answerimagemobile && imageWidth === 'mobileImage' ?
+                        { answers.answerimagemobile && resizeWidth === 'mobileImage' ?
                             <div className='q-image__mobile'>
                                 <Images data={ answers.answerimagemobile } />
                             </div>
@@ -100,8 +104,8 @@ function Questions(props){
                         <p className='answer__description'> { showAnswer.description }</p>
                         <button className='quiz-btn' onClick={() => changeQuestion()}>{ props.start[0] + 1 === props.questionNum ? 'Find Out Your Score' : 'Next' }</button>
                         </div>
-                        { answers.answerimage && imageWidth === 'desktopImage' ?
-                            <div className='q-image'>
+                        { answers.answerimage && resizeWidth === 'desktopImage' ?
+                            <div className={'q-image ' + ( resizeHeight ? 'portrait' : '' ) }>
                                 <Images data={ answers.answerimage } />
                             </div>
                             : null
@@ -109,6 +113,11 @@ function Questions(props){
                     </div>
                 }
             </div>
+            { resizeHeight ? 
+                <footer className='portrait-footer'>
+                    <p className='copyright'>&copy;{new Date().getFullYear()} The Trevor Project. All rights reserved</p>
+                </footer>
+            : null }
         </BgImage>
     );
   }

@@ -13,9 +13,6 @@ collections:
   - name: 'quiz'
     label: 'Quizzes'
     label_singular: 'Quiz'
-    description: >
-      The description is a great place for tone setting, high level information, and editing
-      guidelines that are specific to a collection.
     folder: "src/pages/quiz"
     create: true
     slug: "{{slug}}"
@@ -49,7 +46,7 @@ collections:
         widget: 'object'
         fields: 
           - { label: BackgroundImage, name: backgroundImage, widget: image, default: /img/backgroundStar.png }
-          - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, min: 1, max: 1000, hint: Value is set in cents. For example (100 will result in $1.00 per question)., required: false }
+          - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, max: 1000, hint: Value is set in cents. For example (100 will result in $1.00 per question)., required: false }
           - label: 'Question'
             name: 'question'
             widget: 'list'
@@ -60,7 +57,7 @@ collections:
               - label: 'Options'
                 name: 'options'
                 widget: 'list'
-                hint: 'Minimun required 2 options and a Maximun of 4 options'
+                hint: 'Minimum required 2 options and a Maximum of 4 options'
                 fields:
                   - { label: OptionText, name: optiontext, widget: string }
                   - { label: IsCorrect, name: iscorrect, widget: boolean, default: false }

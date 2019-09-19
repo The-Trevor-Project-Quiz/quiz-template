@@ -59,6 +59,12 @@
         text-transform: uppercase;
         margin-bottom: 92px;
         text-decoration: none;
+
+        &:hover {
+            color: $color-space-grey;
+            border-color: $color-white;
+            background-color: $color-white;
+        }
     }
 
     &__socials {
