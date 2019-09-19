@@ -5,14 +5,8 @@ siteMetadta:
   description: This is a quiz to test no images per questions.
   shareImage: /img/trevor.jpeg
 splash:
-  backgroundImage: /img/trevor.jpeg
-  buttonText: Get Started
-  headercta:
-    text: Donate
-    url: 'https://www.thetrevorproject.org/'
-  emailRequired: true
-  header: LGBTQ History Month Quiz
-  intro: >-
+  backgroundImage: /img/trevor-overlay.jpg
+  body: >-
     An important part of looking towards the future of the LGBTQ community is
     recognizing and educating ourselves about our past. This LGBTQ History
     Month, The Trevor Project wants to test your knowledge of some of the most
@@ -20,9 +14,14 @@ splash:
 
 
     Take our LGBTQ History Month quiz now!
+  buttonText: Get Started
+  emailRequired: true
+  header: LGBTQ History Month Quiz
+  headercta:
+    text: Donate
+    url: 'https://www.thetrevorproject.org/'
 questions:
   backgroundImage: /img/backgroundStar.png
-  questionvalue: 20
   question:
     - answers:
         correctanswer:
@@ -134,12 +133,10 @@ questions:
       questiontext: >-
         Which famous LGBTQ actor said, "Being gay is a natural part of who I
         am"?
+  questionvalue: 20
 resultspage:
-  backgroundImage: /img/trevor.jpeg
-  cta:
-    text: Donate Now
-    url: 'https://www.thetrevorproject.org/'
-  outro: >-
+  backgroundImage: /img/trevor-overlay.jpg
+  body: >-
     Thank you for taking this quiz to celebrate LGBTQ History Month with us. We
     hope you were able to learn a thing or two (or show off your knowledge)! 
 
@@ -147,5 +144,8 @@ resultspage:
     To understand our history is to prepare for our future. If you would like to
     be a part of making the future brighter for LGBTQ youth, please consider
     making a gift to The Trevor Project in honor of LGBTQ History Month today.
+  cta:
+    text: Donate Now
+    url: 'https://www.thetrevorproject.org/'
 ---
 
