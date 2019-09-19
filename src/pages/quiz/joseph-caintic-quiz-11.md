@@ -5,7 +5,7 @@ siteMetadta:
   description: This is Joseph Caintic Quiz 11
   shareImage: /img/4a-four_people.jpg
 splash:
-  backgroundImage: /img/4a-four_people.jpg
+  backgroundImage: /img/backgroundStar.png
   buttonText: START
   emailRequired: true
   header: Welcome to Joseph Caintic Quiz 11
