@@ -6,13 +6,13 @@ siteMetadta:
   shareImage: /img/trevor.jpeg
 splash:
   backgroundImage: /img/trevor.jpeg
+  body: good luck
   buttonText: this is the button test
+  emailRequired: false
+  header: Welcome to our Quiz!
   headercta:
     text: Go to our website
     url: www.website.com
-  emailRequired: false
-  header: Welcome to our Quiz!
-  intro: This is an online quiz with questions and answers and photos and money
 questions:
   backgroundImage: /img/backgroundStar.png
   question:
@@ -37,12 +37,12 @@ questions:
             long to fit and display properly
       questionimage: /img/pexels-photo-255379.jpeg
       questiontext: What is the capitol of Minnesota?
-      questionvalue: 10
+  questionvalue: 40
 resultspage:
   backgroundImage: /img/pexels-photo-1227520.jpeg
+  body: thanks for taking the quiz!
   cta:
     text: this is the final CTA
     url: www.website.com
-  outro: 'thank you for doing our quiz, we had a great time'
 ---
 
