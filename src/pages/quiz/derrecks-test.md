@@ -7,7 +7,7 @@ siteMetadta:
 splash:
   backgroundImage: /img/trevor.jpeg
   body: good luck
-  buttonText: this is the button test
+  buttonText: Let's Go
   emailRequired: true
   header: Welcome to our Quiz!
   headercta:
