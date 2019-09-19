@@ -72,7 +72,7 @@ function Questions(props){
                             )
                         })}
                         </ul>
-                        { props.value && questionimage && props.value && resizeWidth === 'desktopImage' ? 
+                        { props.value > 0 && questionimage && props.value && resizeWidth === 'desktopImage' ? 
                     <div className='question__donation'>
                         <p>Total Donated: <span className='total'>{ (props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
                     </div>
@@ -84,7 +84,7 @@ function Questions(props){
                     </div>
                     : null
                     }
-                    { props.value && !questionimage || props.value && resizeWidth === 'mobileImage' ? 
+                    { props.value > 0 && !questionimage || props.value && resizeWidth === 'mobileImage' ? 
                     <div className='question__donation'>
                         <p>Total Donated: <span className='total'>{ (props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</span></p>
                     </div>
