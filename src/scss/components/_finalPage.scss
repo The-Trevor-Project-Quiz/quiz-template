@@ -73,7 +73,6 @@
     &__socials {
         display: flex;
         width: 100%;
-        justify-content: space-evenly;
         max-width: 200px;
         align-items: center;
 
@@ -83,6 +82,10 @@
             font-weight: bold;
             line-height: 2.23;
             letter-spacing: 1.5px;
+        }
+
+        a {
+            margin: 0 10px;
         }
     }
 

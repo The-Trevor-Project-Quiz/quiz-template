@@ -34,7 +34,8 @@ class FinalPage extends Component {
                     mobileHeight='100vh'>
                 <div className='final-page'>
                     <h2 className='final-page__heading'>You got {this.props.correct}/{this.props.questionNum}!</h2>
-                    <h3 className='final-page__donated'>You've unlocked { (this.props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</h3>
+                    { this.props.totalDonated > 0 ? 
+                        <h3 className='final-page__donated'>You've unlocked { (this.props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</h3> : null }
                     <div className='final-page__outro'
                         dangerouslySetInnerHTML={{ __html: converter.makeHtml(outro) }} />
                     <a className='final-page__btn' href={cta.url} target='_blank' rel="noopener noreferrer">{cta.text}</a>
