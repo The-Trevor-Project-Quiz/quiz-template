@@ -33,17 +33,6 @@ questions:
       questiontext: Two choices on this one
     - answers:
         correctanswer:
-          description: Good Job!
-          heading: Right!
-        incorrectanswer:
-          description: Sorry!
-          heading: Wrong!
-      options:
-        - iscorrect: true
-          optiontext: 'Yes'
-      questiontext: Only 1 answer choice
-    - answers:
-        correctanswer:
           description: Great job!
           heading: You are correct!
         incorrectanswer:
