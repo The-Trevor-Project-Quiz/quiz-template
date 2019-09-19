@@ -6,12 +6,11 @@ siteMetadta:
   shareImage: /img/trevor.jpeg
 splash:
   backgroundImage: /img/trevor-overlay.jpg
-  intro: >-
+  body: |-
     An important part of looking towards the future of the LGBTQ community is
     recognizing and educating ourselves about our past. This LGBTQ History
     Month, The Trevor Project wants to test your knowledge of some of the most
-    famous — past and present — icons in the LGBTQ community. 
-
+    famous — past and present — icons in the LGBTQ community.
 
     _**Take our LGBTQ History Month quiz now!**_
   buttonText: Start the Quiz
@@ -38,13 +37,12 @@ questions:
         - iscorrect: false
           optiontext: Wrong
       questiontext: This is a Question.
-  questionvalue: 1
+  questionvalue: ''
 resultspage:
   backgroundImage: /img/trevor-overlay.jpg
-  outro: >-
+  body: |-
     Thank you for taking this quiz to celebrate **LGBTQ** History Month with us.
     We hope you were able to learn a thing or two (or show off your knowledge)! 
-
 
     To understand our history is to prepare for our future. If you would like to
     be a part of making the future brighter for **LGBTQ** youth, please consider
