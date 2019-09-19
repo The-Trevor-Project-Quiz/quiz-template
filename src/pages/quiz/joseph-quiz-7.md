@@ -17,6 +17,21 @@ questions:
   backgroundImage: /img/backgroundStar.png
   question:
     - answers:
+        answerimage: /img/2b-answer-harvey_milk.jpg
+        answerimagemobile: /img/4a-four_people.jpg
+        correctanswer:
+          description: You're right again!
+          heading: Right
+        incorrectanswer:
+          description: Better luck next time!
+          heading: Wrong!
+      options:
+        - iscorrect: true
+          optiontext: No!
+        - iscorrect: false
+          optiontext: 'Yes'
+      questiontext: Two choices on this one
+    - answers:
         correctanswer:
           description: Good Job!
           heading: Right!
@@ -27,21 +42,6 @@ questions:
         - iscorrect: true
           optiontext: 'Yes'
       questiontext: Only 1 answer choice
-    - answers:
-        answerimage: /img/2b-answer-harvey_milk.jpg
-        answerimagemobile: /img/4a-four_people.jpg
-        correctanswer:
-          description: You're right again!
-          heading: Right
-        incorrectanswer:
-          description: Better luck next time!
-          heading: Wrong!
-      options:
-        - iscorrect: false
-          optiontext: 'Yes'
-        - iscorrect: true
-          optiontext: No!
-      questiontext: Two choices on this one
     - answers:
         correctanswer:
           description: Great job!
