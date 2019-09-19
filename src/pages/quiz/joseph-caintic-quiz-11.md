@@ -27,7 +27,7 @@ questions:
         - iscorrect: true
           optiontext: 'Yes'
       questiontext: Question 1
-  questionvalue: 0
+  questionvalue: ''
 resultspage:
   backgroundImage: /img/harvey-milk-mobile.jpg
   cta:
