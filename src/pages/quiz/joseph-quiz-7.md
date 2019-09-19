@@ -6,13 +6,13 @@ siteMetadta:
   shareImage: /img/group-1.jpg
 splash:
   backgroundImage: /img/pexels-photo-255379.jpeg
-  intro: Welcome to the seventh quiz from Joseph Caintic
   buttonText: Start!
   emailRequired: false
   header: This is the header for Joseph Quiz 7
   headercta:
     text: CTA1
     url: 'https://www.google.com'
+  intro: Welcome to the seventh quiz from Joseph Caintic
 questions:
   backgroundImage: /img/backgroundStar.png
   question:
@@ -63,12 +63,12 @@ questions:
         - iscorrect: false
           optiontext: '4'
       questiontext: Four choice question!
-  questionvalue: 2
+  questionvalue: ''
 resultspage:
   backgroundImage: /img/stock-photo-123068181.jpg
-  outro: Thank you for taking the quiz
   cta:
     text: Donate
     url: 'https://www.amazon.com'
+  outro: Thank you for taking the quiz
 ---
 
