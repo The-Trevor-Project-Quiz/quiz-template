@@ -12,7 +12,25 @@ splash:
   headercta:
     text: Donate
     url: 'https://give.thetrevorproject.org/give/63307/#!/donation/checkout'
-  intro: This is Joseph Caintic Quiz 11
+  intro: |-
+    **This** _is_ Joseph Caintic Quiz 11
+
+    # H1
+
+    ## H2
+
+    > block quote
+
+    * Item 1
+    * Item 2
+
+    1. Point 1
+    2. Point 2
+
+
+    ```
+    I dunno
+    ```
 questions:
   backgroundImage: /img/backgroundStar.png
   question:
@@ -27,7 +45,7 @@ questions:
         - iscorrect: true
           optiontext: 'Yes'
       questiontext: Question 1
-  questionvalue: ''
+  questionvalue: 1
 resultspage:
   backgroundImage: /img/harvey-milk-mobile.jpg
   cta:
