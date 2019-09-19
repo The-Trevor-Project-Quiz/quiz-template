@@ -63,7 +63,7 @@ questions:
         - iscorrect: false
           optiontext: '4'
       questiontext: Four choice question!
-  questionvalue: 1
+  questionvalue: ''
 resultspage:
   backgroundImage: /img/stock-photo-123068181.jpg
   cta:
