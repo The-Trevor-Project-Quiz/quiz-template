@@ -1,4 +1,5 @@
 import React from 'react'
+import showdown from 'showdown';
 
 import BgImage from './BgImage';
 import Form from './Form';
@@ -6,6 +7,7 @@ import Form from './Form';
 function Splash(props) {
 
     const { backgroundImage, buttonText, emailRequired, header, intro } = props.splash;
+    const converter = new showdown.Converter();
     return (
         <>
             <BgImage fluid={ backgroundImage.childImageSharp.fluid }
@@ -13,7 +15,8 @@ function Splash(props) {
                     mobileHeight='100vh'>
                 <div className='splash-screen'>
                     <h1 className='splash-screen__heading'>{header}</h1>
-                    {/* <p className='splash-screen__intro'>{intro}</p> */}
+                    <div className='splash-screen__intro'
+                        dangerouslySetInnerHTML={{ __html: converter.makeHtml(intro) }} />
                     <Form email={ emailRequired }
                         name={ props.title }
                         start={props.start}

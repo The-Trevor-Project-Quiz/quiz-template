@@ -6,7 +6,7 @@ siteMetadta:
   shareImage: /img/group-1.jpg
 splash:
   backgroundImage: /img/pexels-photo-1227520.jpeg
-  body: >-
+  intro: >-
     Welcome to my quiz! 1. Point 1 2. Point 2 * Point 3 * Point 4
     ![Typewriter](/img/cool_img.jpg "Typewriter")
   buttonText: Click Here to Start the Quiz And Make a Difference!
@@ -62,7 +62,7 @@ questions:
   questionvalue: 50
 resultspage:
   backgroundImage: /img/stacey-background.jpg
-  body: Thank you for taking the quiz!
+  outro: Thank you for taking the quiz!
   cta:
     text: DONATE TO HELP A GREAT CAUSE THAT HELPS LGBTQ+ YOUTH
     url: 'https://www.amazon.com'

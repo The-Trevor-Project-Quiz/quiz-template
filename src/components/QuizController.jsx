@@ -51,6 +51,7 @@ export const pageQuery = graphql`
               }
             }
           }
+          intro
           buttonText
           emailRequired
           header
@@ -122,6 +123,7 @@ export const pageQuery = graphql`
               }
             }
           }
+          outro
           cta {
             text
             url

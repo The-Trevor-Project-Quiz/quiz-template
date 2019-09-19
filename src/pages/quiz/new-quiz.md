@@ -6,7 +6,7 @@ siteMetadta:
   shareImage: /img/trevor.jpeg
 splash:
   backgroundImage: /img/trevor-overlay.jpg
-  body: >-
+  intro: >-
     An important part of looking towards the future of the LGBTQ community is
     recognizing and educating ourselves about our past. This LGBTQ History
     Month, The Trevor Project wants to test your knowledge of some of the most
@@ -41,7 +41,7 @@ questions:
   questionvalue: 1
 resultspage:
   backgroundImage: /img/trevor-overlay.jpg
-  body: >-
+  outro: >-
     Thank you for taking this quiz to celebrate **LGBTQ** History Month with us.
     We hope you were able to learn a thing or two (or show off your knowledge)! 
 

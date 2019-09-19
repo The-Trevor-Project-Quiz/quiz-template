@@ -1,7 +1,7 @@
 .final-page {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 60px);
     justify-content: center;
     align-items: center;
     padding: 0 25px;
@@ -31,19 +31,22 @@
     }
 
     &__outro {
-        color: $color-white;
-        font-size: 15px;
-        max-width: 325px;
-        text-align: center;
-        line-height: 1.27;
-        letter-spacing: 0.15px;
-        margin-bottom: 20px;
 
-        @media screen and (min-width: 1024px) {
-            max-width: 670px;
-            font-size: 20px;
-            line-height: 1.3;
-            letter-spacing: 0.2px;
+        p {
+            color: $color-white;
+            font-size: 15px;
+            max-width: 325px;
+            text-align: center;
+            line-height: 1.27;
+            letter-spacing: 0.15px;
+            margin-bottom: 20px;
+
+            @media screen and (min-width: 1024px) {
+                max-width: 670px;
+                font-size: 20px;
+                line-height: 1.3;
+                letter-spacing: 0.2px;
+            }
         }
     }
 

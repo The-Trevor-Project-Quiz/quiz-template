@@ -6,7 +6,7 @@ siteMetadta:
   shareImage: /img/group-1.jpg
 splash:
   backgroundImage: /img/pexels-photo-255379.jpeg
-  body: Welcome to the sixth quiz from Joseph Caintic
+  intro: Welcome to the sixth quiz from Joseph Caintic
   buttonText: Start!
   emailRequired: false
   header: This is the header for Joseph Quiz 6
@@ -58,7 +58,7 @@ questions:
   questionvalue: 50
 resultspage:
   backgroundImage: /img/stock-photo-123068181.jpg
-  body: Thank you for taking the quiz
+  outro: Thank you for taking the quiz
   cta:
     text: Donate
     url: 'https://www.amazon.com'

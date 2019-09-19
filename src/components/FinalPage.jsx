@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import showdown from 'showdown'
 
 import BgImage from './BgImage';
 import { serialize } from './utility';
@@ -25,6 +26,7 @@ class FinalPage extends Component {
 
     render() {
         const { backgroundImage, cta, outro } = this.props.data;
+        const converter = new showdown.Converter();
     return (
         <>
             <BgImage fluid={ backgroundImage.childImageSharp.fluid }
@@ -33,7 +35,8 @@ class FinalPage extends Component {
                 <div className='final-page'>
                     <h2 className='final-page__heading'>You got {this.props.correct}/{this.props.questionNum}!</h2>
                     <h3 className='final-page__donated'>You've unlocked { (this.props.totalDonated / 100).toLocaleString("en-US", {style:"currency", currency:"USD"}) }</h3>
-                    {/* <p className='final-page__outro'>{outro}</p> */}
+                    <div className='final-page__outro'
+                        dangerouslySetInnerHTML={{ __html: converter.makeHtml(outro) }} />
                     <a className='final-page__btn' href={cta.url} target='_blank' rel="noopener noreferrer">{cta.text}</a>
                     <div className='final-page__socials'>
                         <p>Share</p>

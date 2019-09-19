@@ -6,7 +6,7 @@ siteMetadta:
   shareImage: /img/trevor.jpeg
 splash:
   backgroundImage: /img/trevor.jpeg
-  body: good luck
+  intro: good luck
   buttonText: Let's Go
   emailRequired: true
   header: Welcome to our Quiz!
@@ -40,7 +40,7 @@ questions:
   questionvalue: 40
 resultspage:
   backgroundImage: /img/pexels-photo-1227520.jpeg
-  body: thanks for taking the quiz!
+  outro: thanks for taking the quiz!
   cta:
     text: this is the final CTA
     url: www.website.com
