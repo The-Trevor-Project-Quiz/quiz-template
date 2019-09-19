@@ -27,6 +27,7 @@ questions:
         - iscorrect: true
           optiontext: 'Yes'
       questiontext: Question 1
+  questionvalue: 1
 resultspage:
   backgroundImage: /img/4a-four_people.jpg
   cta:
