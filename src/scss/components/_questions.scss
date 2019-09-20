@@ -1,12 +1,14 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+}
+
 .questions-container {
     display: flex;
     justify-content: center;
     padding: 0 25px;
     height: calc(100vh - 60px);
-
-    &--image {
-        height: calc(100vh - 60px);
-    }
 }
 
 .quiz-btn {
@@ -131,14 +133,14 @@
             .gatsby-image-wrapper {
                 > div {
                     padding: 0 !important;
-                    height: calc(100vh - 60px);
+                    height: calc(100vh - 62px);
                 }
             }
 
             &.portrait {
                 .gatsby-image-wrapper {
                     > div {
-                        height: calc(100vh - 416px);
+                        max-height: 680px;
                     }
                 }
             }
@@ -217,7 +219,7 @@
 
 .portrait-footer {
     background-color: $color-light-grey;
-    height: 356px;
+    height: inherit;
 
     .copyright {
         color: $color-space-grey;
