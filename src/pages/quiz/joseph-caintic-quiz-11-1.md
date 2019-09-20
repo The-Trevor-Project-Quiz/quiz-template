@@ -1,14 +1,14 @@
 ---
 templateKey: QuizController
-title: Joseph Caintic Quiz 11
+title: Joseph Caintic Quiz 12
 siteMetadta:
-  description: This is Joseph Caintic Quiz 11
+  description: This is Joseph Caintic Quiz 12
   shareImage: /img/4a-four_people.jpg
 splash:
   backgroundImage: /img/4a-four_people.jpg
   buttonText: START
   emailRequired: true
-  header: Welcome to Joseph Caintic Quiz 11
+  header: Welcome to Joseph Caintic Quiz 12
   headercta:
     text: Donate
     url: 'https://give.thetrevorproject.org/give/63307/#!/donation/checkout'
