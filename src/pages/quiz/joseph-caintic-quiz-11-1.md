@@ -31,6 +31,7 @@ questions:
       questiontext: >-
         Question 1 TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
         TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST
+  questionvalue: 999
 resultspage:
   backgroundImage: /img/harvey-milk-mobile.jpg
   cta:
