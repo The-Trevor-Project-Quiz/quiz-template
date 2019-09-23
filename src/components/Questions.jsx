@@ -12,7 +12,6 @@ function Questions(props){
     const { answers, options, questionimage, questionimagemobile, questiontext } = props.data;
     const resizeWidth = windowWidth >= 768 ? 'desktopImage' : 'mobileImage';
     const resizeHeight = windowHeight > windowWidth && windowWidth >= 768;
-    console.log(resizeHeight);
 
     const handleWindowResize = () => {
         setWindowWidth(window.innerWidth);
@@ -65,9 +64,9 @@ function Questions(props){
                         : null
                         }
                             <ul className='question__options'>
-                            {options.slice(0, 4).map(option => {
+                            {options.slice(0, 4).map((option, key) => {
                                 return (
-                                    <li className='option-item'>
+                                    <li key={`option-${key}`} className='option-item'>
                                         <button className='quiz-btn' onClick={() => selectOption(option.iscorrect, questiontext, option.optiontext)}>{ option.optiontext }</button>
                                     </li>
                                 )
@@ -114,9 +113,9 @@ function Questions(props){
                         </div>
                     }
                 </div>
-                { resizeHeight ? 
+                { resizeHeight && questionimage || resizeHeight && answers.answerimage ? 
                     <footer className='portrait-footer'>
-                        <p className='copyright'>&copy;{new Date().getFullYear()} The Trevor Project. All rights reserved</p>
+                        <p className='copyright'>&copy;{new Date().getFullYear()} The Trevor Project. All rights reserved.</p>
                     </footer>
                 : null }
             </div>

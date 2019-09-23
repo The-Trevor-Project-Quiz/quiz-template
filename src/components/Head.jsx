@@ -16,7 +16,7 @@ function Head(props){
           <link rel="canonical" href={ `https://confident-archimedes-ed555e.netlify.com${props.path}`} />
 
           {/* OpenGraph tags */}
-          <meta property="og:url" content={ `https://confident-archimedes-ed555e.netlify.com${props.path}`} />
+          <meta property="og:url" content="/"/>
           <meta property="og:title" content={props.title} />
           <meta property="og:description" content={description} />
           <meta property="og:image" content={ `https://confident-archimedes-ed555e.netlify.com/img/${shareImage.relativePath}`} />
@@ -27,7 +27,6 @@ function Head(props){
           <meta name="twitter:description" content={ description } />
           <meta name="twitter:image" content={ `https://confident-archimedes-ed555e.netlify.com/img/${shareImage.relativePath}`} />
         </Helmet>
-        <div>{props.children}</div>
       </>
       );
     }

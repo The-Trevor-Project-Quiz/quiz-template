@@ -41,13 +41,13 @@ class FinalPage extends Component {
                     <a className='final-page__btn' href={cta.url} target='_blank' rel="noopener noreferrer">{cta.text}</a>
                     <div className='final-page__socials'>
                         <p>Share</p>
-                        <a href={ `https://www.facebook.com/sharer/sharer.php?u=https://confident-archimedes-ed555e.netlify.com${this.props.path}` }>
+                        <a href={ `https://www.facebook.com/sharer/sharer.php?u=https%3A//confident-archimedes-ed555e.netlify.com${this.props.path}` }>
                             <img src={ facebook } alt='Share Facebook' />
                         </a>
-                        <a href={ `https://twitter.com/home?status=https://confident-archimedes-ed555e.netlify.com${this.props.path}` }>
+                        <a href={ `https://twitter.com/home?status=https%3A//confident-archimedes-ed555e.netlify.com${this.props.path}` }>
                             <img src={ twitter } alt='Share Twitter' />
                         </a>
-                        <a href={ `mailto:info@example.com?&subject=&body=https://confident-archimedes-ed555e.netlify.com${this.props.path}` }>
+                        <a href={ `mailto:info@example.com?&subject=&body=https%3A//confident-archimedes-ed555e.netlify.com${this.props.path}` }>
                             <img src={ mail } alt='Share Mail' />
                         </a>
                     </div>

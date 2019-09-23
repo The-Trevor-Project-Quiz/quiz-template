@@ -12,23 +12,24 @@ export default function QuizController({
   const { frontmatter } = markdownRemark
   const quizName = frontmatter.title.replace(/\s+/g, '-').toLowerCase();
   const [status, setStatus] = useState(true);
-  console.log(data)
+
   return (
+    <>
     <Head metadata={ frontmatter.siteMetadta }
           title={ frontmatter.title }
-          path={ path } >
-      <div className={`${quizName}`}>
-        <div className='quiz-template'>
-          <Header data={frontmatter.splash.headercta} started={status}/>
-          <Layout splash={ frontmatter.splash }
-                  title={ frontmatter.title }
-                  question={ frontmatter.questions }
-                  final={ frontmatter.resultspage}
-                  setStatus={setStatus}
-                  path={ path } />
-        </div>
+          path={ path } />
+    <div className={`${quizName}`}>
+      <div className='quiz-template'>
+        <Header data={frontmatter.splash.headercta} started={status}/>
+        <Layout splash={ frontmatter.splash }
+                title={ frontmatter.title }
+                question={ frontmatter.questions }
+                final={ frontmatter.resultspage}
+                setStatus={setStatus}
+                path={ path } />
       </div>
-    </Head>
+    </div>
+    </>
   )
 }
 

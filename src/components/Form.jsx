@@ -28,9 +28,9 @@ function Form(props) {
                         </div>
                     : null 
                     }
-                    {props.questionList.map((list) => {
+                    {props.questionList.map((list, key) => {
                         return (
-                            <input name={list.questiontext} type='hidden' />
+                            <input  key={`question-${key}`} name={list.questiontext} type='hidden' />
                         )
                     })}
                     { props.questionValue ?
