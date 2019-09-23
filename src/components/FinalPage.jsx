@@ -44,7 +44,7 @@ class FinalPage extends Component {
                         <a href={ `https://www.facebook.com/sharer/sharer.php?u=https%3A//confident-archimedes-ed555e.netlify.com${this.props.path}` }>
                             <img src={ facebook } alt='Share Facebook' />
                         </a>
-                        <a href={ `https://twitter.com/home?status=https%3A//confident-archimedes-ed555e.netlify.com${this.props.path}` }>
+                        <a href={ `https://twitter.com/intent/tweet?text=https%3A//confident-archimedes-ed555e.netlify.com${this.props.path}` }>
                             <img src={ twitter } alt='Share Twitter' />
                         </a>
                         <a href={ `mailto:info@example.com?&subject=&body=https%3A//confident-archimedes-ed555e.netlify.com${this.props.path}` }>
