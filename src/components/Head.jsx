@@ -13,7 +13,6 @@ function Head(props){
           <title>{props.title}</title>
           <meta name="description" content={ description } />
           <meta name="image" content={ `https://confident-archimedes-ed555e.netlify.com/img/${shareImage.relativePath}`} />
-          <link rel="canonical" href={ `https://confident-archimedes-ed555e.netlify.com${props.path}`} />
 
           {/* OpenGraph tags */}
           <meta property="og:url" content="/"/>
