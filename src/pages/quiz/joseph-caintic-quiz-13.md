@@ -3,7 +3,7 @@ templateKey: QuizController
 title: Joseph Caintic Quiz 13
 siteMetadta:
   description: This is the description text for Joseph Caintic Quiz 13
-  shareImage: /img/pexels-photo-259915.jpeg
+  shareImage: /img/2b-answer-harvey_milk.jpg
   url: 'https://confident-archimedes-ed555e.netlify.com/'
 splash:
   backgroundImage: /img/trevor.jpeg
@@ -27,6 +27,7 @@ questions:
       options:
         - iscorrect: true
           optiontext: 'YES'
+      questionimage: ''
       questiontext: TEST
   questionvalue: 0
 resultspage:
