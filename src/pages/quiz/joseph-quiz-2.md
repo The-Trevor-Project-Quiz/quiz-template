@@ -4,6 +4,7 @@ title: Joseph Quiz 2
 siteMetadta:
   description: This is a second test quiz from Joseph Caintic
   shareImage: /img/group-1.jpg
+  url: https://confident-archimedes-ed555e.netlify.com/
 splash:
   backgroundImage: /img/harvey-milk-mobile.jpg
   buttonText: Let's go!

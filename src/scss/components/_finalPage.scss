@@ -63,7 +63,8 @@
         margin-bottom: 92px;
         text-decoration: none;
 
-        &:hover {
+        &:hover,
+        &:focus {
             color: $color-space-grey;
             border-color: $color-white;
             background-color: $color-white;

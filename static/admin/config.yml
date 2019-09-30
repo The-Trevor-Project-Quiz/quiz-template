@@ -26,6 +26,7 @@ collections:
         fields: 
           - { label: Description, name: description, widget: text }
           - { label: ShareImage, name: shareImage, widget: image }
+          - { label: URL, name: url, widget: string, default: https://confident-archimedes-ed555e.netlify.com/ }
       - label: 'Splash'
         name: 'splash'
         widget: 'object'
@@ -46,7 +47,7 @@ collections:
         widget: 'object'
         fields: 
           - { label: BackgroundImage, name: backgroundImage, widget: image, default: /img/backgroundStar.png }
-          - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, min: 0, max: 1000, hint: Value is set in cents. For example (100 will result in $1.00 per question)., required: false }
+          - { label: QuestionValue, name: questionvalue, widget: number, valueType: int, min: 0, max: 1000, default: 0, hint: Value is set in cents. For example (100 will result in $1.00 per question) Use 0 when quiz will not have a value., required: false }
           - label: 'Question'
             name: 'question'
             widget: 'list'

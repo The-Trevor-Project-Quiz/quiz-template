@@ -4,6 +4,7 @@ title: Without Image
 siteMetadta:
   description: This is a quiz to test no images per questions.
   shareImage: /img/trevor.jpeg
+  url: https://confident-archimedes-ed555e.netlify.com/
 splash:
   backgroundImage: /img/trevor-overlay.jpg
   intro: >-

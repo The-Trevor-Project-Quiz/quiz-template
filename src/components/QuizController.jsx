@@ -26,7 +26,8 @@ export default function QuizController({
                 question={ frontmatter.questions }
                 final={ frontmatter.resultspage}
                 setStatus={setStatus}
-                path={ path } />
+                path={ path }
+                url={ frontmatter.siteMetadta.url } />
       </div>
     </div>
     </>
@@ -43,6 +44,7 @@ export const pageQuery = graphql`
           shareImage {
             relativePath
           }
+          url
         }
         splash {
           backgroundImage {

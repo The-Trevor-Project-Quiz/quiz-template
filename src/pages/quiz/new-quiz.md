@@ -4,6 +4,7 @@ title: New Quiz
 siteMetadta:
   description: This is a new Quiz to test the WYSIWYG.
   shareImage: /img/trevor.jpeg
+  url: https://confident-archimedes-ed555e.netlify.com/
 splash:
   backgroundImage: /img/trevor-overlay.jpg
   intro: >-
@@ -38,7 +39,7 @@ questions:
         - iscorrect: false
           optiontext: Wrong
       questiontext: This is a Question.
-  questionvalue: 1
+  questionvalue: 0
 resultspage:
   backgroundImage: /img/trevor-overlay.jpg
   outro: >-

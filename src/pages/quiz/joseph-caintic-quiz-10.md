@@ -4,6 +4,7 @@ title: Joseph Caintic Quiz 10
 siteMetadta:
   description: This is Joseph Caintic Quiz 10
   shareImage: /img/4a-four_people.jpg
+  url: https://confident-archimedes-ed555e.netlify.com/
 splash:
   backgroundImage: /img/4a-four_people.jpg
   buttonText: START
@@ -27,6 +28,7 @@ questions:
         - iscorrect: true
           optiontext: 'Yes'
       questiontext: Question 1
+  questionvalue: 0
 resultspage:
   backgroundImage: /img/harvey-milk-mobile.jpg
   cta:

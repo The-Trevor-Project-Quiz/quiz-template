@@ -4,6 +4,7 @@ title: Joseph Quiz 9
 siteMetadta:
   description: This is Joseph Quiz 9!
   shareImage: /img/cool_img.jpg
+  url: https://confident-archimedes-ed555e.netlify.com/
 splash:
   backgroundImage: /img/cool_img.jpg
   buttonText: LET'S GO

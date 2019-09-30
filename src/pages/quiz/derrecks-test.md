@@ -4,6 +4,7 @@ title: Derreck's Test
 siteMetadta:
   description: This is a quiz to test.
   shareImage: /img/trevor.jpeg
+  url: https://confident-archimedes-ed555e.netlify.com/
 splash:
   backgroundImage: /img/trevor.jpeg
   intro: good luck

@@ -1,14 +1,28 @@
 .content {
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 62px);
 }
 
 .questions-container {
     display: flex;
     justify-content: center;
-    padding: 0 25px;
-    height: calc(100vh - 60px);
+    padding: 35px 25px 0;
+
+    @media screen and (min-width: 1024px) {
+        height: calc(100vh - 62px);
+        padding-top: 0;
+    } 
+
+    &--image {
+        .q-text, .answer {   
+            padding-top: 35px;
+
+            @media screen and (min-width: 1024px) {
+                padding-top: 0;
+            }
+        } 
+    }
 }
 
 .quiz-btn {
@@ -19,14 +33,15 @@
     letter-spacing: 0.5px;
     text-align: center;
     text-transform: uppercase;
-    max-width: 325px;
     height: 60px;
     border-radius: 34px;
     border: 5px solid $color-orange;
-    padding: 10px;
+    padding: 11px;
+    max-width: 325px;
     width: 100%;
 
-    &:hover {
+    &:hover,
+    &:focus {
         background-color: $color-orange;
     }
 }
@@ -72,6 +87,7 @@
         .option-item {
             width: 100%;
             margin-bottom: 15px;
+            max-width: 325px;
 
             @media screen and (min-width: 1024px) {
                 max-width: 275px;
@@ -124,7 +140,7 @@
             justify-content: center;
             width: 100%;
             align-items: center;
-            position: relative;    
+            position: relative;
         }
 
         .q-image {

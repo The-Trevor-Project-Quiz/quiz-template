@@ -4,6 +4,7 @@ title: Joseph Quiz 3
 siteMetadta:
   description: This is third sample quiz from Joseph Caintic
   shareImage: /img/group-1.jpg
+  url: https://confident-archimedes-ed555e.netlify.com/
 splash:
   backgroundImage: /img/pexels-photo-255379.jpeg
   buttonText: Start!

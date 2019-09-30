@@ -14,7 +14,6 @@
 
     &__field {
         background-color: $color-white;
-        max-width: 185px;
         font-size: 18px;
         font-weight: 500;
         color: $color-space-grey;
@@ -27,6 +26,7 @@
 
         &.email {
             margin-right: 5px;
+            max-width: 60%;
 
             &.invalid-email {
                 background-color: $color-pink;
@@ -39,7 +39,7 @@
         }
 
         &.zip {
-            max-width: 105px;
+            max-width: 30%;
         }
 
 

@@ -32,6 +32,7 @@ function Layout(props) {
                            correct={ correct }
                            questionNum={ props.question.question.length }
                            path={ props.path }
+                           url={ props.url }
                            totalDonated={ totalDonated } />
             :
                 <Questions data={ props.question.question[start] }

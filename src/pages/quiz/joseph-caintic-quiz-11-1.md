@@ -4,6 +4,7 @@ title: Joseph Caintic Quiz 12
 siteMetadta:
   description: This is Joseph Caintic Quiz 12
   shareImage: /img/4a-four_people.jpg
+  url: https://confident-archimedes-ed555e.netlify.com/
 splash:
   backgroundImage: /img/4a-four_people.jpg
   buttonText: START

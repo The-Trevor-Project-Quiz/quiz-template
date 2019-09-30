@@ -4,6 +4,7 @@ title: Joseph Quiz 6
 siteMetadta:
   description: This is the sixth sample quiz from Joseph Caintic
   shareImage: /img/group-1.jpg
+  url: https://confident-archimedes-ed555e.netlify.com/
 splash:
   backgroundImage: /img/pexels-photo-255379.jpeg
   intro: Welcome to the sixth quiz from Joseph Caintic

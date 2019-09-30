@@ -4,6 +4,7 @@ title: Joseph Quiz
 siteMetadta:
   description: This is a test for testing purposes
   shareImage: /img/cool_img.jpg
+  url: https://confident-archimedes-ed555e.netlify.com/
 splash:
   backgroundImage: /img/pexels-photo-259915.jpeg
   buttonText: Enter
