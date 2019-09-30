@@ -28,7 +28,7 @@ questions:
         - iscorrect: false
           optiontext: TEST
       questiontext: TEST
-  questionvalue: 0
+  questionvalue: 1
 resultspage:
   backgroundImage: /img/4a-four_people.jpg
   cta:
