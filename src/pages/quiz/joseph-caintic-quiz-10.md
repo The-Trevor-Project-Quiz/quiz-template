@@ -12,7 +12,7 @@ splash:
   headercta:
     text: Donate
     url: 'https://give.thetrevorproject.org/give/63307/#!/donation/checkout'
-  intro: 'This is Joseph [Caintic Quiz 10](https://www.amazon.com) !'
+  intro: 'This is Joseph [Caintic Quiz 10](https://www.amazon.com) !!'
 questions:
   backgroundImage: /img/backgroundStar.png
   question:
