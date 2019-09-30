@@ -28,7 +28,7 @@ questions:
         - iscorrect: true
           optiontext: 'YES'
       questiontext: TEST
-  questionvalue: ''
+  questionvalue: 0
 resultspage:
   backgroundImage: /img/pexels-photo-255379.jpeg
   cta:
