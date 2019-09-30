@@ -2,17 +2,17 @@
 templateKey: QuizController
 title: Test Images
 siteMetadta:
-  description: This is a quiz to test images per questions.
+  description: This is a quiz to test images per questions
   shareImage: /img/trevor.jpeg
-  url: https://confident-archimedes-ed555e.netlify.com/
+  url: 'https://confident-archimedes-ed555e.netlify.com/'
 splash:
   backgroundImage: /img/trevor-overlay.jpg
   buttonText: Start Quiz
+  emailRequired: true
+  header: LGBTQ History Month Quiz
   headercta:
     text: First CTA
     url: 'https://www.thetrevorproject.org/'
-  emailRequired: true
-  header: LGBTQ History Month Quiz
   intro: >-
     An important part of looking towards the future of the LGBTQ community is
     recognizing and educating ourselves about our past. This LGBTQ History
