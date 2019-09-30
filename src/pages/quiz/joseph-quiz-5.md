@@ -2,20 +2,20 @@
 templateKey: QuizController
 title: Joseph Quiz 5
 siteMetadta:
-  description: This is the fifth sample quiz from Joseph Caintic
+  description: This is the fifth sample quiz from Joseph Caintic.
   shareImage: /img/group-1.jpg
-  url: https://confident-archimedes-ed555e.netlify.com/
+  url: 'https://confident-archimedes-ed555e.netlify.com/'
 splash:
   backgroundImage: /img/pexels-photo-1227520.jpeg
-  intro: >-
-    Welcome to my quiz! 1. Point 1 2. Point 2 * Point 3 * Point 4
-    ![Typewriter](/img/cool_img.jpg "Typewriter")
   buttonText: Click Here to Start the Quiz And Make a Difference!
   emailRequired: false
   header: This is the header for Joseph Quiz 5
   headercta:
     text: This is the header for Joseph Quiz 5
     url: 'https://www.google.com'
+  intro: >-
+    Welcome to my quiz! 1. Point 1 2. Point 2 * Point 3 * Point 4
+    ![Typewriter](/img/cool_img.jpg "Typewriter")
 questions:
   backgroundImage: /img/backgroundStar.png
   question:
@@ -63,9 +63,9 @@ questions:
   questionvalue: 50
 resultspage:
   backgroundImage: /img/stacey-background.jpg
-  outro: Thank you for taking the quiz!
   cta:
     text: DONATE TO HELP A GREAT CAUSE THAT HELPS LGBTQ+ YOUTH
     url: 'https://www.amazon.com'
+  outro: Thank you for taking the quiz!
 ---
 
