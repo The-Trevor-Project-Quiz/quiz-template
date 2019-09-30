@@ -37,12 +37,16 @@
     border-radius: 34px;
     border: 5px solid $color-orange;
     padding: 11px;
-    max-width: 325px;
-    width: 100%;
+    width: 325px;
 
     &:hover,
     &:focus {
         background-color: $color-orange;
+    }
+
+    @media screen and (min-width: 1024px) {
+        max-width: 325px;
+        width: 100%
     }
 }
 

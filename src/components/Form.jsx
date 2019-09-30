@@ -24,7 +24,7 @@ function Form(props) {
                         <div className='inputs'>
                             <input className={'inputs__field email ' + (invalidEmail ? 'invalid-email' : '')} type="email" name="email" placeholder='Email' onChange={(e) => props.setFormData({ ...props.formData, [e.target.name]: e.target.value })} value={props.formData.email} />
                             <input className='inputs__field zip' type="text" name="zipcode" placeholder='Zip' onChange={(e) => props.setFormData({ ...props.formData, [e.target.name]: e.target.value })} value={props.formData.zipcode} />
-                            { invalidEmail ? <p className='invalid'><img src={errImg} alt='Error Bang'/> Error Invalid Email</p> : null }
+                            { invalidEmail ? <p className='invalid'><img src={errImg} alt='Error Bang'/>Invalid Email Address</p> : null }
                         </div>
                     : null 
                     }
