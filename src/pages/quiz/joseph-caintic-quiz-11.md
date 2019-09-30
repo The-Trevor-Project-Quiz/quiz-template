@@ -7,7 +7,7 @@ siteMetadta:
   url: 'https://confident-archimedes-ed555e.netlify.com/'
 splash:
   backgroundImage: /img/pexels-photo-259915.jpeg
-  buttonText: START
+  buttonText: Start Quiz
   emailRequired: true
   header: Welcome to Joseph Caintic Quiz 11
   headercta:
