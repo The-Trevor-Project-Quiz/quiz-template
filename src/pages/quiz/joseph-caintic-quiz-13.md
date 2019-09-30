@@ -27,7 +27,7 @@ questions:
       options:
         - iscorrect: true
           optiontext: 'YES'
-      questionimage: ''
+      questionimage: /img/2b-answer-harvey_milk.jpg
       questiontext: TEST
   questionvalue: 0
 resultspage:
