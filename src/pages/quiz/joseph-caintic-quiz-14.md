@@ -25,9 +25,20 @@ questions:
           description: Wrong
           heading: 'No'
       options:
-        - iscorrect: false
+        - iscorrect: true
           optiontext: TEST
       questiontext: TEST
+    - answers:
+        correctanswer:
+          description: Right!
+          heading: Right
+        incorrectanswer:
+          description: Wrong!
+          heading: Wrong
+      options:
+        - iscorrect: true
+          optiontext: Good
+      questiontext: Test 2
   questionvalue: 1
 resultspage:
   backgroundImage: /img/4a-four_people.jpg
