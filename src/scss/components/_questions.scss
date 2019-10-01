@@ -1,6 +1,4 @@
 .content {
-    display: flex;
-    flex-direction: column;
     height: calc(100vh - 62px);
 }
 
@@ -10,7 +8,7 @@
     padding: 35px 25px 0;
 
     @media screen and (min-width: 1024px) {
-        padding-top: 0;
+        padding-top: 110px;
     } 
 
     &--image {
