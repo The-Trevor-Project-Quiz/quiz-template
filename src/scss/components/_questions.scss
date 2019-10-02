@@ -46,6 +46,7 @@
     &.next {
         border-radius: 34px;
         border: 5px solid $color-orange;
+        width: 325px;
 
         &:hover,
         &:focus {
@@ -95,9 +96,8 @@
         .option-item {
             border-radius: 34px;
             border: 5px solid $color-orange;
-            width: 100%;
             margin-bottom: 15px;
-            max-width: 325px;
+            width: 325px;
 
             @media (pointer: fine) {
                 &:hover,
@@ -107,8 +107,8 @@
             }
 
             @media screen and (min-width: 1024px) {
-                max-width: 275px;
                 margin-right: 15px;
+                max-width: 275px;
             }
         }
         
