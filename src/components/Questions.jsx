@@ -67,7 +67,8 @@ function Questions(props){
                             {options.slice(0, 4).map((option, key) => {
                                 return (
                                     <li key={`option-${key}`} className='option-item'>
-                                        <button className='quiz-btn' onClick={() => selectOption(option.iscorrect, questiontext, option.optiontext)}>{ option.optiontext }</button>
+                                        <label className='quiz-btn' htmlFor={option.optiontext} onClick={() => selectOption(option.iscorrect, questiontext, option.optiontext)}>{ option.optiontext}</label>
+                                        <input id={option.optiontext} type='radio' name={ questiontext } />
                                     </li>
                                 )
                             })}
@@ -102,7 +103,7 @@ function Questions(props){
                                 : null
                             }
                             <p className='answer__description'> { showAnswer.description }</p>
-                            <button className='quiz-btn' onClick={() => changeQuestion()}>{ props.start[0] + 1 === props.questionNum ? 'Find Out Your Score' : 'Next' }</button>
+                            <button className='quiz-btn next' onClick={() => changeQuestion()}>{ props.start[0] + 1 === props.questionNum ? 'Find Out Your Score' : 'Next' }</button>
                             </div>
                             { answers.answerimage && resizeWidth === 'desktopImage' ?
                                 <div className={'q-image ' + ( resizeHeight ? 'portrait' : '' ) }>

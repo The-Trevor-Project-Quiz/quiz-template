@@ -23,27 +23,34 @@
 }
 
 .quiz-btn {
+    align-items: center;
     color: $color-space-grey;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
     font-size: 15px;
     font-weight: 900;
     line-height: 1.13;
     letter-spacing: 0.5px;
-    text-align: center;
     text-transform: uppercase;
-    height: 60px;
-    border-radius: 34px;
-    border: 5px solid $color-orange;
-    padding: 11px;
-    width: 325px;
-
-    &:hover,
-    &:focus {
-        background-color: $color-orange;
-    }
+    height: 50px;
+    max-width: 235px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
 
     @media screen and (min-width: 1024px) {
         max-width: 325px;
-        width: 100%
+    }
+
+    &.next {
+        border-radius: 34px;
+        border: 5px solid $color-orange;
+
+        &:hover,
+        &:focus {
+            background-color: $color-orange;
+        }
     }
 }
 
@@ -86,9 +93,16 @@
         margin-bottom: 75px;
 
         .option-item {
+            border-radius: 34px;
+            border: 5px solid $color-orange;
             width: 100%;
             margin-bottom: 15px;
             max-width: 325px;
+
+            &:hover,
+            &:focus {
+                background-color: $color-orange;
+            }
 
             @media screen and (min-width: 1024px) {
                 max-width: 275px;

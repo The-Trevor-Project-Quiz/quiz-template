@@ -20,6 +20,11 @@
         padding: 7px 17px;
         text-transform: uppercase;
         text-decoration: none;
+
+        &:hover,
+        &:focus {
+            background-color: $color-dark-orange;
+        }
     }
 
     &.quiz-started {
@@ -28,6 +33,11 @@
         .main-header__link {
             background-color: $color-white;
             color: $color-space-grey;
+
+            &:hover,
+            &:focus {
+                background-color: $color-star-grey;
+            }
         }
     }
 }
