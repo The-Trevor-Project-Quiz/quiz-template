@@ -26,7 +26,7 @@
 
 # 🖌️ Quiz Customization
 
-Each Quiz has the option to have it's own custom css, by targeting the quiz own `css` class, wich takes from the title of the quiz.
+Each quiz will have a unique `CLASS` applied which can be used to target `CSS` customizations specific to individual quizzes, this `CLASS` will be the title of the quiz.
 
 To begin your customization  you first need to access the specifc file where the styles of the elemnts are **`/src/scss/components/[Name_Of_Component]`**.
 
