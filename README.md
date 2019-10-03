@@ -54,7 +54,7 @@ _NOTE: Every `CSS` edit should be made at the end of the file since the file get
 
 # 💫 Deploy
 
-Once evry change it's completed and the files are saved with the cahnges, it's time to publish them.
+Once every change it's completed and the files are saved with the changes, it's time to publish them.
 
 ### First you need to stage the changes.
 ```sh
@@ -76,7 +76,7 @@ git pull origin master
 ```
 
 ### Pushing you changes live
-By pushing your commits to github, netlify will do a automated deployment to the live site, and chenges will be live after the deployment it's done.
+By pushing your commits to github, netlify will do a automated deployment to the live site, and changes will be live after the deployment it's done.
 ```sh
 # Your commits will now be on github
 git push origin master
