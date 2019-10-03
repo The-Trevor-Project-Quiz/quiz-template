@@ -34,8 +34,6 @@ A quick example would be:
 
 Accessing **`/src/scss/components/_header.scss`** to start editing the header component.
 
-Every style customization should start with the class selector of the
-
 ```scss
 // Title of the Quiz
 .without-image {
