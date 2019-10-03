@@ -1,34 +1,20 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's hello-world starter
-</h1>
+![Trevor Project Logo](/src/img/logo.svg)
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+# 🚀 Quick start to Local Development
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
-
-## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
+1.  **Clone Repo**
 
     ```sh
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
+    git clone [REPO_URL]
     ```
 
 1.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into your site directory, install packages and start it up.
 
     ```sh
-    cd my-hello-world-starter/
+    cd quiz-template
+    yarn install [or] npm install
     gatsby develop
     ```
 
@@ -38,60 +24,68 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+# 🖌️ Quiz Customization
 
-## 🧐 What's inside?
+Each Quiz has the option to have it's own custom css, by targeting the quiz own `css` class, wich takes from the title of the quiz.
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+To begin your customization  you first need to access the specifc file where the styles of the elemnts are **`/src/scss/components/[Name_Of_Component]`**.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+A quick example would be:
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+Accessing **`/src/scss/components/_header.scss`** to start editing the header component.
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+Every style customization should start with the class selector of the
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+```scss
+// Title of the Quiz
+.without-image {
+  // Setting new background-color for HeaderBar
+    .main-header {
+        background-color: yellow;
+    }
+  // Setting new background-color for HeaderBar once the Quiz has started
+    .quiz-started {
+        background-color: blue;
+    }
+}
+```
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+_NOTE: Every `CSS` edit should be made at the end of the file since the file gets proccessed from top to bottom._
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+# 💫 Deploy
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+Once evry change it's completed and the files are saved with the cahnges, it's time to publish them.
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+### First you need to stage the changes.
+```sh
+# Will stage every file with a saved change
+git add .
+# To stage an individual file
+git add /src/scss/components/_header.scss
+```
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+### Then you need to commit the changes with a message.
+```sh
+# Commit all of your changes on stage with a message 
+git commit -m 'new css customization'
+```
+_NOTE: Before creating your commit you always want to make sure you have the most recent version of the code in your local._
+```sh
+# It's gonna pull any new change that your local doesn't have from github
+git pull origin master
+```
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+### Pushing you changes live
+By pushing your commits to github, netlify will do a automated deployment to the live site, and chenges will be live after the deployment it's done.
+```sh
+# Your commits will now be on github
+git push origin master
+```
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
+# 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
