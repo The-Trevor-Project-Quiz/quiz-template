@@ -34,6 +34,7 @@ questions:
   backgroundImage: /img/backgroundStar.png
   question:
     - answers:
+        answerimage: /img/laverne2.jpg
         correctanswer:
           description: >-
             Laverne Cox said that! Cox is an American actress and LGBTQ+
