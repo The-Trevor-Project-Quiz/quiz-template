@@ -15,7 +15,7 @@ siteMetadta:
 splash:
   backgroundImage: /img/backgroundStar.png
   buttonText: LET'S GET STARTED
-  emailRequired: true
+  emailRequired: false
   header: LGBTQ History Month
   headercta:
     text: GIVE NOW
