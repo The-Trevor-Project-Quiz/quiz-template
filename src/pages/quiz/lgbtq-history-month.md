@@ -212,7 +212,7 @@ questions:
         New York State Poet Laureate? 
   questionvalue: 0
 resultspage:
-  backgroundImage: /img/backgroundStar.png
+  backgroundImage: /img/trevor-overlay.jpg
   cta:
     text: DONATE TODAY
     url: >-
