@@ -33,7 +33,7 @@ questions:
   backgroundImage: /img/backgroundStar.png
   question:
     - answers:
-        answerimage: /img/laverne2.jpg
+        answerimage: /img/lc2.jpg
         correctanswer:
           description: >-
             Laverne Cox said that! Cox is an American actress and LGBTQ+
@@ -222,6 +222,6 @@ resultspage:
     text: DONATE TODAY
     url: >-
       https://give.thetrevorproject.org/give/63307/#!/donation/checkout?c_src=CLICK&c_src2=2019LGBTQhistory
-  outro: "Thank you for taking this quiz to celebrate LGBTQ History Month with us. We hope you were able to learn a thing or two about those who have paved the road for the future of the LGBTQ community. \n\nTo understand our history is to prepare for our future. If you would like to be a part of making the future brighter for LGBTQ youth, [**please consider making a gift to The Trevor Project in honor of LGBTQ History Month today**](https://give.thetrevorproject.org/give/63307/#!/donation/checkout?c_src=CLICK&c_src2=2019LGBTQhistory). \U0001F3F3️‍\U0001F308"
+  outro: "Thank you for taking this quiz to celebrate LGBTQ History Month with us. We hope you were able to learn a thing or two about those who have paved the road for the future of the LGBTQ community. \n\nTo understand our history is to prepare for our future. If you would like to be a part of making the future brighter for LGBTQ youth, **please consider making a gift to The Trevor Project in honor of LGBTQ History Month today**. \U0001F3F3️‍\U0001F308"
 ---
 
