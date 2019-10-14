@@ -25,8 +25,7 @@ splash:
     An important part of looking towards the future of the LGBTQ community is
     recognizing and educating ourselves about our past. This LGBTQ History
     Month, The Trevor Project want to celebrate with you and test your knowledge
-    of some of the most famous — past and present — icons in the LGBTQ
-    community. 
+    of some of the most famous past and present LGBTQ icons.
 
 
     Take our LGBTQ History Month quiz now!
