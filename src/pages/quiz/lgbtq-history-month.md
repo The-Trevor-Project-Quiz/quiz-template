@@ -63,6 +63,7 @@ questions:
         Who said “It is revolutionary for any trans person to choose to be seen
         and visible in a world that tells us we should not exist.”? 
     - answers:
+        answerimage: /img/mpj-and-sr.png
         correctanswer:
           description: >-
             Sylvia Rivera was a fearless activist for gay and later more
@@ -94,6 +95,7 @@ questions:
         In 1970, what organization did Sylvia Rivera found with her best friend
         Marsha P. Johnson?
     - answers:
+        answerimage: /img/2b-answer-harvey_milk.jpg
         correctanswer:
           description: >-
             Harvey Milk was the first openly gay elected official in the history
@@ -123,6 +125,7 @@ questions:
         Harvey Milk was famously the first openly gay elected official in the
         history of California. What office was he elected to?  
     - answers:
+        answerimage: /img/takei.jpg
         correctanswer:
           description: >
             Most know him as Sulu from Star Trek, but he also regularly speaks
@@ -146,6 +149,7 @@ questions:
           optiontext: Maulik Pancholy
       questiontext: Which famous LGBTQ actor said “Being gay is a natural part of who I am”?
     - answers:
+        answerimage: /img/gb.jpg
         correctanswer:
           description: >
             Glenn Burke was an outfielder for the Los Angeles Dodgers. He was
@@ -175,6 +179,7 @@ questions:
         to be open about his sexuality to his teammates — what team did he play
         for from 1976 to 1979? 
     - answers:
+        answerimage: /img/al.jpg
         correctanswer:
           description: >-
             Audre Lorde was known for being candid in her writing about
