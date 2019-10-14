@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master
 
-site_url: https://confident-archimedes-ed555e.netlify.com/
+site_url: https://click.thetrevorproject.org/
 
 publish_mode: editorial_workflow
 
