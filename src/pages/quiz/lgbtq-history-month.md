@@ -10,7 +10,7 @@ siteMetadta:
 
 
     Take our LGBTQ History Month quiz now! 
-  lightBg: true
+  lightBg: false
   shareImage: /img/trevor.jpeg
   url: 'https://click.thetrevorproject.org/quiz/lgbtq-history-month'
 splash:
