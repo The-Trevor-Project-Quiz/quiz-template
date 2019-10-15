@@ -24,9 +24,10 @@ collections:
         name: 'siteMetadta'
         widget: 'object'
         fields: 
+          - { label: "Light Background", name: "lightBg", widget: "boolean", default: true }
           - { label: Description, name: description, widget: text }
           - { label: ShareImage, name: shareImage, widget: image }
-          - { label: URL, name: url, widget: string, default: https://confident-archimedes-ed555e.netlify.com/ }
+          - { label: URL, name: url, widget: string, default: https://click.thetrevorproject.org/ }
       - label: 'Splash'
         name: 'splash'
         widget: 'object'

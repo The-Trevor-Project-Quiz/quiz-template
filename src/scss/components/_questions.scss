@@ -28,11 +28,9 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
-    font-size: 15px;
-    font-weight: 900;
+    font-size: 1.1rem;
+    font-weight: 700;
     line-height: 1.13;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
     height: 50px;
     max-width: 235px;
     width: 100%;
@@ -44,9 +42,11 @@
     }
 
     &.next {
-        border-radius: 34px;
+        border-radius: 1rem;
         border: 5px solid $color-orange;
         width: 325px;
+        text-transform: uppercase;
+        font-weight:900;
 
         &:hover,
         &:focus {
@@ -75,6 +75,7 @@
     &__txt {
         color: $color-space-grey;
         font-size: 24px;
+        line-height:1.3em;
         font-weight: 900;
         max-width: 325px;
         text-align: center;
@@ -94,10 +95,11 @@
         margin-bottom: 75px;
 
         .option-item {
-            border-radius: 34px;
+            border-radius: 1rem;
             border: 5px solid $color-orange;
             margin-bottom: 15px;
             width: 325px;
+            background-color: rgba(255,255,255,0.3);
 
             @media (pointer: fine) {
                 &:hover,

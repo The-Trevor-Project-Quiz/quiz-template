@@ -12,7 +12,7 @@
 
     &__link {
         background-color: $color-orange;
-        border-radius: 15px;
+        border-radius: .4rem;
         font-size: 15px;
         color: $color-white;
         max-width: 100px;
@@ -32,7 +32,8 @@
 
         .main-header__link {
             background-color: $color-white;
-            color: $color-space-grey;
+            color: $color-orange;
+            font-weight: 900;
 
             &:hover,
             &:focus {
