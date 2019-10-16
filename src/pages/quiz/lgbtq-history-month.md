@@ -39,17 +39,17 @@ questions:
           description: >-
             Laverne Cox said that! Cox is an American actress and LGBTQ+
             advocate. She rose to prominence with her role as Sophia Burset on
-            the Netflix series <i>Orange Is the New Black</i>, becoming the
-            first openly transgender person to be nominated for a Primetime Emmy
-            Award in any acting category.
+            the Netflix series Orange Is the New Black, becoming the first
+            openly transgender person to be nominated for a Primetime Emmy Award
+            in any acting category.
           heading: Great job!
         incorrectanswer:
           description: >-
             Actually, Laverne Cox spoke those words! Cox is an American actress
             and LGBTQ+ advocate. She rose to prominence with her role as Sophia
-            Burset on the Netflix series <i>Orange Is the New Black</i>,
-            becoming the first openly transgender person to be nominated for a
-            Primetime Emmy Award in any acting category.
+            Burset on the Netflix series Orange Is the New Black, becoming the
+            first openly transgender person to be nominated for a Primetime Emmy
+            Award in any acting category.
           heading: Not quite!
       options:
         - iscorrect: false
@@ -131,15 +131,15 @@ questions:
         answerimage: /img/takei.jpg
         correctanswer:
           description: >-
-            Most know him as Sulu from <i>Star Trek</i>, but he also regularly
-            speaks out on LGBTQ equality issues. Our favorite <i>Star Trek</i>
-            officer spoke these iconic words — George Takei!  
+            Most know him as Sulu from Star Trek, but he also regularly speaks
+            out on LGBTQ equality issues. Our favorite Star Trek officer spoke
+            these iconic words — George Takei!  
           heading: 'Affirmative! '
         incorrectanswer:
           description: >-
-            Most know him as Sulu from <i>Star Trek</i>, but he also regularly
-            speaks out on LGBTQ equality issues. Our favorite <i>Star Trek</i>
-            officer spoke these iconic words — George Takei!
+            Most know him as Sulu from Star Trek, but he also regularly speaks
+            out on LGBTQ equality issues. Our favorite Star Trek officer spoke
+            these iconic words — George Takei!
           heading: 'Negative... '
       options:
         - iscorrect: true
