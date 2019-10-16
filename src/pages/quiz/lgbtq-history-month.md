@@ -29,7 +29,7 @@ splash:
 
 
     Take our LGBTQ History Month quiz now!
-  lightBg: true
+  lightBg: false
 questions:
   backgroundImage: /img/backgroundStar.png
   question:
