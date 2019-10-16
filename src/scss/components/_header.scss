@@ -15,6 +15,7 @@
         border-radius: .4rem;
         font-size: 15px;
         color: $color-white;
+        font-weight: 900;
         max-width: 100px;
         max-height: 35px;
         padding: 7px 17px;
@@ -33,7 +34,6 @@
         .main-header__link {
             background-color: $color-white;
             color: $color-orange;
-            font-weight: 900;
 
             &:hover,
             &:focus {
