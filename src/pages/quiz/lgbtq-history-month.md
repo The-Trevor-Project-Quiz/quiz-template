@@ -2,11 +2,11 @@
 templateKey: QuizController
 title: LGBTQ History Month
 siteMetadta:
-  description: >
+  description: >-
     An important part of looking towards the future of the LGBTQ community is
     recognizing and educating ourselves about our past. This LGBTQ History
-    Month, The Trevor Project wants to test your knowledge of some of the most
-    famous — past and present — icons in the LGBTQ community. 
+    Month, The Trevor Project is  celebrating by sharing this quiz about some of
+    the most famous past and present LGBTQ icons.
 
 
     Take our LGBTQ History Month quiz now! 
@@ -25,8 +25,8 @@ splash:
   intro: >-
     An important part of looking towards the future of the LGBTQ community is
     recognizing and educating ourselves about our past. This LGBTQ History
-    Month, The Trevor Project want to celebrate with you and test your knowledge
-    of some of the most famous past and present LGBTQ icons.
+    Month, The Trevor Project is  celebrating by sharing this quiz about some of
+    the most famous past and present LGBTQ icons.
 
 
     Take our LGBTQ History Month quiz now!
@@ -39,17 +39,17 @@ questions:
           description: >-
             Laverne Cox said that! Cox is an American actress and LGBTQ+
             advocate. She rose to prominence with her role as Sophia Burset on
-            the Netflix series Orange Is the New Black, becoming the first
-            openly transgender person to be nominated for a Primetime Emmy Award
-            in any acting category.
+            the Netflix series <i>Orange Is the New Black</i>, becoming the
+            first openly transgender person to be nominated for a Primetime Emmy
+            Award in any acting category.
           heading: Great job!
         incorrectanswer:
           description: >-
             Actually, Laverne Cox spoke those words! Cox is an American actress
             and LGBTQ+ advocate. She rose to prominence with her role as Sophia
-            Burset on the Netflix series Orange Is the New Black, becoming the
-            first openly transgender person to be nominated for a Primetime Emmy
-            Award in any acting category.
+            Burset on the Netflix series <i>Orange Is the New Black</i>,
+            becoming the first openly transgender person to be nominated for a
+            Primetime Emmy Award in any acting category.
           heading: Not quite!
       options:
         - iscorrect: false
@@ -64,7 +64,7 @@ questions:
       questionimagemobile: /img/group-1-mobile.jpg
       questiontext: >-
         Who said “It is revolutionary for any trans person to choose to be seen
-        and visible in a world that tells us we should not exist.”? 
+        and visible in a world that tells us we should not exist.”?
     - answers:
         answerimage: /img/mpj-and-sr.png
         correctanswer:
@@ -73,11 +73,11 @@ questions:
             trans-specific legislation. Alongside her was best friend, Marsha P.
             Johnson, who was famous as an American gay liberation activist.
             STAR, the organization they founded, offered services for the
-            homeless queer youth of Christopher Street in New York City. 
+            homeless queer youth of Christopher Street in New York City.
           heading: 'That’s right! '
         incorrectanswer:
           description: >
-            Sylvia Rivera and Marsha P. Johnson founded Street Transvestite
+            Syliva Rivera and Marsha P. Johnson founded Street Transvestite
             Action Revolutionaries (STAR). Rivera was a fearless activist for
             gay and later more trans-specific legislation. Alongside her was
             best friend, Marsha P. Johnson, who was famous as an American gay
@@ -113,7 +113,7 @@ questions:
             of California and was elected to the San Francisco Board of
             Supervisors. One of his most famous quotes is from his campaign
             trail, “I’m Harvey Milk and I want to recruit you,'' was his opening
-            line while speaking throughout San Francisco. 
+            line while speaking throughout San Francisco.
           heading: That was a tough one!
       options:
         - iscorrect: false
@@ -126,20 +126,20 @@ questions:
           optiontext: San Francisco Board of Supervisors
       questiontext: >-
         Harvey Milk was famously the first openly gay elected official in the
-        history of California. What office was he elected to?  
+        history of California. What office was he elected to?
     - answers:
         answerimage: /img/takei.jpg
         correctanswer:
-          description: >
-            Most know him as Sulu from Star Trek, but he also regularly speaks
-            out on LGBTQ equality issues. Our favorite Star Trek officer spoke
-            these iconic words — George Takei!  
+          description: >-
+            Most know him as Sulu from <i>Star Trek</i>, but he also regularly
+            speaks out on LGBTQ equality issues. Our favorite <i>Star Trek</i>
+            officer spoke these iconic words — George Takei!  
           heading: 'Affirmative! '
         incorrectanswer:
           description: >-
-            Most know him as Sulu from Star Trek, but he also regularly speaks
-            out on LGBTQ equality issues. Our favorite Star Trek officer spoke
-            these iconic words — George Takei!  
+            Most know him as Sulu from <i>Star Trek</i>, but he also regularly
+            speaks out on LGBTQ equality issues. Our favorite <i>Star Trek</i>
+            officer spoke these iconic words — George Takei!
           heading: 'Negative... '
       options:
         - iscorrect: true
@@ -150,11 +150,13 @@ questions:
           optiontext: Zachary Quinto
         - iscorrect: false
           optiontext: Maulik Pancholy
-      questiontext: Which famous LGBTQ actor said “Being gay is a natural part of who I am”?
+      questiontext: >-
+        Which famous LGBTQ actor said “Being gay is a natural part of who I
+        am.”?
     - answers:
         answerimage: /img/gb.jpg
         correctanswer:
-          description: >
+          description: >-
             Glenn Burke was an outfielder for the Los Angeles Dodgers. He was
             well known for his interview with the Philadelphia Inquirer in 1995
             where he is quoted saying, “They can't ever say now that a gay man
@@ -180,7 +182,7 @@ questions:
       questiontext: >-
         Glenn Burke was famous for being the first Major League Baseball player
         to be open about his sexuality to his teammates — what team did he play
-        for from 1976 to 1979? 
+        for from 1976 to 1979?
     - answers:
         answerimage: /img/al.jpg
         correctanswer:
@@ -189,10 +191,10 @@ questions:
             everything from sexuality and gender to her personal battle with
             breast cancer. Before serving as New York State Poet Laureate, she
             was a librarian. Later in her career, she encouraged her friend
-            Barbara Smith to found “Kitchen Table: Women of Color Press”, the
+            Barbara Smith to found “Kitchen Table: Women of Color Press,” the
             first U.S. publisher by, for, and about women of color. Lorde is the
             namesake of two major NY LGBTQ organizations: the Callen-Lorde
-            Community Health Center, and the Audre Lorde Project in Brooklyn. 
+            Community Health Center, and the Audre Lorde Project in Brooklyn.
           heading: You must be a bookworm!
         incorrectanswer:
           description: >-
@@ -200,10 +202,10 @@ questions:
             everything from sexuality and gender to her personal battle with
             breast cancer. Before serving as New York State Poet Laureate, she
             was a librarian. Later in her career, she encouraged her friend
-            Barbara Smith to found “Kitchen Table: Women of Color Press”, the
+            Barbara Smith to found “Kitchen Table: Women of Color Press,” the
             first U.S. publisher by, for, and about women of color. Lorde is the
             namesake of two major NY LGBTQ organizations: the Callen-Lorde
-            Community Health Center, and the Audre Lorde Project in Brooklyn. 
+            Community Health Center, and the Audre Lorde Project in Brooklyn.
           heading: Actually....
       options:
         - iscorrect: false
@@ -215,9 +217,9 @@ questions:
         - iscorrect: false
           optiontext: Photographer
       questiontext: >-
-        Audre Lorde is a self-described “black lesbian mother warrior poet”.
+        Audre Lorde is a self-described “black lesbian mother warrior poet.”
         What job did Lorde have before becoming an outspoken poet and serving as
-        New York State Poet Laureate? 
+        New York State Poet Laureate?
   questionvalue: 0
 resultspage:
   backgroundImage: /img/pride-flag.jpg
@@ -225,6 +227,6 @@ resultspage:
     text: DONATE TODAY
     url: >-
       https://give.thetrevorproject.org/give/63307/#!/donation/checkout?c_src=CLICK&c_src2=2019LGBTQhistory
-  outro: "Thank you for taking this quiz to celebrate LGBTQ History Month with us. We hope you were able to learn a thing or two about those who have paved the road for the future of the LGBTQ community. \n\nTo understand our history is to prepare for our future. If you would like to be a part of making the future brighter for LGBTQ youth, **please consider making a gift to The Trevor Project in honor of LGBTQ History Month today**. \U0001F3F3️‍\U0001F308"
+  outro: "Thank you for taking this quiz to celebrate LGBTQ History Month with us. We hope you were able to learn a thing or two about those who have paved the road for the future of the LGBTQ community.\n\nTo understand our history is to prepare for our future. If you would like to be a part of making the future brighter for LGBTQ youth, **please consider making a gift to The Trevor Project in honor of LGBTQ History Month today**. \U0001F3F3️‍\U0001F308"
 ---
 
