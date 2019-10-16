@@ -10,6 +10,7 @@ siteMetadta:
 
 
     Take our LGBTQ History Month quiz now! 
+  lightBg: false
   shareImage: /img/trevor.jpeg
   url: 'https://click.thetrevorproject.org/quiz/lgbtq-history-month'
 splash:
@@ -29,7 +30,6 @@ splash:
 
 
     Take our LGBTQ History Month quiz now!
-  lightBg: false
 questions:
   backgroundImage: /img/backgroundStar.png
   question:
@@ -60,6 +60,8 @@ questions:
           optiontext: 'Laverne Cox '
         - iscorrect: false
           optiontext: Indya Moore
+      questionimage: /img/group-1.jpg
+      questionimagemobile: /img/group-1-mobile.jpg
       questiontext: >-
         Who said “It is revolutionary for any trans person to choose to be seen
         and visible in a world that tells us we should not exist.”? 
