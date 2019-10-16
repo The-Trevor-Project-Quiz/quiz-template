@@ -1,6 +1,7 @@
 ---
 templateKey: QuizController
 title: Test Images
+lightBg: true
 siteMetadta:
   description: This is a quiz to test images per questions.
   shareImage: /img/trevor.jpeg
@@ -21,7 +22,6 @@ splash:
 
 
     Take our LGBTQ History Month quiz now!
-  lightBg: true
 questions:
   backgroundImage: /img/backgroundStar.png
   question:
