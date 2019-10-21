@@ -63,8 +63,8 @@ questions:
       questionimage: /img/group-1.jpg
       questionimagemobile: /img/group-1-mobile.jpg
       questiontext: >-
-        Who said “It is revolutionary for any trans person to choose to be seen
-        and visible in a world that tells us we should not exist.”?
+        Who said “For me, being in the media has been a powerful tool and a huge
+        responsibility.”?
     - answers:
         answerimage: /img/mpj-and-sr.png
         correctanswer:
