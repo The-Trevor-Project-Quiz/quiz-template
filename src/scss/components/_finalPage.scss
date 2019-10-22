@@ -78,9 +78,11 @@
         width: 100%;
         max-width: 200px;
         align-items: center;
+        background-color: $color-orange;
+        padding: 1rem 0 1rem 3rem;
 
         p {
-            color: $color-white;
+            color: $color-space-grey;
             font-size: 13px;
             font-weight: bold;
             line-height: 2.23;
