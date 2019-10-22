@@ -34,7 +34,7 @@ questions:
   backgroundImage: /img/backgroundStar.png
   question:
     - answers:
-        answerimage: /img/lc2.jpg
+        answerimage: ''
         correctanswer:
           description: >-
             Laverne Cox said that! Cox is an American actress and LGBTQ+
@@ -60,13 +60,13 @@ questions:
           optiontext: 'Laverne Cox '
         - iscorrect: false
           optiontext: Indya Moore
-      questionimage: /img/group-1.jpg
-      questionimagemobile: /img/group-1-mobile.jpg
+      questionimage: ''
+      questionimagemobile: ''
       questiontext: >-
         Who said “For me, being in the media has been a powerful tool and a huge
         responsibility.”?
     - answers:
-        answerimage: /img/mpj-and-sr.png
+        answerimage: ''
         correctanswer:
           description: >-
             Sylvia Rivera was a fearless activist for gay and later more
@@ -98,7 +98,7 @@ questions:
         In 1970, what organization did Sylvia Rivera found with her best friend
         Marsha P. Johnson?
     - answers:
-        answerimage: /img/2b-answer-harvey_milk.jpg
+        answerimage: ''
         correctanswer:
           description: >-
             Harvey Milk was the first openly gay elected official in the history
@@ -128,7 +128,7 @@ questions:
         Harvey Milk was famously the first openly gay elected official in the
         history of California. What office was he elected to?
     - answers:
-        answerimage: /img/takei.jpg
+        answerimage: ''
         correctanswer:
           description: >-
             Most know him as Sulu from Star Trek, but he also regularly speaks
@@ -154,7 +154,7 @@ questions:
         Which famous LGBTQ actor said “Being gay is a natural part of who I
         am.”?
     - answers:
-        answerimage: /img/gb.jpg
+        answerimage: ''
         correctanswer:
           description: >-
             Glenn Burke was an outfielder for the Los Angeles Dodgers. He was
@@ -184,7 +184,7 @@ questions:
         to be open about his sexuality to his teammates — what team did he play
         for from 1976 to 1979?
     - answers:
-        answerimage: /img/al.jpg
+        answerimage: ''
         correctanswer:
           description: >-
             Audre Lorde was known for being candid in her writing about
@@ -222,7 +222,7 @@ questions:
         New York State Poet Laureate?
   questionvalue: 0
 resultspage:
-  backgroundImage: /img/pride-flag.jpg
+  backgroundImage: /img/light-default-bg.jpg
   cta:
     text: DONATE TODAY
     url: >-
