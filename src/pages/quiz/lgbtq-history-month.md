@@ -14,7 +14,7 @@ siteMetadta:
   shareImage: /img/trevor.jpeg
   url: 'https://click.thetrevorproject.org/quiz/lgbtq-history-month'
 splash:
-  backgroundImage: /img/light-default-bg.jpg
+  backgroundImage: /img/pride-bg.jpg
   buttonText: LET'S GET STARTED
   emailRequired: false
   header: LGBTQ History Month
@@ -222,7 +222,7 @@ questions:
         New York State Poet Laureate?
   questionvalue: 0
 resultspage:
-  backgroundImage: /img/pride-flag.jpg
+  backgroundImage: /img/pride-bg.jpg
   cta:
     text: DONATE TODAY
     url: >-
