@@ -222,7 +222,7 @@ questions:
         New York State Poet Laureate?
   questionvalue: 0
 resultspage:
-  backgroundImage: /img/light-default-bg.jpg
+  backgroundImage: /img/pride-flag.jpg
   cta:
     text: DONATE TODAY
     url: >-
