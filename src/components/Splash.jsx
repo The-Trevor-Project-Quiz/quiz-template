@@ -8,18 +8,13 @@ function Splash(props) {
 
     const { backgroundImage, buttonText, emailRequired, header, intro } = props.splash;
     const converter = new showdown.Converter();
-    let classRender;
-    if (props.lightBg == true) {
-        classRender = 'splash-screen light';
-    } else {
-        classRender = 'splash-screen';
-    }
+
     return (
         <>
             <BgImage fluid={ backgroundImage.childImageSharp.fluid }
                     height='100vh'
                     mobileHeight='100vh'>
-                <div className={classRender}>
+                    <div className='splash-screen'>
                     <h1 className='splash-screen__heading'>{header}</h1>
                     <div className='splash-screen__intro'
                         dangerouslySetInnerHTML={{ __html: converter.makeHtml(intro) }} />
