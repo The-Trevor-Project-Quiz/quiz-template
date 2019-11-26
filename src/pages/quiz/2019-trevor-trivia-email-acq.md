@@ -1,6 +1,6 @@
 ---
 templateKey: QuizController
-title: 2019 Trevor Trivia (Email Acq)
+title: 2019 Trevor Trivia Email Acq
 lightBg: false
 siteMetadta:
   description: >-
