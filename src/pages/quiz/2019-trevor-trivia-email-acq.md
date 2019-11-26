@@ -256,6 +256,33 @@ questions:
         September was National Suicide Prevention Awareness Month — The Trevor
         Project partnered with three other leading national organizations to
         launch what resource during this month to support LGBTQ students?
+    - answers:
+        correctanswer:
+          description: >-
+            This year we reached more LGBTQ young people than ever before in our
+            history. Our successes this year have been supported entirely by our
+            donors, supporters, and volunteers. We’re looking forward to
+            reaching even more young people in need of our services in 2020 with
+            your help.
+          heading: 'Over 100,000 youth served this year, and even more next.'
+        incorrectanswer:
+          description: >-
+            This year we reached more LGBTQ young people than ever before in our
+            history. Our successes this year have been supported entirely by our
+            donors, supporters, and volunteers. We’re looking forward to
+            reaching even more young people in need of our services in 2020 with
+            your help.
+          heading: 'Over 100,000 youth served this year, and even more next.'
+      options:
+        - iscorrect: false
+          optiontext: 'Over 5,000'
+        - iscorrect: false
+          optiontext: 'Over 20,000'
+        - iscorrect: false
+          optiontext: 'Over 50,000'
+        - iscorrect: true
+          optiontext: 'Over 100,000'
+      questiontext: How many youth did The Trevor Project serve in the past 12 months?
   questionvalue: 0
 resultspage:
   backgroundImage: /img/backgroundStar.png
