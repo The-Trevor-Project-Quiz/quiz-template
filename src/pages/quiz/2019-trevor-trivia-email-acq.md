@@ -133,6 +133,129 @@ questions:
       questiontext: >-
         As of 2019, what crisis intervention and suicide prevention services do
         we offer 24/7?
+    - answers:
+        correctanswer:
+          description: >-
+            One in four LGBTQ youth identified outside of the gender binary in
+            our 2019 research according to our National Survey on LGBTQ Youth
+            Mental Health. More specifically, 25% selected gender queer/gender
+            nonconforming, a different identity, or chose multiple identities.
+            At The Trevor Project, we embrace the diversity of gender identity
+            across our programs and services to create safe, accepting, and
+            inclusive spaces for LGBTQ youth.
+          heading: 25% is right
+        incorrectanswer:
+          description: >-
+            One in four LGBTQ youth identified outside of the gender binary in
+            our 2019 research according to our National Survey on LGBTQ Youth
+            Mental Health. More specifically, 25% selected gender queer/gender
+            nonconforming, a different identity, or chose multiple identities.
+            At The Trevor Project, we embrace the diversity of gender identity
+            across our programs and services to create safe, accepting, and
+            inclusive spaces for LGBTQ youth.
+          heading: It was actually 25%
+      options:
+        - iscorrect: false
+          optiontext: 5%
+        - iscorrect: false
+          optiontext: 10%
+        - iscorrect: true
+          optiontext: 25%
+        - iscorrect: false
+          optiontext: 50%
+      questiontext: >-
+        According to research done by The Trevor Project in 2019, what percent
+        of LGBTQ youth identify outside of the gender binary?
+    - answers:
+        correctanswer:
+          description: >-
+            The Trevor Project sent 100 copies of “A Day in the Life of Marlon
+            Bundo,” an illustrated children’s book that explores topics of
+            acceptance and marriage equality, to Immanuel Christian School,
+            where it was reported that second lady Karen Pence would teach art.
+            Our CEO & Executive Director, Amit Paley, said “We know that
+            lesbian, gay, and bisexual youth from rejecting families are more
+            than eight times more likely to attempt suicide than their straight
+            peers. We hope Immanuel Christian School will adopt policies of
+            inclusion for LGBTQ young people that make them feel safe, accepted,
+            and loved.”
+          heading: You got it!
+        incorrectanswer:
+          description: >-
+            The Trevor Project sent 100 copies of “A Day in the Life of Marlon
+            Bundo,” an illustrated children’s book that explores topics of
+            acceptance and marriage equality, to Immanuel Christian School,
+            where it was reported that second lady Karen Pence would teach art.
+            Our CEO & Executive Director, Amit Paley, said “We know that
+            lesbian, gay, and bisexual youth from rejecting families are more
+            than eight times more likely to attempt suicide than their straight
+            peers. We hope Immanuel Christian School will adopt policies of
+            inclusion for LGBTQ young people that make them feel safe, accepted,
+            and loved.”
+          heading: >-
+            While those are all great books, it was actually “A Day in the Life
+            of Marlon Bundo”
+      options:
+        - iscorrect: true
+          optiontext: A Day in the Life of Marlon Bundo
+        - iscorrect: false
+          optiontext: I Am Jazz
+        - iscorrect: false
+          optiontext: My Princess Boy
+        - iscorrect: false
+          optiontext: And Tango Makes Three
+      questiontext: >-
+        In January 2019, The Trevor Project donated 100 copies of a book to a
+        Virginia school in efforts to encourage more acceptance of LGBTQ youth —
+        what book was donated?
+    - answers:
+        correctanswer:
+          description: >-
+            Suicide prevention among young people is a growing concern across
+            the country. Schools have a critical role and responsibility in
+            identifying and providing interventions for students at risk for
+            suicide ideation and behavior.
+
+
+            Having effective suicide prevention policies is essential to meeting
+            this responsibility. To support schools’ efforts, The Trevor Project
+            with the American Foundation for Suicide Prevention, the American
+            School Counselor Association, and the National Association of School
+            Psychologists have collaborated to update the Model School Policy, a
+            comprehensive guidebook for school administrators and policy makers
+            containing best practices in suicide prevention, intervention and
+            postvention policies for K–12 schools.
+          heading: 'That’s right! '
+        incorrectanswer:
+          description: >-
+            Suicide prevention among young people is a growing concern across
+            the country. Schools have a critical role and responsibility in
+            identifying and providing interventions for students at risk for
+            suicide ideation and behavior.
+
+
+            Having effective suicide prevention policies is essential to meeting
+            this responsibility. To support schools’ efforts, The Trevor Project
+            with the American Foundation for Suicide Prevention, the American
+            School Counselor Association, and the National Association of School
+            Psychologists have collaborated to update the Model School Policy, a
+            comprehensive guidebook for school administrators and policy makers
+            containing best practices in suicide prevention, intervention and
+            postvention policies for K–12 schools.
+          heading: That was a hard one...
+      options:
+        - iscorrect: false
+          optiontext: LGBTQ Competency Guides for Educators
+        - iscorrect: false
+          optiontext: LGBTQ History Curriculum
+        - iscorrect: true
+          optiontext: Suicide Prevention Template Plan for School
+        - iscorrect: false
+          optiontext: Crisis Intervention Guides
+      questiontext: >-
+        September was National Suicide Prevention Awareness Month — The Trevor
+        Project partnered with three other leading national organizations to
+        launch what resource during this month to support LGBTQ students?
   questionvalue: 0
 resultspage:
   backgroundImage: /img/backgroundStar.png
