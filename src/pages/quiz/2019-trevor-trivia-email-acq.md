@@ -13,7 +13,7 @@ siteMetadta:
   shareImage: /img/adobestock_171529275.jpeg
   url: 'https://confident-archimedes-ed555e.netlify.com/'
 splash:
-  backgroundImage: /img/backgroundStar.png
+  backgroundImage: /img/light-default-bg.jpg
   buttonText: START THE QUIZ
   emailRequired: true
   header: 2019 TREVOR TRIVIA
@@ -36,10 +36,11 @@ splash:
 
     Take our short quiz and look back at 2019 with us:
 questions:
-  backgroundImage: /img/backgroundStar.png
+  backgroundImage: /img/90-white.png
   question:
     - answers:
         answerimage: /img/eoy19-questoin-1-results.jpg
+        answerimagemobile: /img/eoy19-mobile-questoin-1-results.jpg
         correctanswer:
           description: >-
             With the help of our advocacy team, New York became the first state
@@ -74,11 +75,13 @@ questions:
         - iscorrect: false
           optiontext: '43'
       questionimage: /img/eoy19-question-1.jpg
+      questionimagemobile: /img/eoy19-mobile-question-1.jpg
       questiontext: >-
         How many states passed conversion therapy protections for minors this
         year? 
     - answers:
         answerimage: /img/eoy19-question-2-results.jpg
+        answerimagemobile: /img/eoy19-mobile-question-2-results.jpg
         correctanswer:
           description: >-
             LGBTQ youth who report having at least one accepting adult were 40%
@@ -105,11 +108,13 @@ questions:
         - iscorrect: false
           optiontext: 'False'
       questionimage: /img/eoy19-question-2.jpg
+      questionimagemobile: /img/eoy19-mobile-question-2.jpg
       questiontext: >
         True or False: LGBTQ youth who report having at least one accepting
         adult were 40% less likely to report a suicide attempt in the past year.
     - answers:
         answerimage: /img/eoy19-question-3-results.jpg
+        answerimagemobile: /img/eoy19-mobile-question-3-results.jpg
         correctanswer:
           description: >-
             This year TrevorText and TrevorChat joined the TrevorLifeline as
@@ -136,11 +141,13 @@ questions:
         - iscorrect: true
           optiontext: 'All of the Above '
       questionimage: /img/eoy19-question-3.jpg
+      questionimagemobile: /img/eoy19-mobile-question-3.jpg
       questiontext: >-
         As of 2019, what crisis intervention and suicide prevention services do
         we offer 24/7?
     - answers:
         answerimage: /img/eoy19-question-4-results.jpg
+        answerimagemobile: /img/eoy19-mobile-question-4-results.jpg
         correctanswer:
           description: >-
             One in four LGBTQ youth identified outside of the gender binary in
@@ -171,11 +178,13 @@ questions:
         - iscorrect: false
           optiontext: 50%
       questionimage: /img/eoy19-question-4.jpg
+      questionimagemobile: /img/eoy19-mobile-question-4.jpg
       questiontext: >-
         According to research done by The Trevor Project in 2019, what percent
         of LGBTQ youth identify outside of the gender binary?
     - answers:
         answerimage: /img/eoy19-question-5-results.jpg
+        answerimagemobile: /img/eoy19-mobile-question-5-results.jpg
         correctanswer:
           description: >-
             The Trevor Project sent 100 copies of “A Day in the Life of Marlon
@@ -214,12 +223,14 @@ questions:
         - iscorrect: false
           optiontext: And Tango Makes Three
       questionimage: /img/eoy19-question-5.jpg
+      questionimagemobile: /img/eoy19-mobile-question-5.jpg
       questiontext: >-
         In January 2019, The Trevor Project donated 100 copies of a book to a
         Virginia school in efforts to encourage more acceptance of LGBTQ youth —
         what book was donated?
     - answers:
         answerimage: /img/eoy19-question-6-results.jpg
+        answerimagemobile: /img/eoy19-mobile-question-6-results.jpg
         correctanswer:
           description: >-
             Suicide prevention among young people is a growing concern across
@@ -232,10 +243,11 @@ questions:
             this responsibility. To support schools’ efforts, The Trevor Project
             with the American Foundation for Suicide Prevention, the American
             School Counselor Association, and the National Association of School
-            Psychologists have collaborated to update the Model School Policy, a
-            comprehensive guidebook for school administrators and policy makers
-            containing best practices in suicide prevention, intervention and
-            postvention policies for K–12 schools.
+            Psychologists have collaborated to update the Model School District
+            Policy on Suicide Prevention, a comprehensive guidebook for school
+            administrators and policy makers containing best practices in
+            suicide prevention, intervention and postvention policies for K–12
+            schools.
           heading: 'That’s right! '
         incorrectanswer:
           description: >-
@@ -249,10 +261,11 @@ questions:
             this responsibility. To support schools’ efforts, The Trevor Project
             with the American Foundation for Suicide Prevention, the American
             School Counselor Association, and the National Association of School
-            Psychologists have collaborated to update the Model School Policy, a
-            comprehensive guidebook for school administrators and policy makers
-            containing best practices in suicide prevention, intervention and
-            postvention policies for K–12 schools.
+            Psychologists have collaborated to update the Model School District
+            Policy on Suicide Prevention, a comprehensive guidebook for school
+            administrators and policy makers containing best practices in
+            suicide prevention, intervention and postvention policies for K–12
+            schools.
           heading: That was a hard one...
       options:
         - iscorrect: false
@@ -260,16 +273,18 @@ questions:
         - iscorrect: false
           optiontext: LGBTQ History Curriculum
         - iscorrect: true
-          optiontext: Suicide Prevention Template Plan for School
+          optiontext: Suicide Prevention Template Plan for Schools
         - iscorrect: false
           optiontext: Crisis Intervention Guides
       questionimage: /img/eoy19-question-6.jpg
+      questionimagemobile: /img/eoy19-mobile-question-6.jpg
       questiontext: >-
         September was National Suicide Prevention Awareness Month — The Trevor
         Project partnered with three other leading national organizations to
         launch what resource during this month to support LGBTQ students?
     - answers:
         answerimage: /img/eoy19-question-7-results.jpg
+        answerimagemobile: /img/eoy19-mobile-question-7-results.jpg
         correctanswer:
           description: >-
             This year we reached more LGBTQ young people than ever before in our
@@ -296,10 +311,11 @@ questions:
         - iscorrect: true
           optiontext: 'Over 100,000'
       questionimage: /img/eoy19-question-7.jpg
+      questionimagemobile: /img/eoy19-mobile-question-7.jpg
       questiontext: How many youth did The Trevor Project serve in the past 12 months?
   questionvalue: 0
 resultspage:
-  backgroundImage: /img/backgroundStar.png
+  backgroundImage: /img/light-default-bg.jpg
   cta:
     text: GIVE NOW
     url: >-
