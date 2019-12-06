@@ -315,7 +315,7 @@ questions:
       questiontext: How many youth did The Trevor Project serve in the past 12 months?
   questionvalue: 0
 resultspage:
-  backgroundImage: /img/90-white.png
+  backgroundImage: /img/light-default-bg.jpg
   cta:
     text: GIVE NOW
     url: >-
