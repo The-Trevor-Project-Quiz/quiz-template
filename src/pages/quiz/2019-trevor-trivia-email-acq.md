@@ -39,6 +39,7 @@ questions:
   backgroundImage: /img/backgroundStar.png
   question:
     - answers:
+        answerimage: /img/eoy19-questoin-1-results.jpg
         correctanswer:
           description: >-
             With the help of our advocacy team, New York became the first state
@@ -72,10 +73,12 @@ questions:
           optiontext: '18'
         - iscorrect: false
           optiontext: '43'
+      questionimage: /img/eoy19-question-1.jpg
       questiontext: >-
         How many states passed conversion therapy protections for minors this
         year? 
     - answers:
+        answerimage: /img/eoy19-question-2-results.jpg
         correctanswer:
           description: >-
             LGBTQ youth who report having at least one accepting adult were 40%
@@ -101,10 +104,12 @@ questions:
           optiontext: 'True'
         - iscorrect: false
           optiontext: 'False'
+      questionimage: /img/eoy19-question-2.jpg
       questiontext: >
         True or False: LGBTQ youth who report having at least one accepting
         adult were 40% less likely to report a suicide attempt in the past year.
     - answers:
+        answerimage: /img/eoy19-question-3-results.jpg
         correctanswer:
           description: >-
             This year TrevorText and TrevorChat joined the TrevorLifeline as
@@ -130,10 +135,12 @@ questions:
           optiontext: 'By text with TrevorText '
         - iscorrect: true
           optiontext: 'All of the Above '
+      questionimage: /img/eoy19-question-3.jpg
       questiontext: >-
         As of 2019, what crisis intervention and suicide prevention services do
         we offer 24/7?
     - answers:
+        answerimage: /img/eoy19-question-4-results.jpg
         correctanswer:
           description: >-
             One in four LGBTQ youth identified outside of the gender binary in
@@ -163,10 +170,12 @@ questions:
           optiontext: 25%
         - iscorrect: false
           optiontext: 50%
+      questionimage: /img/eoy19-question-4.jpg
       questiontext: >-
         According to research done by The Trevor Project in 2019, what percent
         of LGBTQ youth identify outside of the gender binary?
     - answers:
+        answerimage: /img/eoy19-question-5-results.jpg
         correctanswer:
           description: >-
             The Trevor Project sent 100 copies of “A Day in the Life of Marlon
@@ -204,11 +213,13 @@ questions:
           optiontext: My Princess Boy
         - iscorrect: false
           optiontext: And Tango Makes Three
+      questionimage: /img/eoy19-question-5.jpg
       questiontext: >-
         In January 2019, The Trevor Project donated 100 copies of a book to a
         Virginia school in efforts to encourage more acceptance of LGBTQ youth —
         what book was donated?
     - answers:
+        answerimage: /img/eoy19-question-6-results.jpg
         correctanswer:
           description: >-
             Suicide prevention among young people is a growing concern across
@@ -252,11 +263,13 @@ questions:
           optiontext: Suicide Prevention Template Plan for School
         - iscorrect: false
           optiontext: Crisis Intervention Guides
+      questionimage: /img/eoy19-question-6.jpg
       questiontext: >-
         September was National Suicide Prevention Awareness Month — The Trevor
         Project partnered with three other leading national organizations to
         launch what resource during this month to support LGBTQ students?
     - answers:
+        answerimage: /img/eoy19-question-7-results.jpg
         correctanswer:
           description: >-
             This year we reached more LGBTQ young people than ever before in our
@@ -282,6 +295,7 @@ questions:
           optiontext: 'Over 50,000'
         - iscorrect: true
           optiontext: 'Over 100,000'
+      questionimage: /img/eoy19-question-7.jpg
       questiontext: How many youth did The Trevor Project serve in the past 12 months?
   questionvalue: 0
 resultspage:
