@@ -13,7 +13,7 @@ siteMetadta:
   shareImage: /img/adobestock_171529275.jpeg
   url: 'https://confident-archimedes-ed555e.netlify.com/'
 splash:
-  backgroundImage: /img/90-white.png
+  backgroundImage: /img/light-default-bg.jpg
   buttonText: START THE QUIZ
   emailRequired: true
   header: 2019 TREVOR TRIVIA
