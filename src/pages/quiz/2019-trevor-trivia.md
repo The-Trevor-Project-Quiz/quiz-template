@@ -22,19 +22,13 @@ splash:
     url: >-
       https://give.thetrevorproject.org/give/259439/#!/donation/checkout?c_src=EOY19&c_src2=TrevorTriviaQuiz
   intro: >-
-    2020 is coming up fast! We’re ready for another year of saving young LGBTQ
-    lives and reaching more young people in need. 2019 was full of preparations
-    for a bigger and better 2020. As we look ahead to next year, we’re taking a
-    minute to celebrate our most memorable moments from the past year with you. 
+    Each year, we at the Trevor Project work to improve our services in big ways
+    to help more young people and save more young LGBTQ lives. As we close out
+    2019, we’re taking a minute to reflect on our most memorable moments from
+    the past year and celebrate our accomplishments with you.
 
 
-    Do you remember what we’ve done in 2019? Each year, we work to improve our
-    services in big ways to help more young people and save more lives. This
-    quiz highlights some of the amazing things we were able to accomplish and
-    learn this year thanks to our wonderful supporters. 
-
-
-    Take our short quiz and look back at 2019 with us:
+    Take our short quiz and look back at 2019 with us!
 questions:
   backgroundImage: /img/90-white.png
   question:
@@ -279,9 +273,9 @@ questions:
       questionimage: /img/eoy19-question-6.jpg
       questionimagemobile: /img/eoy19-mobile-question-6.jpg
       questiontext: >-
-        September was National Suicide Prevention Awareness Month — The Trevor
-        Project partnered with three other leading national organizations to
-        launch what resource during this month to support LGBTQ students?
+        The Trevor Project partnered with three other leading national
+        organizations to launch what resource during National Suicide Prevention
+        Awareness Month (September) to support LGBTQ students?
     - answers:
         answerimage: /img/eoy19-question-7-results.jpg
         answerimagemobile: /img/eoy19-mobile-question-7-results.jpg
