@@ -1,6 +1,6 @@
 ---
 templateKey: QuizController
-title: 2019 Trevor Trivia
+title: Trevor Trivia 2019
 lightBg: false
 siteMetadta:
   description: >-
