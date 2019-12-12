@@ -11,7 +11,7 @@ siteMetadta:
     some of the amazing things we were able to accomplish and learn this year
     thanks to our wonderful supporters. 
   shareImage: /img/adobestock_171529275.jpeg
-  url: 'https://confident-archimedes-ed555e.netlify.com/'
+  url: 'https://click.thetrevorproject.org/'
 splash:
   backgroundImage: /img/light-default-bg.jpg
   buttonText: START THE QUIZ
