@@ -327,8 +327,8 @@ resultspage:
 
 
     We estimate there are over 1.8 million LGBTQ youth who seriously consider
-    suicide each year in the U.S. **Will you consider making a gift to make sure
-    our services can grow in 2020?** Expanding our services means saving more
-    young lives and we can’t do that without you:
+    suicide each year in the U.S. **Will you make a gift to help us grow our
+    services in 2020?** Expanding our services means saving more young lives and
+    we can’t do that without you:
 ---
 
