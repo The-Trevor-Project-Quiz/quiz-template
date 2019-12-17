@@ -10,7 +10,7 @@ siteMetadta:
     big ways to help more young people and save more lives. This quiz highlights
     some of the amazing things we were able to accomplish and learn this year
     thanks to our wonderful supporters. 
-  shareImage: /img/adobestock_171529275.jpeg
+  shareImage: /img/quiz-og.jpg
   url: 'https://click.thetrevorproject.org/'
 splash:
   backgroundImage: /img/light-default-bg.jpg
