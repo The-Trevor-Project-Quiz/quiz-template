@@ -11,7 +11,7 @@ siteMetadta:
 splash:
   backgroundImage: /img/backgroundStar.png
   buttonText: START THE QUIZ
-  emailRequired: false
+  emailRequired: true
   header: 'Self Care with The Trevor Project ❤️ '
   headercta:
     text: GIVE NOW
