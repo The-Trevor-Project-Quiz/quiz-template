@@ -9,10 +9,10 @@ siteMetadta:
   shareImage: /img/trevor.jpeg
   url: 'https://click.thetrevorproject.org/'
 splash:
-  backgroundImage: /img/backgroundStar.png
+  backgroundImage: /img/light-default-bg.jpg
   buttonText: START THE QUIZ
   emailRequired: true
-  header: 'Self Care with The Trevor Project ❤️ '
+  header: Self Care with The Trevor Project ❤️
   headercta:
     text: GIVE NOW
     url: >-
@@ -21,9 +21,10 @@ splash:
     In these uncertain and scary times, taking care of yourself is an important
     way to manage stress. Take our quiz to learn more about self care now!
 questions:
-  backgroundImage: /img/backgroundStar.png
+  backgroundImage: /img/90-white.png
   question:
     - answers:
+        answerimage: /img/self-care-questoin-1-results.jpg
         correctanswer:
           description: "Identifying how stress affects you can help you in developing a self care plan. Be on the lookout for some of the most common physical signs of stress:\n\t• Insomnia \n\t• Low energy\n\t• Upset stomach\n\t• Aches, pains, and tense muscles \n        • Headaches\n\nNow let’s talk about how self care can help you!"
           heading: That’s right!
@@ -39,6 +40,7 @@ questions:
           optiontext: 'Aches, pains, tense muscles + headaches'
         - iscorrect: true
           optiontext: All of the above
+      questionimage: /img/self-care-question-1.jpg
       questiontext: >-
         Stress can affect your entire body — what are some physical signs of
         stress?
@@ -210,7 +212,7 @@ questions:
         counselor on the phone, chat, or text.
   questionvalue: 0
 resultspage:
-  backgroundImage: /img/backgroundStar.png
+  backgroundImage: /img/light-default-bg.jpg
   cta:
     text: Donate
     url: >-
