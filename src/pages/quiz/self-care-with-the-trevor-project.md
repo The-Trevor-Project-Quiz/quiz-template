@@ -45,6 +45,7 @@ questions:
         Stress can affect your entire body — what are some physical signs of
         stress?
     - answers:
+        answerimage: /img/self-care-question-2-results.jpg
         correctanswer:
           description: >-
             Self care is as unique as every individual person on the planet.
@@ -64,8 +65,10 @@ questions:
           optiontext: 'True'
         - iscorrect: true
           optiontext: 'False'
+      questionimage: /img/self-care-question-2.jpg
       questiontext: 'True or false: Self care looks the same for everyone. '
     - answers:
+        answerimage: /img/self-care-question-3-results.jpg
         correctanswer:
           description: >-
             Sleep helps our mind reset after the day is over. Many functions are
@@ -91,8 +94,10 @@ questions:
           optiontext: Yawning
         - iscorrect: false
           optiontext: 'Burping '
+      questionimage: /img/self-care-question-3.jpg
       questiontext: What essential bodily function is directly tied to self care?
     - answers:
+        answerimage: /img/self-care-question-4-results.jpg
         correctanswer:
           description: >-
             All three relaxation practices are proven to reduce stress. Deep
@@ -116,8 +121,10 @@ questions:
           optiontext: Progressive muscle relaxation
         - iscorrect: true
           optiontext: All of the above
+      questionimage: /img/self-care-question-4.jpg
       questiontext: 'What relaxation methods are proven to help reduce stress? '
     - answers:
+        answerimage: /img/self-care-question-5-results.jpg
         correctanswer:
           description: >-
             Anything that makes you feel better is self care. Self care is about
@@ -143,8 +150,10 @@ questions:
           optiontext: 'Writing in a journal '
         - iscorrect: true
           optiontext: All of the above... and more
+      questionimage: /img/self-care-question-5.jpg
       questiontext: 'Which of the following items qualify as self care? '
     - answers:
+        answerimage: /img/self-care-question-6-results.jpg
         correctanswer:
           description: >
             The public health crisis caused by COVID-19 is causing uncertainty
@@ -206,6 +215,7 @@ questions:
           optiontext: 'True'
         - iscorrect: false
           optiontext: 'False'
+      questionimage: /img/self-care-question-6.jpg
       questiontext: >-
         True or false: The Trevor Project is available 24/7, for free, and
         confidentially for any LGBTQ youth who may need to talk to a trained
