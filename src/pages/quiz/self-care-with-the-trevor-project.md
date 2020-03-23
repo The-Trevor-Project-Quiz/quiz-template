@@ -6,13 +6,13 @@ siteMetadta:
   description: >-
     In these uncertain and scary times, taking care of yourself is an important
     way to manage stress. Take our quiz to learn more about self care now!
-  shareImage: /img/trevor.jpeg
+  shareImage: /img/self-care-quiz-share.jpg
   url: 'https://click.thetrevorproject.org/'
 splash:
-  backgroundImage: /img/backgroundStar.png
+  backgroundImage: /img/light-default-bg.jpg
   buttonText: START THE QUIZ
   emailRequired: true
-  header: 'Self Care with The Trevor Project ❤️ '
+  header: Self Care with The Trevor Project ❤️
   headercta:
     text: GIVE NOW
     url: >-
@@ -21,9 +21,11 @@ splash:
     In these uncertain and scary times, taking care of yourself is an important
     way to manage stress. Take our quiz to learn more about self care now!
 questions:
-  backgroundImage: /img/backgroundStar.png
+  backgroundImage: /img/90-white.png
   question:
     - answers:
+        answerimage: /img/self-care-questoin-1-results.jpg
+        answerimagemobile: /img/self-care-mobilequestoin-1-results.jpg
         correctanswer:
           description: "Identifying how stress affects you can help you in developing a self care plan. Be on the lookout for some of the most common physical signs of stress:\n\t• Insomnia \n\t• Low energy\n\t• Upset stomach\n\t• Aches, pains, and tense muscles \n        • Headaches\n\nNow let’s talk about how self care can help you!"
           heading: That’s right!
@@ -39,10 +41,14 @@ questions:
           optiontext: 'Aches, pains, tense muscles + headaches'
         - iscorrect: true
           optiontext: All of the above
+      questionimage: /img/self-care-question-1.jpg
+      questionimagemobile: /img/self-care-mobilequestion-1.jpg
       questiontext: >-
         Stress can affect your entire body — what are some physical signs of
         stress?
     - answers:
+        answerimage: /img/self-care-question-2-results.jpg
+        answerimagemobile: /img/self-care-mobilequestion-2-results.jpg
         correctanswer:
           description: >-
             Self care is as unique as every individual person on the planet.
@@ -62,8 +68,12 @@ questions:
           optiontext: 'True'
         - iscorrect: true
           optiontext: 'False'
+      questionimage: /img/self-care-question-2.jpg
+      questionimagemobile: /img/self-care-mobilequestion-2.jpg
       questiontext: 'True or false: Self care looks the same for everyone. '
     - answers:
+        answerimage: /img/self-care-question-3-results.jpg
+        answerimagemobile: /img/self-care-mobilequestion-3-results.jpg
         correctanswer:
           description: >-
             Sleep helps our mind reset after the day is over. Many functions are
@@ -89,8 +99,12 @@ questions:
           optiontext: Yawning
         - iscorrect: false
           optiontext: 'Burping '
+      questionimage: /img/self-care-question-3.jpg
+      questionimagemobile: /img/self-care-mobilequestion-3.jpg
       questiontext: What essential bodily function is directly tied to self care?
     - answers:
+        answerimage: /img/self-care-question-4-results.jpg
+        answerimagemobile: /img/self-care-mobilequestion-4-results.jpg
         correctanswer:
           description: >-
             All three relaxation practices are proven to reduce stress. Deep
@@ -114,8 +128,12 @@ questions:
           optiontext: Progressive muscle relaxation
         - iscorrect: true
           optiontext: All of the above
+      questionimage: /img/self-care-question-4.jpg
+      questionimagemobile: /img/self-care-mobilequestion-4.jpg
       questiontext: 'What relaxation methods are proven to help reduce stress? '
     - answers:
+        answerimage: /img/self-care-question-5-results.jpg
+        answerimagemobile: /img/self-care-mobilequestion-5-results.jpg
         correctanswer:
           description: >-
             Anything that makes you feel better is self care. Self care is about
@@ -141,8 +159,12 @@ questions:
           optiontext: 'Writing in a journal '
         - iscorrect: true
           optiontext: All of the above... and more
+      questionimage: /img/self-care-question-5.jpg
+      questionimagemobile: /img/self-care-mobilequestion-5.jpg
       questiontext: 'Which of the following items qualify as self care? '
     - answers:
+        answerimage: /img/self-care-question-6-results.jpg
+        answerimagemobile: /img/self-care-mobilequestion-6-results.jpg
         correctanswer:
           description: >
             The public health crisis caused by COVID-19 is causing uncertainty
@@ -204,13 +226,15 @@ questions:
           optiontext: 'True'
         - iscorrect: false
           optiontext: 'False'
+      questionimage: /img/self-care-question-6.jpg
+      questionimagemobile: /img/self-care-mobilequestion-6.jpg
       questiontext: >-
         True or false: The Trevor Project is available 24/7, for free, and
         confidentially for any LGBTQ youth who may need to talk to a trained
         counselor on the phone, chat, or text.
   questionvalue: 0
 resultspage:
-  backgroundImage: /img/backgroundStar.png
+  backgroundImage: /img/light-default-bg.jpg
   cta:
     text: Donate
     url: >-
