@@ -251,22 +251,22 @@ resultspage:
     need them: 
 
 
-    * ## [Sleep Information](https://www.psychologytoday.com/us/basics/sleep)
+    * [Sleep Information](https://www.psychologytoday.com/us/basics/sleep)
 
-    * ## [Meditation Guide](https://www.nytimes.com/guides/well/how-to-meditate)
+    * [Meditation Guide](https://www.nytimes.com/guides/well/how-to-meditate)
 
-    * ## [Lizzo’s Guided Meditation](https://www.instagram.com/tv/B9rq0CJh3y2/)
+    * [Lizzo’s Guided Meditation](https://www.instagram.com/tv/B9rq0CJh3y2/)
 
-    * ## [Progressive Muscle
+    * [Progressive Muscle
     Relaxation](https://www.youtube.com/watch?v=v48NymJPFG0)
 
-    * ## [Jonathan Van Ness, Madison Beer, Ian Alexander, And More Share Self
-    Care Tips for LGBTQ Youth
+    * [Jonathan Van Ness, Madison Beer, Ian Alexander, And More Share Self Care
+    Tips for LGBTQ Youth
     ](https://www.thetrevorproject.org/2019/12/19/jonathan-van-ness-madison-beer-ian-alexander-and-more-share-self-care-tips-for-lgbtq-youth/)
 
-    * ## [The Trevor Project](http://thetrevorproject.org/help)
+    * [The Trevor Project](http://thetrevorproject.org/help)
 
-    * ## [TrevorSpace](TrevorSpace.org)
+    * [TrevorSpace](TrevorSpace.org)
 
 
     Our phone, chat and text services for LGBTQ youth are made  possible with
