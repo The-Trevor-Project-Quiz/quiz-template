@@ -16,7 +16,7 @@ siteMetadta:
   shareImage: /img/adobestock_171529275.jpeg
   url: 'https://click.thetrevorproject.org/quiz/pride-history-quiz'
 splash:
-  backgroundImage: /img/backgroundStar.png
+  backgroundImage: /img/adobestock_171529275.jpeg
   buttonText: Let's go!
   emailRequired: true
   header: Pride History Quiz
