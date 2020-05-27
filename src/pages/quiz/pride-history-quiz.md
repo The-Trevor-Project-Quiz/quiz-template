@@ -77,6 +77,7 @@ questions:
           optiontext: '1972'
         - iscorrect: true
           optiontext: '1969'
+      questionimage: /img/pride2020question-1.png
       questiontext: >-
         Modern Pride parades are inspired by the marches following the annual
         commemoration of the Stonewall Uprising. What year was this event? 
@@ -106,6 +107,7 @@ questions:
           optiontext: 'True'
         - iscorrect: false
           optiontext: 'False'
+      questionimage: /img/pride2020question-2.png
       questiontext: >-
         True or False: Brenda Howard is known as the “Mother of Pride” for
         starting the first march in honor of the first anniversary of the
@@ -136,6 +138,7 @@ questions:
           optiontext: 'Los Angeles Gay Freedom Day Pride '
         - iscorrect: false
           optiontext: Chicago Pride parade
+      questionimage: /img/pride2020question-3.png
       questiontext: "The \U0001F3F3️‍\U0001F308rainbow flag \U0001F3F3️‍\U0001F308has been a symbol of the Pride movement since it’s first appearance at what event:\n"
     - answers:
         correctanswer:
@@ -165,6 +168,7 @@ questions:
           optiontext: '6'
         - iscorrect: false
           optiontext: '4'
+      questionimage: /img/pride2020question-4.png
       questiontext: How many colors were on the original rainbow Pride flag debuted in 1978?
     - answers:
         correctanswer:
@@ -198,6 +202,7 @@ questions:
           optiontext: '1991'
         - iscorrect: false
           optiontext: '2002'
+      questionimage: /img/pride2020question-5.png
       questiontext: >-
         What year was the first official Black LGBTQ Pride celebration held in
         Washington, D.C.?
@@ -223,6 +228,7 @@ questions:
           optiontext: 'Sao Paulo, Brazil'
         - iscorrect: false
           optiontext: 'Barcelona, Spain'
+      questionimage: /img/pride2020question-6.png
       questiontext: "In what city was the \U0001F3C5world’s largest\U0001F3C5 Pride parade recorded? "
     - answers:
         correctanswer:
@@ -250,6 +256,7 @@ questions:
           optiontext: 'Baltimore, Maryland'
         - iscorrect: true
           optiontext: 'Phoenix, Arizona '
+      questionimage: /img/pride2020question-7.png
       questiontext: >-
         In 1999, Monica Helms created the transgender pride flag which debuted
         at which city’s Pride parade in 2000? 
@@ -295,6 +302,7 @@ questions:
           optiontext: 'Legacy Walk, Chicago'
         - iscorrect: false
           optiontext: 'Stonewall National Monument, New York City'
+      questionimage: /img/pride2020question-8.png
       questiontext: >-
         The updated Pride flag design includes two new stripes — black and
         brown. This revision to the original design was released in 2017 to
@@ -306,7 +314,7 @@ questions:
         Where did this Pride flag first debut?
   questionvalue: 0
 resultspage:
-  backgroundImage: /img/quiz-bg.png
+  backgroundImage: /img/quiz-bg-reverse.png
   cta:
     text: DONATE IN HONOR OF PRIDE
     url: >-
