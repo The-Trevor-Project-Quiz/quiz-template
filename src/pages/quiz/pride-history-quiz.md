@@ -87,7 +87,7 @@ questions:
         Hint: We recently celebrated a milestone anniversary of the Stonewall
         Uprising!
     - answers:
-        answerimage: /img/pride2020-mobile-question-3.png
+        answerimage: ''
         correctanswer:
           description: >-
             Brenda Howard, a bisexual woman, helped organize the first
