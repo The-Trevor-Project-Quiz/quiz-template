@@ -306,7 +306,7 @@ questions:
         Where did this Pride flag first debut?
   questionvalue: 0
 resultspage:
-  backgroundImage: /img/adobestock_171529275.jpeg
+  backgroundImage: /img/quiz-bg.png
   cta:
     text: DONATE IN HONOR OF PRIDE
     url: >-
