@@ -16,7 +16,7 @@ siteMetadta:
   shareImage: /img/prideeverywhere-og-share.png
   url: 'https://click.thetrevorproject.org/quiz/pride-history-quiz'
 splash:
-  backgroundImage: /img/crop-marks-bg.jpg
+  backgroundImage: /img/quiz-bg.png
   buttonText: Let's go!
   emailRequired: true
   header: Pride History Quiz
@@ -35,7 +35,7 @@ splash:
     We’re looking at the history of Pride to honor this year’s historic moment.
     Join us and see how much Pride trivia you know!
 questions:
-  backgroundImage: /img/backgroundStar.png
+  backgroundImage: /img/quiz-bg-reverse.png
   question:
     - answers:
         correctanswer:
