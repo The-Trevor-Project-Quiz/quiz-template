@@ -13,10 +13,10 @@ siteMetadta:
 
     We’re looking at the history of Pride to honor this year’s historic moment.
     Join us and see how much Pride trivia you know!
-  shareImage: /img/adobestock_171529275.jpeg
+  shareImage: /img/prideeverywhere-og-share.png
   url: 'https://click.thetrevorproject.org/quiz/pride-history-quiz'
 splash:
-  backgroundImage: /img/adobestock_171529275.jpeg
+  backgroundImage: /img/crop-marks-bg.jpg
   buttonText: Let's go!
   emailRequired: true
   header: Pride History Quiz
