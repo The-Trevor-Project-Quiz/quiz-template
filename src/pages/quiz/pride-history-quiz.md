@@ -144,8 +144,8 @@ questions:
           optiontext: September 1972
         - iscorrect: true
           optiontext: June 1969
-      questionimage: /img/pride2020question-1.png
-      questionimagemobile: /img/pride2020-mobile-question-1.png
+      questionimage: /img/pride2020question-1new.png
+      questionimagemobile: /img/pride2020-mobile-question-1new.png
       questiontext: >-
         Modern Pride parades are inspired by the marches following the annual
         commemoration of the Stonewall Uprising. When was the Stonewall
@@ -186,6 +186,8 @@ questions:
           optiontext: 'True'
         - iscorrect: true
           optiontext: 'False'
+      questionimage: /img/pride2020question-3new.png
+      questionimagemobile: /img/pride2020-mobile-question-3new.png
       questiontext: >-
         Marsha P. Johnson was an outspoken leader and advocate for LGBTQ rights
         in the 1960s. As a prominent leader in the Stonewall Uprising, Marsha P.
@@ -203,7 +205,7 @@ questions:
             anniversary of the Stonewall Uprising in 1970. Her accomplishments
             as a pioneer for LGBTQ movements has enabled Pride parades around
             the country, and the world, to become what they are today. 
-          heading: "It’s true! \U0001F496\U0001F49C\U0001F499"
+          heading: It’s true.
         incorrectanswer:
           description: >-
             Brenda Howard, a bisexual woman, helped organize the first
@@ -211,7 +213,7 @@ questions:
             anniversary of the Stonewall Uprising in 1970. Her accomplishments
             as a pioneer for LGBTQ movements has enabled Pride parades around
             the country, and the world, to become what they are today. 
-          heading: " Brenda Howard is indeed known as the “Mother of Pride”!  \U0001F496\U0001F49C\U0001F499"
+          heading: Brenda Howard is known as the “Mother of Pride.”
       options:
         - iscorrect: true
           optiontext: 'True'
@@ -231,7 +233,7 @@ questions:
             symbol for gay pride. The designer, Gilbert Baker, was asked by
             Harvey Milk to create a unifying symbol for the gay community and
             hence the rainbow flag was born. 
-          heading: "\U0001F3F3️‍\U0001F308You really know your stuff!"
+          heading: That’s right.
         incorrectanswer:
           description: >-
             In 1978 at the San Francisco Pride Parade, then known as the San
@@ -239,7 +241,7 @@ questions:
             symbol for gay pride. The designer, Gilbert Baker, was asked by
             Harvey Milk to create a unifying symbol for the gay community and
             hence the rainbow flag was born. 
-          heading: "\U0001F3F3️‍\U0001F308Ah, not quite!"
+          heading: That was a hard question.
       options:
         - iscorrect: true
           optiontext: San Francisco Gay Freedom Day parade
@@ -251,7 +253,9 @@ questions:
           optiontext: Chicago Pride parade
       questionimage: /img/pride2020question-3.png
       questionimagemobile: /img/pride2020-mobile-question-3.png
-      questiontext: "The \U0001F3F3️‍\U0001F308rainbow flag \U0001F3F3️‍\U0001F308has been a symbol of the Pride movement since it’s first appearance at what event:\n"
+      questiontext: >-
+        The rainbow flag has been a symbol of the Pride movement since its first
+        appearance at what event:
     - answers:
         correctanswer:
           description: >-
@@ -336,22 +340,18 @@ questions:
 
             The Trevor Project formally recognizes the 8-stripe inclusive Pride
             flag design as the official Pride flag.
-          heading: 'You got it! '
+          heading: You’re right.
         incorrectanswer:
           description: >-
             After a series of complaints against LGBTQ bars in Philadelphia, the
-            city wanted more representation of queer people of color in their
-            community and pushed to add black and brown stripes to the
+            city wanted more representation of queer Black and Brown folks in
+            their community and pushed to add black and brown stripes to the
             traditional Pride flag. In 2017, the new 8-stripe flag was raised
             above City Hall in downtown Philadelphia. These stripes are a
             necessary adjustment to the traditional Pride flag to recognize and
-            honor the people of color who started the LGBTQ equality movement
-            and to represent queer people of color who are marginalized to this
-            day. 
-
-
-            The Trevor Project formally recognizes the 8-stripe inclusive Pride
-            flag design as the official Pride flag.
+            honor Black and Brown members of the LGBTQ community today and those
+            who started the LGBTQ equality movement. It also represents queer
+            people of color who are marginalized to this day.
           heading: 'It was actually at City Hall in Philadelphia, Pennsylvania!'
       options:
         - iscorrect: false
