@@ -377,23 +377,35 @@ questions:
 resultspage:
   backgroundImage: /img/quiz-bg-reverse.png
   cta:
-    text: DONATE IN HONOR OF PRIDE
+    text: DONATE NOW
     url: >-
       https://give.thetrevorproject.org/give/63307/#!/donation/checkout?c_src=pride2020&c_src2=pridehistoryquiz
   outro: >-
-    Thank you for taking time to learn more about the history of Pride! Just by
-    taking this quiz, you’re joining our first-ever virtual Pride celebration. 
+    Thank you for taking the time to learn more about the history of Pride with
+    us. Pride has come a long way since 1969, but it will always be rooted in
+    showing up for equality, and fighting against hatred, violence, and police
+    brutality. 
 
 
+    Though many experience Pride month as an opportunity to celebrate their
+    LGBTQ identities, we know that many LGBTQ young people struggle to feel
+    Pride, and recent events have inspired deeper reflection this year. Trevor
+    supports all individual expressions of Pride, this year and every year.
 
 
-    Through this Pride and years to come, we’ll always be there for LGBTQ youth.
-    Our phone, chat and text crisis services for LGBTQ youth are made possible
-    with the generous support of our community of donors. During this time of
-    stress and uncertainty, let’s come together as a community to support LGBTQ
-    youth — we need our donors now more than ever to help us keep the lines open
-    for young people 24 hours a day, 7 days a week. [**Would you consider making
-    a gift today to help save young LGBTQ lives and honor
-    Pride?**](https://give.thetrevorproject.org/give/63307/#!/donation/checkout?c_src=pride2020&c_src2=pridehistoryquiz)****
+    The state of the world has increased uncertainty and anxiety for many LGBTQ
+    youth. We know that these added stressors can exacerbate the unique
+    challenges that LGBTQ young people already face, and can lead to negative
+    mental health outcomes such as depression and thoughts of suicide.  From
+    feelings of grief, anxiety, and fear, to stress related to isolation and
+    physical distancing, our crisis services were there for LGBTQ youth,
+    regardless of what was happening in the world.
+
+
+    If you’d like to make a donation to support The Trevor Project’s work to end
+    LGBTQ youth suicide — please click below. Our community of donors provides
+    the stability for our expanding services that LGBTQ young people rely on
+    each day. Your Pride gift will immediately go into action to connect young
+    people directly to trained counselors — saving young lives.
 ---
 
