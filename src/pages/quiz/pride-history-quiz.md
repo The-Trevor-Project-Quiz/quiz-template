@@ -192,8 +192,8 @@ questions:
         Johnson, a Black transgender woman, has become an icon for Pride. 
 
 
-        <b>True or False:</b> Marsha P. Johnson threw the first brick at the
-        Stonewall Uprising. 
+        True or False: Marsha P. Johnson threw the first brick at the Stonewall
+        Uprising. 
     - answers:
         answerimage: ''
         correctanswer:
@@ -287,8 +287,8 @@ questions:
       questionimage: /img/pride2020question-5.png
       questionimagemobile: /img/pride2020-mobile-question-5.png
       questiontext: >-
-        What year was the first <i>official Black</i> LGBTQ Pride celebration
-        held in Washington, D.C.?
+        What year was the first official Black LGBTQ Pride celebration held in
+        Washington, D.C.?
     - answers:
         correctanswer:
           description: >-
