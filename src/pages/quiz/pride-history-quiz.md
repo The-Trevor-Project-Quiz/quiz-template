@@ -4,20 +4,15 @@ title: 'Pride History Quiz '
 lightBg: false
 siteMetadta:
   description: >-
-    Pride is our opportunity to reflect and celebrate how far the LGBTQ
-    community has come since the Stonewall Uprising. But this year, due to the
-    realities of COVID-19 pandemic, Pride won't look the same. Pride 2020 is
-    certainly historic because it’s the first year many of us are primarily
-    celebrating online. 
-
-
-    We’re looking at the history of Pride to honor this year’s historic moment.
-    Join us and see how much Pride trivia you know!
+    Pride was born from an uprising by LGBTQ protesters, including Black and
+    Brown transgender women. The Stonewall Uprising was where our modern-day
+    Pride parades began in New York City. Today, Pride is a time to honor our
+    history and recognize how far we’ve come — and how far we have to go. 
   shareImage: /img/prideeverywhere-og-share.png
   url: 'https://click.thetrevorproject.org/quiz/pride-history-quiz'
 splash:
   backgroundImage: /img/quiz-bg.png
-  buttonText: Let's go!
+  buttonText: START THE QUIZ
   emailRequired: true
   header: Pride History Quiz
   headercta:
@@ -25,36 +20,91 @@ splash:
     url: >-
       https://give.thetrevorproject.org/give/63307/#!/donation/checkout?c_src=pride2020&c_src2=pridehistoryquiz
   intro: >-
-    Pride is our opportunity to reflect and celebrate how far the LGBTQ
-    community has come since the Stonewall Uprising. But this year, due to the
-    realities of COVID-19 pandemic, Pride won't look the same. Pride 2020 is
-    certainly historic because it’s the first year many of us are primarily
-    celebrating online. 
+    For many, this year’s Pride looks very different. On June 1, a day that
+    ordinarily kicks off celebrations in LGBTQ communities worldwide, we found
+    ourselves at the confluence of multiple mounting tragedies.
 
 
-    We’re looking at the history of Pride to honor this year’s historic moment.
-    Join us and see how much Pride trivia you know!
+    Pride was born from an uprising by LGBTQ protesters, including Black and
+    Brown transgender women. The Stonewall Uprising was where our modern-day
+    Pride parades began in New York City. Today, Pride is a time to honor our
+    history and recognize how far we’ve come — and how far we have to go.
+
+
+    Learn more about the history of Pride with us:
 questions:
   backgroundImage: /img/quiz-bg-reverse.png
   question:
     - answers:
         correctanswer:
           description: >-
-            One year after the Stonewall Uprising, thousands of New Yorkers
-            gathered and marched from Greenwich Village to Central Park. It was
-            then known as Christopher Street Liberation Day (CSLD). Since then,
-            this march is still done, but it’s more recently known as the Pride
-            Parade each year. 
+            The 1960s and previous decades were not as welcoming for LGBTQ
+            folks. The LGBTQ community found refuge in bars and clubs where they
+            could be themselves and freely express their identities. Police
+            often raided these sanctuaries, under the guise of the
+            “three-article rule*,”  and violent clashes became more regular for
+            the LGBTQ community.
 
 
-            In 2019, we celebrated the 50th anniversary of the Stonewall
-            Uprising and World Pride in New York City! The Trevor Project was
-            honored to be included as the Grand Marshal for World Pride in 2019
-            to celebrate the 50th anniversary and the LGBTQ youth we support
-            every day. 
-          heading: '1969 is right! '
+            Then one night, New York City police raided the Stonewall Inn in
+            Greenwich Village. This raid roughly hauled employees and patrons
+            out of the bar and into the streets, arresting some patrons. This
+            served as the catalyst for six days of protests and violent
+            confrontation with police outside the bar on Christopher Street.
+
+
+            The police violence and brutality against LGBTQ bar patrons and
+            residents of Greenwich Village sparked the beginning of the
+            Stonewall Uprising.
+
+
+            *
+            https://www.history.com/news/stonewall-riots-lgbtq-drag-three-article-rule
+          heading: That’s correct.
         incorrectanswer:
           description: >-
+            The 1960s and previous decades were not as welcoming for LGBTQ
+            folks. The LGBTQ community found refuge in bars and clubs where they
+            could be themselves and freely express their identities. Police
+            often raided these sanctuaries, under the guise of the
+            “three-article rule*,”  and violent clashes became more regular for
+            the LGBTQ community.
+
+
+            Then one night, New York City police raided the Stonewall Inn in
+            Greenwich Village. This raid roughly hauled employees and patrons
+            out of the bar and into the streets, arresting some patrons. This
+            served as the catalyst for six days of protests and violent
+            confrontation with police outside the bar on Christopher Street.
+
+
+            The police violence and brutality against LGBTQ bar patrons and
+            residents of Greenwich Village sparked the beginning of the
+            Stonewall Uprising.
+
+
+            *
+            https://www.history.com/news/stonewall-riots-lgbtq-drag-three-article-rule
+          heading: It was actually a result of police violence and brutality.
+      options:
+        - iscorrect: false
+          optiontext: Marriage equality
+        - iscorrect: true
+          optiontext: Police violence and brutality
+        - iscorrect: false
+          optiontext: LGBTQ workplace discrimination
+        - iscorrect: false
+          optiontext: All of the above
+      questionimage: /img/pride2020question-1.png
+      questionimagemobile: /img/pride2020-mobile-question-1.png
+      questiontext: What issue inspired the Stonewall Uprising?
+    - answers:
+        correctanswer:
+          description: >-
+            On the morning of June 28, 1969, NYPD raided the Stonewall Inn. This
+            sparked the Stonewall Uprising lasting six days. 
+
+
             One year after the Stonewall Uprising, thousands of New Yorkers
             gathered and marched from Greenwich Village to Central Park. It was
             then known as Christopher Street Liberation Day (CSLD). Since then,
@@ -62,30 +112,88 @@ questions:
             Parade each year. 
 
 
-            In 2019, we celebrated the 50th anniversary of the Stonewall
-            Uprising and World Pride in New York City! The Trevor Project was
-            honored to be included as the Grand Marshal for World Pride in 2019
-            to celebrate the 50th anniversary and the LGBTQ youth we support
-            every day. 
+            In 2019, we honored the 50th anniversary of the Stonewall Uprising
+            and World Pride in New York City. The Trevor Project was named as a
+            Grand Marshal for World Pride last year to celebrate the milestone
+            anniversary and the LGBTQ youth we support every day.
+          heading: You got it.
+        incorrectanswer:
+          description: >-
+            On the morning of June 28, 1969, NYPD raided the Stonewall Inn. This
+            sparked the Stonewall Uprising lasting six days. 
+
+
+            One year after the Stonewall Uprising, thousands of New Yorkers
+            gathered and marched from Greenwich Village to Central Park. It was
+            then known as Christopher Street Liberation Day (CSLD). Since then,
+            this march is still done, but it’s more recently known as the Pride
+            Parade each year. 
+
+
+            In 2019, we honored the 50th anniversary of the Stonewall Uprising
+            and World Pride in New York City. The Trevor Project was named as a
+            Grand Marshal for World Pride last year to celebrate the milestone
+            anniversary and the LGBTQ youth we support every day.
           heading: 'So close, but actually the Stonewall Uprising happened in 1969.'
       options:
         - iscorrect: false
-          optiontext: '1965'
+          optiontext: March 1965
         - iscorrect: false
-          optiontext: '1976'
+          optiontext: June 1976
         - iscorrect: false
-          optiontext: '1972'
+          optiontext: September 1972
         - iscorrect: true
-          optiontext: '1969'
+          optiontext: June 1969
       questionimage: /img/pride2020question-1.png
       questionimagemobile: /img/pride2020-mobile-question-1.png
       questiontext: >-
         Modern Pride parades are inspired by the marches following the annual
-        commemoration of the Stonewall Uprising. What year was this event? 
+        commemoration of the Stonewall Uprising. When was the Stonewall
+        Uprising? 
+    - answers:
+        correctanswer:
+          description: >-
+            There are many stories and retellings of the events that occurred at
+            Stonewall on the morning of June 28. The stories have shaped into
+            Marsha P. Johnson being the first to throw a brick at the uprising.
+            Marsha’s advocacy and passion for LGBTQ rights have influenced this
+            story some but in an interview in 1987, Marsha revealed that she
+            attended the uprising at Christopher Street after “the riots had
+            already started.”
 
 
-        Hint: We recently celebrated a milestone anniversary of the Stonewall
-        Uprising!
+            Marsha P. Johnson is an icon and pioneering leader for Stonewall and
+            for Pride everywhere, but contrary to popular belief, she did not
+            throw the first brick.
+          heading: She was there but she didn’t throw the first brick.
+        incorrectanswer:
+          description: >-
+            There are many stories and retellings of the events that occurred at
+            Stonewall on the morning of June 28. The stories have shaped into
+            Marsha P. Johnson being the first to throw a brick at the uprising.
+            Marsha’s advocacy and passion for LGBTQ rights have influenced this
+            story some but in an interview in 1987, Marsha revealed that she
+            attended the uprising at Christopher Street after “the riots had
+            already started.”
+
+
+            Marsha P. Johnson is an icon and pioneering leader for Stonewall and
+            for Pride everywhere, but contrary to popular belief, she did not
+            throw the first brick.
+          heading: She was there but she didn’t throw the first brick.
+      options:
+        - iscorrect: false
+          optiontext: 'True'
+        - iscorrect: true
+          optiontext: 'False'
+      questiontext: >-
+        Marsha P. Johnson was an outspoken leader and advocate for LGBTQ rights
+        in the 1960s. As a prominent leader in the Stonewall Uprising, Marsha P.
+        Johnson, a Black transgender woman, has become an icon for Pride. 
+
+
+        <b>True or False:</b> Marsha P. Johnson threw the first brick at the
+        Stonewall Uprising. 
     - answers:
         answerimage: ''
         correctanswer:
@@ -147,37 +255,6 @@ questions:
     - answers:
         correctanswer:
           description: >-
-            During its first Pride, the rainbow flag had 8 colors. Once the flag
-            needed to be mass produced, the designer Gilbert Baker had to remove
-            the pink and turquoise stripes due to production concerns around
-            color availability. Now the modern rainbow flag flies 6 colors —
-            red, orange, yellow, green, blue, and violet — each color with their
-            own significance to represent the diversity of the LGBTQ community.
-          heading: "\U0001F308That's right! The original rainbow flag had 8 colors"
-        incorrectanswer:
-          description: >-
-            During its first Pride, the rainbow flag had 8 colors. Once the flag
-            needed to be mass produced, the designer Gilbert Baker had to remove
-            the pink and turquoise stripes due to production concerns around
-            color availability. Now the modern rainbow flag flies 6 colors —
-            red, orange, yellow, green, blue, and violet — each color with their
-            own significance to represent the diversity of the LGBTQ community.
-          heading: "\U0001F308Almost... The original rainbow flag had 8 colors"
-      options:
-        - iscorrect: false
-          optiontext: '10'
-        - iscorrect: true
-          optiontext: '8'
-        - iscorrect: false
-          optiontext: '6'
-        - iscorrect: false
-          optiontext: '4'
-      questionimage: /img/pride2020question-4.png
-      questionimagemobile: /img/pride2020-mobile-question-4.png
-      questiontext: How many colors were on the original rainbow Pride flag debuted in 1978?
-    - answers:
-        correctanswer:
-          description: >-
             In the 1990s, Black Pride events started organizing in partnership
             with other Pride events throughout the U.S. But the very first
             official Black Pride event was at a popular black gay bar in
@@ -210,33 +287,8 @@ questions:
       questionimage: /img/pride2020question-5.png
       questionimagemobile: /img/pride2020-mobile-question-5.png
       questiontext: >-
-        What year was the first official Black LGBTQ Pride celebration held in
-        Washington, D.C.?
-    - answers:
-        correctanswer:
-          description: >-
-            In 2017, the world’s largest Pride parade was recorded in Sao Paulo,
-            Brazil with an estimated 5 MILLION attendees. That’s about the
-            entire population of the state of Wisconsin!
-          heading: "Wow! You knew it! \U0001F3C5"
-        incorrectanswer:
-          description: >-
-            In 2017, the world’s largest Pride parade was recorded in Sao Paulo,
-            Brazil with an estimated 5 MILLION attendees. That’s about the
-            entire population of the state of Wisconsin!
-          heading: It’s actually Brazil!
-      options:
-        - iscorrect: false
-          optiontext: 'New York, NY'
-        - iscorrect: false
-          optiontext: 'Paris, France'
-        - iscorrect: true
-          optiontext: 'Sao Paulo, Brazil'
-        - iscorrect: false
-          optiontext: 'Barcelona, Spain'
-      questionimage: /img/pride2020question-6.png
-      questionimagemobile: /img/pride2020-mobile-question-6.png
-      questiontext: "In what city was the \U0001F3C5world’s largest\U0001F3C5 Pride parade recorded? "
+        What year was the first <i>official Black</i> LGBTQ Pride celebration
+        held in Washington, D.C.?
     - answers:
         correctanswer:
           description: >-
