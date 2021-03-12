@@ -135,10 +135,8 @@ questions:
             Helen Hayes was the first woman to win all four awards in 1977.
             Later that year, Rita Moreno, best known for her roles in West Side
             Story and Singin’ in the Rain, followed as the first Puerto Rican
-            EGOT. In 1994, Audrey Hepburn received a Grammy, her fourth distinct
-            award, posthumously. Whoopi Goldberg won an Emmy in 2002 for her
-            work on The View, and with that also became the first Black EGOT
-            winner. 
+            EGOT. Whoopi Goldberg won an Emmy in 2002 for her work on The View,
+            and with that also became the first Black EGOT winner. 
           heading: Yes! All of these women have nabbed this elusive honor.
         incorrectanswer:
           description: >-
@@ -159,8 +157,6 @@ questions:
           optiontext: Helen Hayes
         - iscorrect: false
           optiontext: Rita Moreno
-        - iscorrect: false
-          optiontext: Audrey Hepburn
         - iscorrect: true
           optiontext: All of the above
       questionimage: /img/WHM-21-question 3.png
