@@ -9,7 +9,7 @@ siteMetadta:
     conviction spurred political movements, social change, and advances in
     gender equity. While there’s plenty of work left to do, we’re grateful to
     the women who came before and continue to inspire us today.
-  shareImage: /img/adobestock_171529275.jpeg
+  shareImage: /img/whmquiz-og-share-image.jpg
   url: 'https://click.thetrevorproject.org/'
 splash:
   backgroundImage: /img/light-default-bg.jpg
