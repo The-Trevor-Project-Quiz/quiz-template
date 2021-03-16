@@ -19,7 +19,7 @@ splash:
   headercta:
     text: Donate
     url: >-
-      https://give.thetrevorproject.org/give/259439/#!/donation/checkout?c_src=website&c_src2=WHMQuiz
+      https://give.thetrevorproject.org/give/63307/#!/donation/checkout?c_src=website&c_src2=WHMQuiz
   intro: >-
     Women’s History Month gives us an opportunity to reflect and celebrate the
     women past and present who have helped shape our world. Their courage and
@@ -248,20 +248,20 @@ questions:
         answerimagemobile: /img/WHM-21-mobile-question-6.png
         correctanswer:
           description: >-
-            Deb Haaland’s appointment would hold particular significance since
-            the Department of the Interior is most responsible for the
-            well-being of 1.9 million Indigenous people — who have often been
-            neglected or mistreated for much of our nation’s history — in
-            addition to over 500 million acres of public lands.
-          heading: Haaland would run the Department of the Interior.
+            Deb Haaland’s appointment holds particular significance since the
+            Department of the Interior is most responsible for the well-being of
+            1.9 million Indigenous people — who have often been neglected or
+            mistreated for much of our nation’s history — in addition to over
+            500 million acres of public lands.
+          heading: Haaland will run the Department of the Interior.
         incorrectanswer:
           description: >-
-            Deb Haaland’s appointment would hold particular significance since
-            the Department of the Interior is most responsible for the
-            well-being of 1.9 million Indigenous people — who have often been
-            neglected or mistreated for much of our nation’s history — in
-            addition to over 500 million acres of public lands.
-          heading: Haaland would run the Department of the Interior.
+            Deb Haaland’s appointment holds particular significance since the
+            Department of the Interior is most responsible for the well-being of
+            1.9 million Indigenous people — who have often been neglected or
+            mistreated for much of our nation’s history — in addition to over
+            500 million acres of public lands.
+          heading: Haaland will run the Department of the Interior.
       options:
         - iscorrect: true
           optiontext: Department of the Interior
@@ -274,9 +274,9 @@ questions:
       questionimage: /img/WHM-21-question 6.png
       questionimagemobile: /img/WHM-21-mobile-question-6.png
       questiontext: >-
-        If confirmed, Deb Haaland, U.S. Representative for New Mexico, would be
-        the first Native American Cabinet secretary in U.S. history. What
-        department would she oversee?
+        Newly confirmed, Deb Haaland, U.S. Representative for New Mexico, is the
+        first Native American Cabinet secretary in U.S. history. What department
+        will she oversee?
     - answers:
         answerimage: /img/WHM-21-question 7.png
         answerimagemobile: /img/WHM-21-mobile-question-7.png
@@ -326,11 +326,11 @@ resultspage:
   cta:
     text: DONATE TODAY
     url: >-
-      https://give.thetrevorproject.org/give/259439/#!/donation/checkout?c_src=website&c_src2=WHMQuiz
+      https://give.thetrevorproject.org/give/63307/#!/donation/checkout?c_src=website&c_src2=WHMQuiz
   outro: >-
     Hope you had a great time learning more about some of the countless women
     who have transformed our world through their ingenuity, perseverance, and
-    bravery. Women have won the right to vote, outpaced their male peers in
+    bravery. Women have won the right to vote, outpace their male peers in
     college enrollment, and achieve new milestones each day. But we still have
     much work to do.
 
