@@ -22,21 +22,24 @@ splash:
   backgroundImage: /img/light-default-bg.jpg
   buttonText: Let’s get started!
   emailRequired: true
-  header: Women’s History Month
+  header: Women’s History Quiz
   headercta:
     text: Donate
     url: >-
       https://give.thetrevorproject.org/give/63307/#!/donation/checkout?c_src=website&c_src2=WHMQuiz
   intro: >-
+    Here’s your chance to test your knowledge and learn more about women whose
+    contributions have made history.
+
+
     Women’s History Month gives us an opportunity to reflect and celebrate the
     women past and present who have helped shape our world. Their courage and
     conviction spurred political movements, social change, and advances in
-    gender equity. While there’s plenty of work left to do, we’re grateful to
-    the women who came before and continue to inspire us today.
+    gender equity. 
 
 
-    Here’s your chance to test your knowledge and learn more about women whose
-    contributions have made history.
+    While there’s plenty of work left to do, we’re grateful to the women who
+    came before and continue to inspire us today.
 questions:
   backgroundImage: /img/90-white.png
   question:
