@@ -1,14 +1,21 @@
 ---
 templateKey: QuizController
-title: Women's History Month
+title: Women's History Quiz
 lightBg: true
 siteMetadta:
   description: >-
+    Here’s your chance to test your knowledge and learn more about women whose
+    contributions have made history.
+
+
     Women’s History Month gives us an opportunity to reflect and celebrate the
     women past and present who have helped shape our world. Their courage and
     conviction spurred political movements, social change, and advances in
-    gender equity. While there’s plenty of work left to do, we’re grateful to
-    the women who came before and continue to inspire us today.
+    gender equity. 
+
+
+    While there’s plenty of work left to do, we’re grateful to the women who
+    came before and continue to inspire us today.
   shareImage: /img/whmquiz-og-share-image.jpg
   url: 'https://click.thetrevorproject.org/'
 splash:
