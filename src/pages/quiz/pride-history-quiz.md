@@ -8,7 +8,7 @@ siteMetadta:
     modern-day Pride parades began in New York City. Today, Pride is a time to
     honor our history and recognize how far we’ve come — and how far we have to
     go. "
-  shareImage: /img/prideeverywhere-og-share.png
+  shareImage: /img/pride-quiz-og-share-image.jpg
   url: https://click.thetrevorproject.org/quiz/pride-history-quiz
 splash:
   backgroundImage: /img/quiz-bg.png
