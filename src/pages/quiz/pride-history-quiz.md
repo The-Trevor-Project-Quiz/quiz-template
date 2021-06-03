@@ -17,7 +17,7 @@ splash:
   header: Pride History Quiz
   headercta:
     text: GIVE WITH PRIDE
-    url: https://give.thetrevorproject.org/give/63307/#!/donation/checkout?c_src=pride2021&c_src2=pridehistoryquiz
+    url: https://give.thetrevorproject.org/give/330001/#!/donation/checkout?c_src=pride2021&c_src2=pridehistoryquiz
   intro: >-
     For many, this year’s Pride looks very different. On June 1, a day that
     ordinarily kicks off celebrations in LGBTQ communities worldwide, we found
@@ -90,7 +90,7 @@ questions:
             One year after the Stonewall Uprising, thousands of New Yorkers gathered and marched from Greenwich Village to Central Park. It was then known as Christopher Street Liberation Day (CSLD). Since then, this march is still done, but it’s more recently known as the Pride Parade each year. 
 
 
-            In 2019, we honored the 50th anniversary of the Stonewall Uprising and World Pride in New York City. The Trevor Project was named as a Grand Marshal for World Pride last year to celebrate the milestone anniversary and the LGBTQ youth we support every day.
+            In 2019, we honored the 50th anniversary of the Stonewall Uprising and World Pride in New York City. The Trevor Project was named as a Grand Marshal for World Pride in 2019 to celebrate the milestone anniversary and the LGBTQ youth we support every day.
           heading: You got it.
         incorrectanswer:
           description: >-
@@ -326,7 +326,7 @@ resultspage:
   backgroundImage: /img/quiz-bg-reverse.png
   cta:
     text: DONATE NOW
-    url: https://give.thetrevorproject.org/give/63307/#!/donation/checkout?c_src=pride2021&c_src2=pridehistoryquiz
+    url: https://give.thetrevorproject.org/give/330001/#!/donation/checkout?c_src=pride2021&c_src2=pridehistoryquiz
   outro: >-
     Thank you for taking the time to learn more about the history of Pride with
     us. Pride has come a long way since 1969, but it will always be rooted in
